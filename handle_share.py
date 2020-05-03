@@ -1,7 +1,7 @@
 '''
 @Author: your name
 @Date: 2020-05-03 14:01:13
-@LastEditTime: 2020-05-03 18:03:52
+@LastEditTime: 2020-05-03 18:05:27
 @LastEditors: Please set LastEditors
 @Description: In User Settings Edit
 @FilePath: /python/douyin_web/handle_share.py
@@ -38,13 +38,8 @@ def handle_decode(content):
     user_info = {}
 
     #昵称
-    # name_text = share_web_html.xpath("//p[@class='nickname']/text()")[0]
-    # name_num = ''.join(share_web_html.xpath("//p[@class='nickname']//i/text()"))
     user_info["nick_name"] = share_web_html.xpath("//p[@class='nickname']/text()")[0]
     #抖音id
-    # id_text = share_web_html.xpath("//p[@class='shortid']/text()")[0].replace(' ','') #有些抖音好是 文本+ 数字的 eg. test010
-    # id_num = ''.join(share_web_html.xpath("//p[@class='shortid']//i/text()"))
-    # user_info["user_id"] = (id_text + id_num).replace('抖音ID：','')
     user_info["user_id"] = ''.join(share_web_html.xpath("//p[@class='shortid']/text()")).replace(' ','').replace('抖音ID：','')
     #个性签名
     user_info['signature'] = share_web_html.xpath("//p[@class='signature']/text()")
