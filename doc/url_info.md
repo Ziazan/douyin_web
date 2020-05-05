@@ -1,3 +1,11 @@
+<!--
+ * @Author: your name
+ * @Date: 2020-05-03 18:50:34
+ * @LastEditTime: 2020-05-05 16:08:07
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: /python/douyin_web/doc/url_info.md
+ -->
 # 抖音视频列表接口分析
 https://www.iesdouyin.com/web/api/v2/aweme/post/
 sec_uid: MS4wLjABAAAANMz0vsbHsID55ivkeXD0r4UddEmgUlBW1WPJuTjcsrspY4eRidlWqYlvi_xOWhs4
@@ -53,3 +61,16 @@ __M.define("douyin_falcon:node_modules/byted-acrawler/dist/runtime", function(l,
         });
     })();
 ```
+
+## 短视频地址分析
+一个视频的播放地址是：[https://aweme.snssdk.com/aweme/v1/playwm/?video_id=v0200fe10000bqnp6grd82dhhsqrppi0&ratio=720p&line=0](https://aweme.snssdk.com/aweme/v1/playwm/?video_id=v0200fe10000bqnp6grd82dhhsqrppi0&ratio=720p&line=0)
+
+原视频无水印地址：[https://aweme.snssdk.com/aweme/v1/playwm/?video_id=v0200fe10000bqnp6grd82dhhsqrppi0&ratio=720p&line=0](https://aweme.snssdk.com/aweme/v1/playwm/?video_id=v0200fe10000bqnp6grd82dhhsqrppi0&ratio=720p&line=0)
+
+ps:无水印版本的视频，需要在移动端环境打开，所以这里学要用移动端的请求头。
+
+两个链接的区别是 无水印视频的url 从 `playwm` 变为 `play`
+
+参考：[2020抖音无水印视频解析真实地址](https://blog.csdn.net/qq_36737934/article/details/104127835)
+
+所以，接下来我们只需要根据之前获得的用户的视频列表数据，拼接出每个视频的下载地址即可。

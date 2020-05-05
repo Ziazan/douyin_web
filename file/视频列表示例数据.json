@@ -1,0 +1,3025 @@
+{
+    "min_cursor": 1588565307000,
+    "has_more": true,
+    "extra": {
+        "now": 1588650337000,
+        "logid": "20200505114537010008068143126208F0"
+    },
+    "status_code": 0,
+    "aweme_list": [
+        {
+            "geofencing": null,
+            "video_text": null,
+            "label_top_text": null,
+            "cha_list": null,
+            "position": null,
+            "comment_list": null,
+            "long_video": null,
+            "video": {
+                "play_addr": {
+                    "uri": "v0200fe10000bqnp6grd82dhhsqrppi0",
+                    "url_list": [
+                        "https://aweme.snssdk.com/aweme/v1/play/?video_id=v0200fe10000bqnp6grd82dhhsqrppi0&line=0&ratio=540p&media_type=4&vr_type=0&improve_bitrate=0&is_play_url=1&is_support_h265=0&source=PackSourceEnum_PUBLISH",
+                        "https://api.amemv.com/aweme/v1/play/?video_id=v0200fe10000bqnp6grd82dhhsqrppi0&line=1&ratio=540p&media_type=4&vr_type=0&improve_bitrate=0&is_play_url=1&is_support_h265=0&source=PackSourceEnum_PUBLISH"
+                    ]
+                },
+                "cover": {
+                    "uri": "tos-cn-p-0015/91c7047aafa742048411f2d4ba332ee2",
+                    "url_list": [
+                        "https://p3-dy.byteimg.com/img/tos-cn-p-0015/91c7047aafa742048411f2d4ba332ee2~c5_300x400.jpeg?from=2563711402_large",
+                        "https://p29-dy.byteimg.com/img/tos-cn-p-0015/91c7047aafa742048411f2d4ba332ee2~c5_300x400.jpeg?from=2563711402_large",
+                        "https://p9-dy.byteimg.com/img/tos-cn-p-0015/91c7047aafa742048411f2d4ba332ee2~c5_300x400.jpeg?from=2563711402_large"
+                    ]
+                },
+                "height": 1280,
+                "origin_cover": {
+                    "uri": "large/tos-cn-p-0015/4e5a1d9884434b9bbc334b970412d7d6_1588565308",
+                    "url_list": [
+                        "http://p3-dy.byteimg.com/large/tos-cn-p-0015/4e5a1d9884434b9bbc334b970412d7d6_1588565308.jpeg?from=2563711402_large",
+                        "http://p1-dy.byteimg.com/large/tos-cn-p-0015/4e5a1d9884434b9bbc334b970412d7d6_1588565308.jpeg?from=2563711402_large",
+                        "http://p26-dy.byteimg.com/large/tos-cn-p-0015/4e5a1d9884434b9bbc334b970412d7d6_1588565308.jpeg?from=2563711402_large"
+                    ]
+                },
+                "ratio": "540p",
+                "duration": 17251,
+                "vid": "v0200fe10000bqnp6grd82dhhsqrppi0",
+                "width": 720,
+                "dynamic_cover": {
+                    "uri": "tos-cn-p-0015/2541a9241fdd4a2189fa90ad8a04f4eb_1588565309",
+                    "url_list": [
+                        "https://p3-dy.byteimg.com/obj/tos-cn-p-0015/2541a9241fdd4a2189fa90ad8a04f4eb_1588565309?from=2563711402_large",
+                        "https://p29-dy.byteimg.com/obj/tos-cn-p-0015/2541a9241fdd4a2189fa90ad8a04f4eb_1588565309?from=2563711402_large",
+                        "https://p9-dy.byteimg.com/obj/tos-cn-p-0015/2541a9241fdd4a2189fa90ad8a04f4eb_1588565309?from=2563711402_large"
+                    ]
+                },
+                "download_addr": {
+                    "url_list": [
+                        "https://aweme.snssdk.com/aweme/v1/play/?video_id=v0200fe10000bqnp6grd82dhhsqrppi0&line=0&ratio=540p&watermark=1&media_type=4&vr_type=0&improve_bitrate=0&logo_name=aweme_search_suffix&is_support_h265=0&source=PackSourceEnum_PUBLISH",
+                        "https://api.amemv.com/aweme/v1/play/?video_id=v0200fe10000bqnp6grd82dhhsqrppi0&line=1&ratio=540p&watermark=1&media_type=4&vr_type=0&improve_bitrate=0&logo_name=aweme_search_suffix&is_support_h265=0&source=PackSourceEnum_PUBLISH"
+                    ],
+                    "uri": "v0200fe10000bqnp6grd82dhhsqrppi0"
+                },
+                "has_watermark": true,
+                "play_addr_lowbr": {
+                    "uri": "v0200fe10000bqnp6grd82dhhsqrppi0",
+                    "url_list": [
+                        "https://aweme.snssdk.com/aweme/v1/play/?video_id=v0200fe10000bqnp6grd82dhhsqrppi0&line=0&ratio=540p&media_type=4&vr_type=0&improve_bitrate=0&is_play_url=1&is_support_h265=0&source=PackSourceEnum_PUBLISH",
+                        "https://api.amemv.com/aweme/v1/play/?video_id=v0200fe10000bqnp6grd82dhhsqrppi0&line=1&ratio=540p&media_type=4&vr_type=0&improve_bitrate=0&is_play_url=1&is_support_h265=0&source=PackSourceEnum_PUBLISH"
+                    ]
+                },
+                "bit_rate": null
+            },
+            "uniqid_position": null,
+            "promotions": null,
+            "text_extra": [
+                {
+                    "end": 33,
+                    "type": 1,
+                    "hashtag_name": "一直dou在你身边",
+                    "hashtag_id": 1664654479601671,
+                    "start": 23
+                },
+                {
+                    "hashtag_id": 1665366129253384,
+                    "start": 34,
+                    "end": 40,
+                    "type": 1,
+                    "hashtag_name": "青春的逆行"
+                }
+            ],
+            "video_labels": null,
+            "aweme_type": 4,
+            "image_infos": null,
+            "aweme_id": "6822836032636030222",
+            "desc": "在处置过程中，你的一声不吭代表着对我们的信任！#一直dou在你身边 #青春的逆行",
+            "author": {
+                "with_shop_entry": false,
+                "following_count": 0,
+                "total_favorited": "0",
+                "enterprise_verify_reason": "成都市消防救援支队官方抖音号",
+                "is_ad_fake": false,
+                "avatar_medium": {
+                    "uri": "2fa5800085e1f220ce74e",
+                    "url_list": [
+                        "https://p9-dy-ipv6.byteimg.com/aweme/720x720/2fa5800085e1f220ce74e.jpeg",
+                        "https://p29-dy.byteimg.com/aweme/720x720/2fa5800085e1f220ce74e.jpeg",
+                        "https://p3-dy.byteimg.com/aweme/720x720/2fa5800085e1f220ce74e.jpeg"
+                    ]
+                },
+                "aweme_count": 0,
+                "followers_detail": null,
+                "secret": 0,
+                "with_fusion_shop_entry": false,
+                "user_canceled": false,
+                "uid": "110812020268",
+                "nickname": "成都消防",
+                "custom_verify": "",
+                "platform_sync_info": null,
+                "policy_version": null,
+                "is_enterprise_vip": false,
+                "follow_status": 0,
+                "favoriting_count": 0,
+                "unique_id": "CDXFJY119",
+                "story_open": false,
+                "avatar_larger": {
+                    "uri": "2fa5800085e1f220ce74e",
+                    "url_list": [
+                        "https://p9-dy-ipv6.byteimg.com/aweme/1080x1080/2fa5800085e1f220ce74e.jpeg",
+                        "https://p29-dy.byteimg.com/aweme/1080x1080/2fa5800085e1f220ce74e.jpeg",
+                        "https://p3-dy.byteimg.com/aweme/1080x1080/2fa5800085e1f220ce74e.jpeg"
+                    ]
+                },
+                "with_commerce_entry": false,
+                "region": "CN",
+                "geofencing": null,
+                "short_id": "2212867571",
+                "avatar_thumb": {
+                    "uri": "2fa5800085e1f220ce74e",
+                    "url_list": [
+                        "https://p9-dy-ipv6.byteimg.com/aweme/100x100/2fa5800085e1f220ce74e.jpeg",
+                        "https://p29-dy.byteimg.com/aweme/100x100/2fa5800085e1f220ce74e.jpeg",
+                        "https://p3-dy.byteimg.com/aweme/100x100/2fa5800085e1f220ce74e.jpeg"
+                    ]
+                },
+                "video_icon": {
+                    "uri": "",
+                    "url_list": []
+                },
+                "rate": 1,
+                "sec_uid": "MS4wLjABAAAAaJO9L9M0scJ_njvXncvoFQj3ilCKW1qQkNGyDc2_5CQ",
+                "signature": "我就是充满正义、竭诚为民的“蓝朋友”\n投稿Vx：CDXFJY119（注明来意）",
+                "follower_count": 0,
+                "has_orders": false,
+                "is_gov_media_vip": true
+            },
+            "statistics": {
+                "aweme_id": "6822836032636030222",
+                "comment_count": 131,
+                "digg_count": 4703,
+                "play_count": 0,
+                "share_count": 12,
+                "forward_count": 2
+            }
+        },
+        {
+            "author": {
+                "nickname": "成都消防",
+                "following_count": 0,
+                "with_fusion_shop_entry": false,
+                "user_canceled": false,
+                "rate": 1,
+                "aweme_count": 0,
+                "total_favorited": "0",
+                "story_open": false,
+                "enterprise_verify_reason": "成都市消防救援支队官方抖音号",
+                "video_icon": {
+                    "uri": "",
+                    "url_list": []
+                },
+                "is_enterprise_vip": false,
+                "signature": "我就是充满正义、竭诚为民的“蓝朋友”\n投稿Vx：CDXFJY119（注明来意）",
+                "avatar_larger": {
+                    "uri": "2fa5800085e1f220ce74e",
+                    "url_list": [
+                        "https://p9-dy-ipv6.byteimg.com/aweme/1080x1080/2fa5800085e1f220ce74e.jpeg",
+                        "https://p29-dy.byteimg.com/aweme/1080x1080/2fa5800085e1f220ce74e.jpeg",
+                        "https://p3-dy.byteimg.com/aweme/1080x1080/2fa5800085e1f220ce74e.jpeg"
+                    ]
+                },
+                "avatar_medium": {
+                    "url_list": [
+                        "https://p9-dy-ipv6.byteimg.com/aweme/720x720/2fa5800085e1f220ce74e.jpeg",
+                        "https://p29-dy.byteimg.com/aweme/720x720/2fa5800085e1f220ce74e.jpeg",
+                        "https://p3-dy.byteimg.com/aweme/720x720/2fa5800085e1f220ce74e.jpeg"
+                    ],
+                    "uri": "2fa5800085e1f220ce74e"
+                },
+                "favoriting_count": 0,
+                "custom_verify": "",
+                "geofencing": null,
+                "sec_uid": "MS4wLjABAAAAaJO9L9M0scJ_njvXncvoFQj3ilCKW1qQkNGyDc2_5CQ",
+                "short_id": "2212867571",
+                "follow_status": 0,
+                "with_commerce_entry": false,
+                "is_ad_fake": false,
+                "policy_version": null,
+                "uid": "110812020268",
+                "avatar_thumb": {
+                    "uri": "2fa5800085e1f220ce74e",
+                    "url_list": [
+                        "https://p9-dy-ipv6.byteimg.com/aweme/100x100/2fa5800085e1f220ce74e.jpeg",
+                        "https://p29-dy.byteimg.com/aweme/100x100/2fa5800085e1f220ce74e.jpeg",
+                        "https://p3-dy.byteimg.com/aweme/100x100/2fa5800085e1f220ce74e.jpeg"
+                    ]
+                },
+                "followers_detail": null,
+                "secret": 0,
+                "is_gov_media_vip": true,
+                "has_orders": false,
+                "follower_count": 0,
+                "unique_id": "CDXFJY119",
+                "region": "CN",
+                "platform_sync_info": null,
+                "with_shop_entry": false
+            },
+            "cha_list": null,
+            "text_extra": [
+                {
+                    "type": 1,
+                    "hashtag_name": "一直dou在你身边",
+                    "hashtag_id": 1664654479601671,
+                    "start": 23,
+                    "end": 33
+                }
+            ],
+            "position": null,
+            "promotions": null,
+            "desc": "这世间还有许多美好的事物，一定要好好活下去啊！#一直dou在你身边",
+            "video": {
+                "dynamic_cover": {
+                    "url_list": [
+                        "https://p9-dy.byteimg.com/obj/tos-cn-p-0015/57141a45b853421b9db237061aed2cf5_1588475418?from=2563711402_large",
+                        "https://p29-dy.byteimg.com/obj/tos-cn-p-0015/57141a45b853421b9db237061aed2cf5_1588475418?from=2563711402_large",
+                        "https://p3-dy.byteimg.com/obj/tos-cn-p-0015/57141a45b853421b9db237061aed2cf5_1588475418?from=2563711402_large"
+                    ],
+                    "uri": "tos-cn-p-0015/57141a45b853421b9db237061aed2cf5_1588475418"
+                },
+                "origin_cover": {
+                    "uri": "large/tos-cn-p-0015/2432f46981404d56901a8b1c11ea4a51_1588475417",
+                    "url_list": [
+                        "http://p3-dy.byteimg.com/large/tos-cn-p-0015/2432f46981404d56901a8b1c11ea4a51_1588475417.jpeg?from=2563711402_large",
+                        "http://p26-dy.byteimg.com/large/tos-cn-p-0015/2432f46981404d56901a8b1c11ea4a51_1588475417.jpeg?from=2563711402_large",
+                        "http://p9-dy.byteimg.com/large/tos-cn-p-0015/2432f46981404d56901a8b1c11ea4a51_1588475417.jpeg?from=2563711402_large"
+                    ]
+                },
+                "ratio": "540p",
+                "download_addr": {
+                    "uri": "v0200ff20000bqn3b589lr7a1csm1ck0",
+                    "url_list": [
+                        "https://aweme.snssdk.com/aweme/v1/play/?video_id=v0200ff20000bqn3b589lr7a1csm1ck0&line=0&ratio=540p&watermark=1&media_type=4&vr_type=0&improve_bitrate=0&logo_name=aweme_search_suffix&is_support_h265=0&source=PackSourceEnum_PUBLISH",
+                        "https://api.amemv.com/aweme/v1/play/?video_id=v0200ff20000bqn3b589lr7a1csm1ck0&line=1&ratio=540p&watermark=1&media_type=4&vr_type=0&improve_bitrate=0&logo_name=aweme_search_suffix&is_support_h265=0&source=PackSourceEnum_PUBLISH"
+                    ]
+                },
+                "play_addr_lowbr": {
+                    "url_list": [
+                        "https://aweme.snssdk.com/aweme/v1/play/?video_id=v0200ff20000bqn3b589lr7a1csm1ck0&line=0&ratio=540p&media_type=4&vr_type=0&improve_bitrate=0&is_play_url=1&is_support_h265=0&source=PackSourceEnum_PUBLISH",
+                        "https://api.amemv.com/aweme/v1/play/?video_id=v0200ff20000bqn3b589lr7a1csm1ck0&line=1&ratio=540p&media_type=4&vr_type=0&improve_bitrate=0&is_play_url=1&is_support_h265=0&source=PackSourceEnum_PUBLISH"
+                    ],
+                    "uri": "v0200ff20000bqn3b589lr7a1csm1ck0"
+                },
+                "bit_rate": null,
+                "cover": {
+                    "uri": "tos-cn-p-0015/5b8f463b36314ca3be347e12f0e28c4c",
+                    "url_list": [
+                        "https://p3-dy.byteimg.com/img/tos-cn-p-0015/5b8f463b36314ca3be347e12f0e28c4c~c5_300x400.jpeg?from=2563711402_large",
+                        "https://p29-dy.byteimg.com/img/tos-cn-p-0015/5b8f463b36314ca3be347e12f0e28c4c~c5_300x400.jpeg?from=2563711402_large",
+                        "https://p26-dy.byteimg.com/img/tos-cn-p-0015/5b8f463b36314ca3be347e12f0e28c4c~c5_300x400.jpeg?from=2563711402_large"
+                    ]
+                },
+                "width": 720,
+                "duration": 15231,
+                "vid": "v0200ff20000bqn3b589lr7a1csm1ck0",
+                "has_watermark": true,
+                "play_addr": {
+                    "uri": "v0200ff20000bqn3b589lr7a1csm1ck0",
+                    "url_list": [
+                        "https://aweme.snssdk.com/aweme/v1/play/?video_id=v0200ff20000bqn3b589lr7a1csm1ck0&line=0&ratio=540p&media_type=4&vr_type=0&improve_bitrate=0&is_play_url=1&is_support_h265=0&source=PackSourceEnum_PUBLISH",
+                        "https://api.amemv.com/aweme/v1/play/?video_id=v0200ff20000bqn3b589lr7a1csm1ck0&line=1&ratio=540p&media_type=4&vr_type=0&improve_bitrate=0&is_play_url=1&is_support_h265=0&source=PackSourceEnum_PUBLISH"
+                    ]
+                },
+                "height": 1280
+            },
+            "video_labels": null,
+            "aweme_type": 4,
+            "image_infos": null,
+            "uniqid_position": null,
+            "aweme_id": "6822449954460568845",
+            "comment_list": null,
+            "geofencing": null,
+            "video_text": null,
+            "label_top_text": null,
+            "statistics": {
+                "aweme_id": "6822449954460568845",
+                "comment_count": 75,
+                "digg_count": 3724,
+                "play_count": 0,
+                "share_count": 22,
+                "forward_count": 2
+            },
+            "long_video": null
+        },
+        {
+            "comment_list": null,
+            "geofencing": null,
+            "long_video": null,
+            "author": {
+                "signature": "我就是充满正义、竭诚为民的“蓝朋友”\n投稿Vx：CDXFJY119（注明来意）",
+                "unique_id": "CDXFJY119",
+                "with_shop_entry": false,
+                "video_icon": {
+                    "url_list": [],
+                    "uri": ""
+                },
+                "with_fusion_shop_entry": false,
+                "policy_version": null,
+                "with_commerce_entry": false,
+                "uid": "110812020268",
+                "short_id": "2212867571",
+                "avatar_larger": {
+                    "url_list": [
+                        "https://p9-dy-ipv6.byteimg.com/aweme/1080x1080/2fa5800085e1f220ce74e.jpeg",
+                        "https://p29-dy.byteimg.com/aweme/1080x1080/2fa5800085e1f220ce74e.jpeg",
+                        "https://p3-dy.byteimg.com/aweme/1080x1080/2fa5800085e1f220ce74e.jpeg"
+                    ],
+                    "uri": "2fa5800085e1f220ce74e"
+                },
+                "follow_status": 0,
+                "favoriting_count": 0,
+                "total_favorited": "0",
+                "story_open": false,
+                "secret": 0,
+                "sec_uid": "MS4wLjABAAAAaJO9L9M0scJ_njvXncvoFQj3ilCKW1qQkNGyDc2_5CQ",
+                "custom_verify": "",
+                "rate": 1,
+                "avatar_medium": {
+                    "uri": "2fa5800085e1f220ce74e",
+                    "url_list": [
+                        "https://p9-dy-ipv6.byteimg.com/aweme/720x720/2fa5800085e1f220ce74e.jpeg",
+                        "https://p29-dy.byteimg.com/aweme/720x720/2fa5800085e1f220ce74e.jpeg",
+                        "https://p3-dy.byteimg.com/aweme/720x720/2fa5800085e1f220ce74e.jpeg"
+                    ]
+                },
+                "aweme_count": 0,
+                "platform_sync_info": null,
+                "avatar_thumb": {
+                    "url_list": [
+                        "https://p9-dy-ipv6.byteimg.com/aweme/100x100/2fa5800085e1f220ce74e.jpeg",
+                        "https://p29-dy.byteimg.com/aweme/100x100/2fa5800085e1f220ce74e.jpeg",
+                        "https://p3-dy.byteimg.com/aweme/100x100/2fa5800085e1f220ce74e.jpeg"
+                    ],
+                    "uri": "2fa5800085e1f220ce74e"
+                },
+                "follower_count": 0,
+                "is_ad_fake": false,
+                "followers_detail": null,
+                "region": "CN",
+                "following_count": 0,
+                "enterprise_verify_reason": "成都市消防救援支队官方抖音号",
+                "has_orders": false,
+                "geofencing": null,
+                "is_gov_media_vip": true,
+                "is_enterprise_vip": false,
+                "nickname": "成都消防",
+                "user_canceled": false
+            },
+            "cha_list": null,
+            "statistics": {
+                "share_count": 22,
+                "forward_count": 2,
+                "aweme_id": "6821737711154597127",
+                "comment_count": 97,
+                "digg_count": 4524,
+                "play_count": 0
+            },
+            "image_infos": null,
+            "video_text": null,
+            "video": {
+                "cover": {
+                    "uri": "tos-cn-p-0015/596c1a0ea3924667be78f4a497f07b2a",
+                    "url_list": [
+                        "https://p3-dy.byteimg.com/img/tos-cn-p-0015/596c1a0ea3924667be78f4a497f07b2a~c5_300x400.jpeg?from=2563711402_large",
+                        "https://p26-dy.byteimg.com/img/tos-cn-p-0015/596c1a0ea3924667be78f4a497f07b2a~c5_300x400.jpeg?from=2563711402_large",
+                        "https://p9-dy.byteimg.com/img/tos-cn-p-0015/596c1a0ea3924667be78f4a497f07b2a~c5_300x400.jpeg?from=2563711402_large"
+                    ]
+                },
+                "height": 1280,
+                "width": 720,
+                "dynamic_cover": {
+                    "uri": "tos-cn-p-0015/d85feaf45e3c4a518c6f6406df60e88e_1588309586",
+                    "url_list": [
+                        "https://p3-dy.byteimg.com/obj/tos-cn-p-0015/d85feaf45e3c4a518c6f6406df60e88e_1588309586?from=2563711402_large",
+                        "https://p26-dy.byteimg.com/obj/tos-cn-p-0015/d85feaf45e3c4a518c6f6406df60e88e_1588309586?from=2563711402_large",
+                        "https://p1-dy.byteimg.com/obj/tos-cn-p-0015/d85feaf45e3c4a518c6f6406df60e88e_1588309586?from=2563711402_large"
+                    ]
+                },
+                "origin_cover": {
+                    "uri": "large/tos-cn-p-0015/c5bec1ce0e6341dfb3e1d6582f1b0c74_1588309585",
+                    "url_list": [
+                        "http://p9-dy.byteimg.com/large/tos-cn-p-0015/c5bec1ce0e6341dfb3e1d6582f1b0c74_1588309585.jpeg?from=2563711402_large",
+                        "http://p26-dy.byteimg.com/large/tos-cn-p-0015/c5bec1ce0e6341dfb3e1d6582f1b0c74_1588309585.jpeg?from=2563711402_large",
+                        "http://p29-dy.byteimg.com/large/tos-cn-p-0015/c5bec1ce0e6341dfb3e1d6582f1b0c74_1588309585.jpeg?from=2563711402_large"
+                    ]
+                },
+                "ratio": "540p",
+                "bit_rate": null,
+                "duration": 18900,
+                "play_addr": {
+                    "uri": "v0200ff20000bqlqshg858lm53ajel90",
+                    "url_list": [
+                        "https://aweme.snssdk.com/aweme/v1/play/?video_id=v0200ff20000bqlqshg858lm53ajel90&line=0&ratio=540p&media_type=4&vr_type=0&improve_bitrate=0&is_play_url=1&is_support_h265=0&source=PackSourceEnum_PUBLISH",
+                        "https://api.amemv.com/aweme/v1/play/?video_id=v0200ff20000bqlqshg858lm53ajel90&line=1&ratio=540p&media_type=4&vr_type=0&improve_bitrate=0&is_play_url=1&is_support_h265=0&source=PackSourceEnum_PUBLISH"
+                    ]
+                },
+                "download_addr": {
+                    "uri": "v0200ff20000bqlqshg858lm53ajel90",
+                    "url_list": [
+                        "https://aweme.snssdk.com/aweme/v1/play/?video_id=v0200ff20000bqlqshg858lm53ajel90&line=0&ratio=540p&watermark=1&media_type=4&vr_type=0&improve_bitrate=0&logo_name=aweme_search_suffix&is_support_h265=0&source=PackSourceEnum_PUBLISH",
+                        "https://api.amemv.com/aweme/v1/play/?video_id=v0200ff20000bqlqshg858lm53ajel90&line=1&ratio=540p&watermark=1&media_type=4&vr_type=0&improve_bitrate=0&logo_name=aweme_search_suffix&is_support_h265=0&source=PackSourceEnum_PUBLISH"
+                    ]
+                },
+                "has_watermark": true,
+                "play_addr_lowbr": {
+                    "url_list": [
+                        "https://aweme.snssdk.com/aweme/v1/play/?video_id=v0200ff20000bqlqshg858lm53ajel90&line=0&ratio=540p&media_type=4&vr_type=0&improve_bitrate=0&is_play_url=1&is_support_h265=0&source=PackSourceEnum_PUBLISH",
+                        "https://api.amemv.com/aweme/v1/play/?video_id=v0200ff20000bqlqshg858lm53ajel90&line=1&ratio=540p&media_type=4&vr_type=0&improve_bitrate=0&is_play_url=1&is_support_h265=0&source=PackSourceEnum_PUBLISH"
+                    ],
+                    "uri": "v0200ff20000bqlqshg858lm53ajel90"
+                },
+                "vid": "v0200ff20000bqlqshg858lm53ajel90"
+            },
+            "video_labels": null,
+            "position": null,
+            "uniqid_position": null,
+            "label_top_text": null,
+            "promotions": null,
+            "aweme_id": "6821737711154597127",
+            "desc": "维护保养车辆器材后皮一下～祝大家#五一 快乐 #一直dou在你身边",
+            "text_extra": [
+                {
+                    "start": 16,
+                    "end": 19,
+                    "type": 1,
+                    "hashtag_name": "五一",
+                    "hashtag_id": 1566005408194562
+                },
+                {
+                    "type": 1,
+                    "hashtag_name": "一直dou在你身边",
+                    "hashtag_id": 1664654479601671,
+                    "start": 23,
+                    "end": 33
+                }
+            ],
+            "aweme_type": 4
+        },
+        {
+            "uniqid_position": null,
+            "video_text": null,
+            "promotions": null,
+            "author": {
+                "region": "CN",
+                "video_icon": {
+                    "uri": "",
+                    "url_list": []
+                },
+                "nickname": "成都消防",
+                "signature": "我就是充满正义、竭诚为民的“蓝朋友”\n投稿Vx：CDXFJY119（注明来意）",
+                "aweme_count": 0,
+                "unique_id": "CDXFJY119",
+                "with_commerce_entry": false,
+                "is_ad_fake": false,
+                "rate": 1,
+                "avatar_thumb": {
+                    "uri": "2fa5800085e1f220ce74e",
+                    "url_list": [
+                        "https://p9-dy-ipv6.byteimg.com/aweme/100x100/2fa5800085e1f220ce74e.jpeg",
+                        "https://p29-dy.byteimg.com/aweme/100x100/2fa5800085e1f220ce74e.jpeg",
+                        "https://p3-dy.byteimg.com/aweme/100x100/2fa5800085e1f220ce74e.jpeg"
+                    ]
+                },
+                "follower_count": 0,
+                "user_canceled": false,
+                "following_count": 0,
+                "custom_verify": "",
+                "avatar_medium": {
+                    "uri": "2fa5800085e1f220ce74e",
+                    "url_list": [
+                        "https://p9-dy-ipv6.byteimg.com/aweme/720x720/2fa5800085e1f220ce74e.jpeg",
+                        "https://p29-dy.byteimg.com/aweme/720x720/2fa5800085e1f220ce74e.jpeg",
+                        "https://p3-dy.byteimg.com/aweme/720x720/2fa5800085e1f220ce74e.jpeg"
+                    ]
+                },
+                "favoriting_count": 0,
+                "followers_detail": null,
+                "geofencing": null,
+                "avatar_larger": {
+                    "url_list": [
+                        "https://p9-dy-ipv6.byteimg.com/aweme/1080x1080/2fa5800085e1f220ce74e.jpeg",
+                        "https://p29-dy.byteimg.com/aweme/1080x1080/2fa5800085e1f220ce74e.jpeg",
+                        "https://p3-dy.byteimg.com/aweme/1080x1080/2fa5800085e1f220ce74e.jpeg"
+                    ],
+                    "uri": "2fa5800085e1f220ce74e"
+                },
+                "policy_version": null,
+                "enterprise_verify_reason": "成都市消防救援支队官方抖音号",
+                "secret": 0,
+                "has_orders": false,
+                "with_fusion_shop_entry": false,
+                "is_enterprise_vip": false,
+                "uid": "110812020268",
+                "short_id": "2212867571",
+                "story_open": false,
+                "follow_status": 0,
+                "total_favorited": "0",
+                "platform_sync_info": null,
+                "with_shop_entry": false,
+                "is_gov_media_vip": true,
+                "sec_uid": "MS4wLjABAAAAaJO9L9M0scJ_njvXncvoFQj3ilCKW1qQkNGyDc2_5CQ"
+            },
+            "video_labels": null,
+            "image_infos": null,
+            "position": null,
+            "video": {
+                "width": 720,
+                "download_addr": {
+                    "uri": "v0200f7f0000bql8rog697aoec9urplg",
+                    "url_list": [
+                        "https://aweme.snssdk.com/aweme/v1/play/?video_id=v0200f7f0000bql8rog697aoec9urplg&line=0&ratio=540p&watermark=1&media_type=4&vr_type=0&improve_bitrate=0&logo_name=aweme_search_suffix&is_support_h265=0&source=PackSourceEnum_PUBLISH",
+                        "https://api.amemv.com/aweme/v1/play/?video_id=v0200f7f0000bql8rog697aoec9urplg&line=1&ratio=540p&watermark=1&media_type=4&vr_type=0&improve_bitrate=0&logo_name=aweme_search_suffix&is_support_h265=0&source=PackSourceEnum_PUBLISH"
+                    ]
+                },
+                "has_watermark": true,
+                "play_addr_lowbr": {
+                    "uri": "v0200f7f0000bql8rog697aoec9urplg",
+                    "url_list": [
+                        "https://aweme.snssdk.com/aweme/v1/play/?video_id=v0200f7f0000bql8rog697aoec9urplg&line=0&ratio=540p&media_type=4&vr_type=0&improve_bitrate=0&is_play_url=1&is_support_h265=0&source=PackSourceEnum_PUBLISH",
+                        "https://api.amemv.com/aweme/v1/play/?video_id=v0200f7f0000bql8rog697aoec9urplg&line=1&ratio=540p&media_type=4&vr_type=0&improve_bitrate=0&is_play_url=1&is_support_h265=0&source=PackSourceEnum_PUBLISH"
+                    ]
+                },
+                "origin_cover": {
+                    "uri": "large/tos-cn-p-0015/deca97d89a9040fcb90741bd61244684_1588235752",
+                    "url_list": [
+                        "http://p9-dy-ipv6.byteimg.com/large/tos-cn-p-0015/deca97d89a9040fcb90741bd61244684_1588235752.jpeg?from=2563711402_large",
+                        "http://p29-dy.byteimg.com/large/tos-cn-p-0015/deca97d89a9040fcb90741bd61244684_1588235752.jpeg?from=2563711402_large",
+                        "http://p3-dy.byteimg.com/large/tos-cn-p-0015/deca97d89a9040fcb90741bd61244684_1588235752.jpeg?from=2563711402_large"
+                    ]
+                },
+                "ratio": "540p",
+                "bit_rate": null,
+                "duration": 15185,
+                "play_addr": {
+                    "uri": "v0200f7f0000bql8rog697aoec9urplg",
+                    "url_list": [
+                        "https://aweme.snssdk.com/aweme/v1/play/?video_id=v0200f7f0000bql8rog697aoec9urplg&line=0&ratio=540p&media_type=4&vr_type=0&improve_bitrate=0&is_play_url=1&is_support_h265=0&source=PackSourceEnum_PUBLISH",
+                        "https://api.amemv.com/aweme/v1/play/?video_id=v0200f7f0000bql8rog697aoec9urplg&line=1&ratio=540p&media_type=4&vr_type=0&improve_bitrate=0&is_play_url=1&is_support_h265=0&source=PackSourceEnum_PUBLISH"
+                    ]
+                },
+                "cover": {
+                    "uri": "tos-cn-p-0015/848c40f30a94473cb1fdc298a9d33bf3",
+                    "url_list": [
+                        "https://p9-dy.byteimg.com/img/tos-cn-p-0015/848c40f30a94473cb1fdc298a9d33bf3~c5_300x400.jpeg?from=2563711402_large",
+                        "https://p29-dy.byteimg.com/img/tos-cn-p-0015/848c40f30a94473cb1fdc298a9d33bf3~c5_300x400.jpeg?from=2563711402_large",
+                        "https://p3-dy.byteimg.com/img/tos-cn-p-0015/848c40f30a94473cb1fdc298a9d33bf3~c5_300x400.jpeg?from=2563711402_large"
+                    ]
+                },
+                "height": 1280,
+                "dynamic_cover": {
+                    "uri": "tos-cn-p-0015/32f1067185894240b87f4f930eeb138f_1588235754",
+                    "url_list": [
+                        "https://p9-dy.byteimg.com/obj/tos-cn-p-0015/32f1067185894240b87f4f930eeb138f_1588235754?from=2563711402_large",
+                        "https://p29-dy.byteimg.com/obj/tos-cn-p-0015/32f1067185894240b87f4f930eeb138f_1588235754?from=2563711402_large",
+                        "https://p3-dy.byteimg.com/obj/tos-cn-p-0015/32f1067185894240b87f4f930eeb138f_1588235754?from=2563711402_large"
+                    ]
+                },
+                "vid": "v0200f7f0000bql8rog697aoec9urplg"
+            },
+            "comment_list": null,
+            "geofencing": null,
+            "aweme_type": 4,
+            "aweme_id": "6821420597650754829",
+            "cha_list": null,
+            "statistics": {
+                "aweme_id": "6821420597650754829",
+                "comment_count": 88,
+                "digg_count": 6435,
+                "play_count": 0,
+                "share_count": 18,
+                "forward_count": 2
+            },
+            "text_extra": [
+                {
+                    "hashtag_id": 1664654479601671,
+                    "start": 12,
+                    "end": 22,
+                    "type": 1,
+                    "hashtag_name": "一直dou在你身边"
+                }
+            ],
+            "desc": "出警啦，紧张又略带喜感～#一直dou在你身边",
+            "label_top_text": null,
+            "long_video": null
+        },
+        {
+            "statistics": {
+                "share_count": 11000,
+                "forward_count": 436,
+                "aweme_id": "6820683267868462343",
+                "comment_count": 46000,
+                "digg_count": 694000,
+                "play_count": 0
+            },
+            "video_labels": null,
+            "aweme_type": 4,
+            "image_infos": null,
+            "uniqid_position": null,
+            "author": {
+                "avatar_thumb": {
+                    "uri": "2fa5800085e1f220ce74e",
+                    "url_list": [
+                        "https://p9-dy-ipv6.byteimg.com/aweme/100x100/2fa5800085e1f220ce74e.jpeg",
+                        "https://p29-dy.byteimg.com/aweme/100x100/2fa5800085e1f220ce74e.jpeg",
+                        "https://p3-dy.byteimg.com/aweme/100x100/2fa5800085e1f220ce74e.jpeg"
+                    ]
+                },
+                "aweme_count": 0,
+                "favoriting_count": 0,
+                "unique_id": "CDXFJY119",
+                "story_open": false,
+                "is_ad_fake": false,
+                "nickname": "成都消防",
+                "signature": "我就是充满正义、竭诚为民的“蓝朋友”\n投稿Vx：CDXFJY119（注明来意）",
+                "avatar_larger": {
+                    "uri": "2fa5800085e1f220ce74e",
+                    "url_list": [
+                        "https://p9-dy-ipv6.byteimg.com/aweme/1080x1080/2fa5800085e1f220ce74e.jpeg",
+                        "https://p29-dy.byteimg.com/aweme/1080x1080/2fa5800085e1f220ce74e.jpeg",
+                        "https://p3-dy.byteimg.com/aweme/1080x1080/2fa5800085e1f220ce74e.jpeg"
+                    ]
+                },
+                "avatar_medium": {
+                    "uri": "2fa5800085e1f220ce74e",
+                    "url_list": [
+                        "https://p9-dy-ipv6.byteimg.com/aweme/720x720/2fa5800085e1f220ce74e.jpeg",
+                        "https://p29-dy.byteimg.com/aweme/720x720/2fa5800085e1f220ce74e.jpeg",
+                        "https://p3-dy.byteimg.com/aweme/720x720/2fa5800085e1f220ce74e.jpeg"
+                    ]
+                },
+                "following_count": 0,
+                "total_favorited": "0",
+                "enterprise_verify_reason": "成都市消防救援支队官方抖音号",
+                "follower_count": 0,
+                "custom_verify": "",
+                "secret": 0,
+                "is_gov_media_vip": true,
+                "sec_uid": "MS4wLjABAAAAaJO9L9M0scJ_njvXncvoFQj3ilCKW1qQkNGyDc2_5CQ",
+                "is_enterprise_vip": false,
+                "rate": 1,
+                "short_id": "2212867571",
+                "followers_detail": null,
+                "platform_sync_info": null,
+                "video_icon": {
+                    "uri": "",
+                    "url_list": []
+                },
+                "policy_version": null,
+                "uid": "110812020268",
+                "user_canceled": false,
+                "with_shop_entry": false,
+                "geofencing": null,
+                "follow_status": 0,
+                "with_commerce_entry": false,
+                "region": "CN",
+                "has_orders": false,
+                "with_fusion_shop_entry": false
+            },
+            "position": null,
+            "long_video": null,
+            "aweme_id": "6820683267868462343",
+            "comment_list": null,
+            "promotions": null,
+            "desc": "出完警回来皮一下，倦意瞬间消失～#一直dou在你身边",
+            "cha_list": null,
+            "video": {
+                "download_addr": {
+                    "uri": "v0200f030000bqjuuhvl54d1hm2vfoeg",
+                    "url_list": [
+                        "https://aweme.snssdk.com/aweme/v1/play/?video_id=v0200f030000bqjuuhvl54d1hm2vfoeg&line=0&ratio=540p&watermark=1&media_type=4&vr_type=0&improve_bitrate=0&logo_name=aweme_search_suffix&is_support_h265=0&source=PackSourceEnum_PUBLISH",
+                        "https://api.amemv.com/aweme/v1/play/?video_id=v0200f030000bqjuuhvl54d1hm2vfoeg&line=1&ratio=540p&watermark=1&media_type=4&vr_type=0&improve_bitrate=0&logo_name=aweme_search_suffix&is_support_h265=0&source=PackSourceEnum_PUBLISH"
+                    ]
+                },
+                "play_addr_lowbr": {
+                    "uri": "v0200f030000bqjuuhvl54d1hm2vfoeg",
+                    "url_list": [
+                        "https://aweme.snssdk.com/aweme/v1/play/?video_id=v0200f030000bqjuuhvl54d1hm2vfoeg&line=0&ratio=540p&media_type=4&vr_type=0&improve_bitrate=0&is_play_url=1&is_support_h265=0&source=PackSourceEnum_PUBLISH",
+                        "https://api.amemv.com/aweme/v1/play/?video_id=v0200f030000bqjuuhvl54d1hm2vfoeg&line=1&ratio=540p&media_type=4&vr_type=0&improve_bitrate=0&is_play_url=1&is_support_h265=0&source=PackSourceEnum_PUBLISH"
+                    ]
+                },
+                "duration": 12050,
+                "play_addr": {
+                    "uri": "v0200f030000bqjuuhvl54d1hm2vfoeg",
+                    "url_list": [
+                        "https://aweme.snssdk.com/aweme/v1/play/?video_id=v0200f030000bqjuuhvl54d1hm2vfoeg&line=0&ratio=540p&media_type=4&vr_type=0&improve_bitrate=0&is_play_url=1&is_support_h265=0&source=PackSourceEnum_PUBLISH",
+                        "https://api.amemv.com/aweme/v1/play/?video_id=v0200f030000bqjuuhvl54d1hm2vfoeg&line=1&ratio=540p&media_type=4&vr_type=0&improve_bitrate=0&is_play_url=1&is_support_h265=0&source=PackSourceEnum_PUBLISH"
+                    ]
+                },
+                "height": 1280,
+                "dynamic_cover": {
+                    "uri": "tos-cn-p-0015/2a6bae563cf241a49c1dcf85dd983874_1588064080",
+                    "url_list": [
+                        "https://p3-dy.byteimg.com/obj/tos-cn-p-0015/2a6bae563cf241a49c1dcf85dd983874_1588064080?from=2563711402_large",
+                        "https://p29-dy.byteimg.com/obj/tos-cn-p-0015/2a6bae563cf241a49c1dcf85dd983874_1588064080?from=2563711402_large",
+                        "https://p1-dy.byteimg.com/obj/tos-cn-p-0015/2a6bae563cf241a49c1dcf85dd983874_1588064080?from=2563711402_large"
+                    ]
+                },
+                "origin_cover": {
+                    "uri": "large/tos-cn-p-0015/085b1bf4521846cd87c983dbc63bda0d_1588064079",
+                    "url_list": [
+                        "http://p3-dy.byteimg.com/large/tos-cn-p-0015/085b1bf4521846cd87c983dbc63bda0d_1588064079.jpeg?from=2563711402_large",
+                        "http://p29-dy.byteimg.com/large/tos-cn-p-0015/085b1bf4521846cd87c983dbc63bda0d_1588064079.jpeg?from=2563711402_large",
+                        "http://p9-dy.byteimg.com/large/tos-cn-p-0015/085b1bf4521846cd87c983dbc63bda0d_1588064079.jpeg?from=2563711402_large"
+                    ]
+                },
+                "ratio": "540p",
+                "vid": "v0200f030000bqjuuhvl54d1hm2vfoeg",
+                "cover": {
+                    "uri": "tos-cn-p-0015/7ace1d2630074ac993c2a2f2844cea74",
+                    "url_list": [
+                        "https://p9-dy-ipv6.byteimg.com/img/tos-cn-p-0015/7ace1d2630074ac993c2a2f2844cea74~c5_300x400.jpeg?from=2563711402_large",
+                        "https://p29-dy.byteimg.com/img/tos-cn-p-0015/7ace1d2630074ac993c2a2f2844cea74~c5_300x400.jpeg?from=2563711402_large",
+                        "https://p3-dy.byteimg.com/img/tos-cn-p-0015/7ace1d2630074ac993c2a2f2844cea74~c5_300x400.jpeg?from=2563711402_large"
+                    ]
+                },
+                "width": 720,
+                "has_watermark": true,
+                "bit_rate": null
+            },
+            "text_extra": [
+                {
+                    "end": 26,
+                    "type": 1,
+                    "hashtag_name": "一直dou在你身边",
+                    "hashtag_id": 1664654479601671,
+                    "start": 16
+                }
+            ],
+            "geofencing": null,
+            "video_text": null,
+            "label_top_text": null
+        },
+        {
+            "uniqid_position": null,
+            "desc": "跟着蓝朋友动起来～#一直dou在你身边",
+            "cha_list": null,
+            "video": {
+                "cover": {
+                    "uri": "tos-cn-p-0015/d98f60d84da54a0ea0c63a0160a2a71f",
+                    "url_list": [
+                        "https://p3-dy.byteimg.com/img/tos-cn-p-0015/d98f60d84da54a0ea0c63a0160a2a71f~c5_300x400.jpeg?from=2563711402_large",
+                        "https://p29-dy.byteimg.com/img/tos-cn-p-0015/d98f60d84da54a0ea0c63a0160a2a71f~c5_300x400.jpeg?from=2563711402_large",
+                        "https://p9-dy.byteimg.com/img/tos-cn-p-0015/d98f60d84da54a0ea0c63a0160a2a71f~c5_300x400.jpeg?from=2563711402_large"
+                    ]
+                },
+                "height": 1280,
+                "origin_cover": {
+                    "uri": "large/tos-cn-p-0015/69b72c648c624ceca834e9f6bb047b50_1587988883",
+                    "url_list": [
+                        "http://p3-dy.byteimg.com/large/tos-cn-p-0015/69b72c648c624ceca834e9f6bb047b50_1587988883.jpeg?from=2563711402_large",
+                        "http://p29-dy.byteimg.com/large/tos-cn-p-0015/69b72c648c624ceca834e9f6bb047b50_1587988883.jpeg?from=2563711402_large",
+                        "http://p9-dy.byteimg.com/large/tos-cn-p-0015/69b72c648c624ceca834e9f6bb047b50_1587988883.jpeg?from=2563711402_large"
+                    ]
+                },
+                "has_watermark": true,
+                "play_addr_lowbr": {
+                    "uri": "v0200f8e0000bqjcj209lr7esdu3897g",
+                    "url_list": [
+                        "https://aweme.snssdk.com/aweme/v1/play/?video_id=v0200f8e0000bqjcj209lr7esdu3897g&line=0&ratio=540p&media_type=4&vr_type=0&improve_bitrate=0&is_play_url=1&is_support_h265=0&source=PackSourceEnum_PUBLISH",
+                        "https://api.amemv.com/aweme/v1/play/?video_id=v0200f8e0000bqjcj209lr7esdu3897g&line=1&ratio=540p&media_type=4&vr_type=0&improve_bitrate=0&is_play_url=1&is_support_h265=0&source=PackSourceEnum_PUBLISH"
+                    ]
+                },
+                "vid": "v0200f8e0000bqjcj209lr7esdu3897g",
+                "play_addr": {
+                    "url_list": [
+                        "https://aweme.snssdk.com/aweme/v1/play/?video_id=v0200f8e0000bqjcj209lr7esdu3897g&line=0&ratio=540p&media_type=4&vr_type=0&improve_bitrate=0&is_play_url=1&is_support_h265=0&source=PackSourceEnum_PUBLISH",
+                        "https://api.amemv.com/aweme/v1/play/?video_id=v0200f8e0000bqjcj209lr7esdu3897g&line=1&ratio=540p&media_type=4&vr_type=0&improve_bitrate=0&is_play_url=1&is_support_h265=0&source=PackSourceEnum_PUBLISH"
+                    ],
+                    "uri": "v0200f8e0000bqjcj209lr7esdu3897g"
+                },
+                "width": 720,
+                "dynamic_cover": {
+                    "uri": "tos-cn-p-0015/c555817a0a8e4affbaee86f37eebfbd8_1587988884",
+                    "url_list": [
+                        "https://p3-dy.byteimg.com/obj/tos-cn-p-0015/c555817a0a8e4affbaee86f37eebfbd8_1587988884?from=2563711402_large",
+                        "https://p1-dy.byteimg.com/obj/tos-cn-p-0015/c555817a0a8e4affbaee86f37eebfbd8_1587988884?from=2563711402_large",
+                        "https://p9-dy.byteimg.com/obj/tos-cn-p-0015/c555817a0a8e4affbaee86f37eebfbd8_1587988884?from=2563711402_large"
+                    ]
+                },
+                "ratio": "540p",
+                "download_addr": {
+                    "url_list": [
+                        "https://aweme.snssdk.com/aweme/v1/play/?video_id=v0200f8e0000bqjcj209lr7esdu3897g&line=0&ratio=540p&watermark=1&media_type=4&vr_type=0&improve_bitrate=0&logo_name=aweme_search_suffix&is_support_h265=0&source=PackSourceEnum_PUBLISH",
+                        "https://api.amemv.com/aweme/v1/play/?video_id=v0200f8e0000bqjcj209lr7esdu3897g&line=1&ratio=540p&watermark=1&media_type=4&vr_type=0&improve_bitrate=0&logo_name=aweme_search_suffix&is_support_h265=0&source=PackSourceEnum_PUBLISH"
+                    ],
+                    "uri": "v0200f8e0000bqjcj209lr7esdu3897g"
+                },
+                "bit_rate": null,
+                "duration": 14117
+            },
+            "statistics": {
+                "digg_count": 7386,
+                "play_count": 0,
+                "share_count": 105,
+                "forward_count": 4,
+                "aweme_id": "6820360304187165960",
+                "comment_count": 447
+            },
+            "text_extra": [
+                {
+                    "end": 19,
+                    "type": 1,
+                    "hashtag_name": "一直dou在你身边",
+                    "hashtag_id": 1664654479601671,
+                    "start": 9
+                }
+            ],
+            "video_labels": null,
+            "position": null,
+            "comment_list": null,
+            "label_top_text": null,
+            "promotions": null,
+            "author": {
+                "following_count": 0,
+                "custom_verify": "",
+                "enterprise_verify_reason": "成都市消防救援支队官方抖音号",
+                "geofencing": null,
+                "short_id": "2212867571",
+                "avatar_thumb": {
+                    "uri": "2fa5800085e1f220ce74e",
+                    "url_list": [
+                        "https://p9-dy-ipv6.byteimg.com/aweme/100x100/2fa5800085e1f220ce74e.jpeg",
+                        "https://p29-dy.byteimg.com/aweme/100x100/2fa5800085e1f220ce74e.jpeg",
+                        "https://p3-dy.byteimg.com/aweme/100x100/2fa5800085e1f220ce74e.jpeg"
+                    ]
+                },
+                "aweme_count": 0,
+                "unique_id": "CDXFJY119",
+                "uid": "110812020268",
+                "avatar_medium": {
+                    "uri": "2fa5800085e1f220ce74e",
+                    "url_list": [
+                        "https://p9-dy-ipv6.byteimg.com/aweme/720x720/2fa5800085e1f220ce74e.jpeg",
+                        "https://p29-dy.byteimg.com/aweme/720x720/2fa5800085e1f220ce74e.jpeg",
+                        "https://p3-dy.byteimg.com/aweme/720x720/2fa5800085e1f220ce74e.jpeg"
+                    ]
+                },
+                "total_favorited": "0",
+                "story_open": false,
+                "is_ad_fake": false,
+                "has_orders": false,
+                "avatar_larger": {
+                    "uri": "2fa5800085e1f220ce74e",
+                    "url_list": [
+                        "https://p9-dy-ipv6.byteimg.com/aweme/1080x1080/2fa5800085e1f220ce74e.jpeg",
+                        "https://p29-dy.byteimg.com/aweme/1080x1080/2fa5800085e1f220ce74e.jpeg",
+                        "https://p3-dy.byteimg.com/aweme/1080x1080/2fa5800085e1f220ce74e.jpeg"
+                    ]
+                },
+                "with_fusion_shop_entry": false,
+                "sec_uid": "MS4wLjABAAAAaJO9L9M0scJ_njvXncvoFQj3ilCKW1qQkNGyDc2_5CQ",
+                "rate": 1,
+                "with_shop_entry": false,
+                "is_gov_media_vip": true,
+                "video_icon": {
+                    "uri": "",
+                    "url_list": []
+                },
+                "with_commerce_entry": false,
+                "platform_sync_info": null,
+                "user_canceled": false,
+                "favoriting_count": 0,
+                "secret": 0,
+                "is_enterprise_vip": false,
+                "nickname": "成都消防",
+                "follow_status": 0,
+                "follower_count": 0,
+                "followers_detail": null,
+                "region": "CN",
+                "policy_version": null,
+                "signature": "我就是充满正义、竭诚为民的“蓝朋友”\n投稿Vx：CDXFJY119（注明来意）"
+            },
+            "aweme_type": 4,
+            "video_text": null,
+            "long_video": null,
+            "aweme_id": "6820360304187165960",
+            "image_infos": null,
+            "geofencing": null
+        },
+        {
+            "desc": "你拼命救人，我护你周全！#一直dou在你身边（供稿：彭州大队）",
+            "statistics": {
+                "aweme_id": "6819573765664443655",
+                "comment_count": 40,
+                "digg_count": 7935,
+                "play_count": 0,
+                "share_count": 31,
+                "forward_count": 1
+            },
+            "uniqid_position": null,
+            "geofencing": null,
+            "video_text": null,
+            "label_top_text": null,
+            "author": {
+                "follow_status": 0,
+                "favoriting_count": 0,
+                "followers_detail": null,
+                "is_enterprise_vip": false,
+                "nickname": "成都消防",
+                "avatar_thumb": {
+                    "uri": "2fa5800085e1f220ce74e",
+                    "url_list": [
+                        "https://p9-dy-ipv6.byteimg.com/aweme/100x100/2fa5800085e1f220ce74e.jpeg",
+                        "https://p29-dy.byteimg.com/aweme/100x100/2fa5800085e1f220ce74e.jpeg",
+                        "https://p3-dy.byteimg.com/aweme/100x100/2fa5800085e1f220ce74e.jpeg"
+                    ]
+                },
+                "short_id": "2212867571",
+                "total_favorited": "0",
+                "unique_id": "CDXFJY119",
+                "with_shop_entry": false,
+                "with_commerce_entry": false,
+                "enterprise_verify_reason": "成都市消防救援支队官方抖音号",
+                "is_ad_fake": false,
+                "secret": 0,
+                "geofencing": null,
+                "video_icon": {
+                    "uri": "",
+                    "url_list": []
+                },
+                "follower_count": 0,
+                "custom_verify": "",
+                "is_gov_media_vip": true,
+                "sec_uid": "MS4wLjABAAAAaJO9L9M0scJ_njvXncvoFQj3ilCKW1qQkNGyDc2_5CQ",
+                "with_fusion_shop_entry": false,
+                "user_canceled": false,
+                "rate": 1,
+                "uid": "110812020268",
+                "avatar_larger": {
+                    "url_list": [
+                        "https://p9-dy-ipv6.byteimg.com/aweme/1080x1080/2fa5800085e1f220ce74e.jpeg",
+                        "https://p29-dy.byteimg.com/aweme/1080x1080/2fa5800085e1f220ce74e.jpeg",
+                        "https://p3-dy.byteimg.com/aweme/1080x1080/2fa5800085e1f220ce74e.jpeg"
+                    ],
+                    "uri": "2fa5800085e1f220ce74e"
+                },
+                "aweme_count": 0,
+                "policy_version": null,
+                "signature": "我就是充满正义、竭诚为民的“蓝朋友”\n投稿Vx：CDXFJY119（注明来意）",
+                "avatar_medium": {
+                    "uri": "2fa5800085e1f220ce74e",
+                    "url_list": [
+                        "https://p9-dy-ipv6.byteimg.com/aweme/720x720/2fa5800085e1f220ce74e.jpeg",
+                        "https://p29-dy.byteimg.com/aweme/720x720/2fa5800085e1f220ce74e.jpeg",
+                        "https://p3-dy.byteimg.com/aweme/720x720/2fa5800085e1f220ce74e.jpeg"
+                    ]
+                },
+                "story_open": false,
+                "region": "CN",
+                "has_orders": false,
+                "following_count": 0,
+                "platform_sync_info": null
+            },
+            "text_extra": [
+                {
+                    "start": 12,
+                    "end": 22,
+                    "type": 1,
+                    "hashtag_name": "一直dou在你身边",
+                    "hashtag_id": 1664654479601671
+                }
+            ],
+            "video_labels": null,
+            "promotions": null,
+            "long_video": null,
+            "aweme_type": 4,
+            "position": null,
+            "aweme_id": "6819573765664443655",
+            "cha_list": null,
+            "video": {
+                "play_addr": {
+                    "uri": "v0200f930000bqhvscdqg5be746gp21g",
+                    "url_list": [
+                        "https://aweme.snssdk.com/aweme/v1/play/?video_id=v0200f930000bqhvscdqg5be746gp21g&line=0&ratio=540p&media_type=4&vr_type=0&improve_bitrate=0&is_play_url=1&is_support_h265=0&source=PackSourceEnum_PUBLISH",
+                        "https://api.amemv.com/aweme/v1/play/?video_id=v0200f930000bqhvscdqg5be746gp21g&line=1&ratio=540p&media_type=4&vr_type=0&improve_bitrate=0&is_play_url=1&is_support_h265=0&source=PackSourceEnum_PUBLISH"
+                    ]
+                },
+                "ratio": "540p",
+                "download_addr": {
+                    "uri": "v0200f930000bqhvscdqg5be746gp21g",
+                    "url_list": [
+                        "https://aweme.snssdk.com/aweme/v1/play/?video_id=v0200f930000bqhvscdqg5be746gp21g&line=0&ratio=540p&watermark=1&media_type=4&vr_type=0&improve_bitrate=0&logo_name=aweme_search_suffix&is_support_h265=0&source=PackSourceEnum_PUBLISH",
+                        "https://api.amemv.com/aweme/v1/play/?video_id=v0200f930000bqhvscdqg5be746gp21g&line=1&ratio=540p&watermark=1&media_type=4&vr_type=0&improve_bitrate=0&logo_name=aweme_search_suffix&is_support_h265=0&source=PackSourceEnum_PUBLISH"
+                    ]
+                },
+                "vid": "v0200f930000bqhvscdqg5be746gp21g",
+                "origin_cover": {
+                    "uri": "large/tos-cn-p-0015/a137e90ae4914f25ad184950f677afe3_1587805753",
+                    "url_list": [
+                        "http://p3-dy.byteimg.com/large/tos-cn-p-0015/a137e90ae4914f25ad184950f677afe3_1587805753.jpeg?from=2563711402_large",
+                        "http://p29-dy.byteimg.com/large/tos-cn-p-0015/a137e90ae4914f25ad184950f677afe3_1587805753.jpeg?from=2563711402_large",
+                        "http://p9-dy.byteimg.com/large/tos-cn-p-0015/a137e90ae4914f25ad184950f677afe3_1587805753.jpeg?from=2563711402_large"
+                    ]
+                },
+                "has_watermark": true,
+                "play_addr_lowbr": {
+                    "uri": "v0200f930000bqhvscdqg5be746gp21g",
+                    "url_list": [
+                        "https://aweme.snssdk.com/aweme/v1/play/?video_id=v0200f930000bqhvscdqg5be746gp21g&line=0&ratio=540p&media_type=4&vr_type=0&improve_bitrate=0&is_play_url=1&is_support_h265=0&source=PackSourceEnum_PUBLISH",
+                        "https://api.amemv.com/aweme/v1/play/?video_id=v0200f930000bqhvscdqg5be746gp21g&line=1&ratio=540p&media_type=4&vr_type=0&improve_bitrate=0&is_play_url=1&is_support_h265=0&source=PackSourceEnum_PUBLISH"
+                    ]
+                },
+                "bit_rate": null,
+                "cover": {
+                    "uri": "tos-cn-p-0015/ba1e62db02024b9cbf67e924f8d28d45",
+                    "url_list": [
+                        "https://p3-dy.byteimg.com/img/tos-cn-p-0015/ba1e62db02024b9cbf67e924f8d28d45~c5_300x400.jpeg?from=2563711402_large",
+                        "https://p1-dy.byteimg.com/img/tos-cn-p-0015/ba1e62db02024b9cbf67e924f8d28d45~c5_300x400.jpeg?from=2563711402_large",
+                        "https://p9-dy.byteimg.com/img/tos-cn-p-0015/ba1e62db02024b9cbf67e924f8d28d45~c5_300x400.jpeg?from=2563711402_large"
+                    ]
+                },
+                "height": 1280,
+                "width": 720,
+                "dynamic_cover": {
+                    "uri": "tos-cn-p-0015/cfd26f5110844c1ba3bb5322cf05ffbe_1587805754",
+                    "url_list": [
+                        "https://p3-dy.byteimg.com/obj/tos-cn-p-0015/cfd26f5110844c1ba3bb5322cf05ffbe_1587805754?from=2563711402_large",
+                        "https://p29-dy.byteimg.com/obj/tos-cn-p-0015/cfd26f5110844c1ba3bb5322cf05ffbe_1587805754?from=2563711402_large",
+                        "https://p9-dy.byteimg.com/obj/tos-cn-p-0015/cfd26f5110844c1ba3bb5322cf05ffbe_1587805754?from=2563711402_large"
+                    ]
+                },
+                "duration": 22662
+            },
+            "image_infos": null,
+            "comment_list": null
+        },
+        {
+            "desc": "我家狗子有点酷😎#搜救犬 #一直dou在你身边（供稿：特勤大队）",
+            "text_extra": [
+                {
+                    "start": 9,
+                    "end": 13,
+                    "type": 1,
+                    "hashtag_name": "搜救犬",
+                    "hashtag_id": 1580294073823245
+                },
+                {
+                    "start": 14,
+                    "end": 24,
+                    "type": 1,
+                    "hashtag_name": "一直dou在你身边",
+                    "hashtag_id": 1664654479601671
+                }
+            ],
+            "uniqid_position": null,
+            "geofencing": null,
+            "long_video": null,
+            "video_labels": null,
+            "aweme_type": 4,
+            "image_infos": null,
+            "comment_list": null,
+            "label_top_text": null,
+            "promotions": null,
+            "aweme_id": "6819100933612408078",
+            "author": {
+                "aweme_count": 0,
+                "enterprise_verify_reason": "成都市消防救援支队官方抖音号",
+                "is_ad_fake": false,
+                "avatar_larger": {
+                    "uri": "2fa5800085e1f220ce74e",
+                    "url_list": [
+                        "https://p9-dy-ipv6.byteimg.com/aweme/1080x1080/2fa5800085e1f220ce74e.jpeg",
+                        "https://p29-dy.byteimg.com/aweme/1080x1080/2fa5800085e1f220ce74e.jpeg",
+                        "https://p3-dy.byteimg.com/aweme/1080x1080/2fa5800085e1f220ce74e.jpeg"
+                    ]
+                },
+                "nickname": "成都消防",
+                "avatar_thumb": {
+                    "uri": "2fa5800085e1f220ce74e",
+                    "url_list": [
+                        "https://p9-dy-ipv6.byteimg.com/aweme/100x100/2fa5800085e1f220ce74e.jpeg",
+                        "https://p29-dy.byteimg.com/aweme/100x100/2fa5800085e1f220ce74e.jpeg",
+                        "https://p3-dy.byteimg.com/aweme/100x100/2fa5800085e1f220ce74e.jpeg"
+                    ]
+                },
+                "unique_id": "CDXFJY119",
+                "platform_sync_info": null,
+                "secret": 0,
+                "sec_uid": "MS4wLjABAAAAaJO9L9M0scJ_njvXncvoFQj3ilCKW1qQkNGyDc2_5CQ",
+                "uid": "110812020268",
+                "story_open": false,
+                "region": "CN",
+                "with_fusion_shop_entry": false,
+                "is_enterprise_vip": false,
+                "total_favorited": "0",
+                "following_count": 0,
+                "followers_detail": null,
+                "geofencing": null,
+                "user_canceled": false,
+                "policy_version": null,
+                "signature": "我就是充满正义、竭诚为民的“蓝朋友”\n投稿Vx：CDXFJY119（注明来意）",
+                "favoriting_count": 0,
+                "follower_count": 0,
+                "has_orders": false,
+                "video_icon": {
+                    "uri": "",
+                    "url_list": []
+                },
+                "is_gov_media_vip": true,
+                "follow_status": 0,
+                "rate": 1,
+                "custom_verify": "",
+                "avatar_medium": {
+                    "uri": "2fa5800085e1f220ce74e",
+                    "url_list": [
+                        "https://p9-dy-ipv6.byteimg.com/aweme/720x720/2fa5800085e1f220ce74e.jpeg",
+                        "https://p29-dy.byteimg.com/aweme/720x720/2fa5800085e1f220ce74e.jpeg",
+                        "https://p3-dy.byteimg.com/aweme/720x720/2fa5800085e1f220ce74e.jpeg"
+                    ]
+                },
+                "with_commerce_entry": false,
+                "with_shop_entry": false,
+                "short_id": "2212867571"
+            },
+            "video": {
+                "height": 1280,
+                "origin_cover": {
+                    "uri": "large/tos-cn-p-0015/531021e89a9c42ac998bde70ef20087b_1587695664",
+                    "url_list": [
+                        "http://p9-dy.byteimg.com/large/tos-cn-p-0015/531021e89a9c42ac998bde70ef20087b_1587695664.jpeg?from=2563711402_large",
+                        "http://p29-dy.byteimg.com/large/tos-cn-p-0015/531021e89a9c42ac998bde70ef20087b_1587695664.jpeg?from=2563711402_large",
+                        "http://p3-dy.byteimg.com/large/tos-cn-p-0015/531021e89a9c42ac998bde70ef20087b_1587695664.jpeg?from=2563711402_large"
+                    ]
+                },
+                "download_addr": {
+                    "uri": "v0200f030000bqh509ppskdtsq76nvu0",
+                    "url_list": [
+                        "https://aweme.snssdk.com/aweme/v1/play/?video_id=v0200f030000bqh509ppskdtsq76nvu0&line=0&ratio=540p&watermark=1&media_type=4&vr_type=0&improve_bitrate=0&logo_name=aweme_search_suffix&is_support_h265=0&source=PackSourceEnum_PUBLISH",
+                        "https://api.amemv.com/aweme/v1/play/?video_id=v0200f030000bqh509ppskdtsq76nvu0&line=1&ratio=540p&watermark=1&media_type=4&vr_type=0&improve_bitrate=0&logo_name=aweme_search_suffix&is_support_h265=0&source=PackSourceEnum_PUBLISH"
+                    ]
+                },
+                "cover": {
+                    "uri": "tos-cn-p-0015/7b0d16e39a5b446d84b86474a84609cc",
+                    "url_list": [
+                        "https://p3-dy.byteimg.com/img/tos-cn-p-0015/7b0d16e39a5b446d84b86474a84609cc~c5_300x400.jpeg?from=2563711402_large",
+                        "https://p29-dy.byteimg.com/img/tos-cn-p-0015/7b0d16e39a5b446d84b86474a84609cc~c5_300x400.jpeg?from=2563711402_large",
+                        "https://p9-dy.byteimg.com/img/tos-cn-p-0015/7b0d16e39a5b446d84b86474a84609cc~c5_300x400.jpeg?from=2563711402_large"
+                    ]
+                },
+                "width": 720,
+                "dynamic_cover": {
+                    "uri": "tos-cn-p-0015/e8eb27493fcb44929cec4752a6b00927_1587695664",
+                    "url_list": [
+                        "https://p9-dy.byteimg.com/obj/tos-cn-p-0015/e8eb27493fcb44929cec4752a6b00927_1587695664?from=2563711402_large",
+                        "https://p29-dy.byteimg.com/obj/tos-cn-p-0015/e8eb27493fcb44929cec4752a6b00927_1587695664?from=2563711402_large",
+                        "https://p26-dy.byteimg.com/obj/tos-cn-p-0015/e8eb27493fcb44929cec4752a6b00927_1587695664?from=2563711402_large"
+                    ]
+                },
+                "ratio": "540p",
+                "has_watermark": true,
+                "play_addr_lowbr": {
+                    "uri": "v0200f030000bqh509ppskdtsq76nvu0",
+                    "url_list": [
+                        "https://aweme.snssdk.com/aweme/v1/play/?video_id=v0200f030000bqh509ppskdtsq76nvu0&line=0&ratio=540p&media_type=4&vr_type=0&improve_bitrate=0&is_play_url=1&is_support_h265=0&source=PackSourceEnum_PUBLISH",
+                        "https://api.amemv.com/aweme/v1/play/?video_id=v0200f030000bqh509ppskdtsq76nvu0&line=1&ratio=540p&media_type=4&vr_type=0&improve_bitrate=0&is_play_url=1&is_support_h265=0&source=PackSourceEnum_PUBLISH"
+                    ]
+                },
+                "bit_rate": null,
+                "duration": 14860,
+                "play_addr": {
+                    "uri": "v0200f030000bqh509ppskdtsq76nvu0",
+                    "url_list": [
+                        "https://aweme.snssdk.com/aweme/v1/play/?video_id=v0200f030000bqh509ppskdtsq76nvu0&line=0&ratio=540p&media_type=4&vr_type=0&improve_bitrate=0&is_play_url=1&is_support_h265=0&source=PackSourceEnum_PUBLISH",
+                        "https://api.amemv.com/aweme/v1/play/?video_id=v0200f030000bqh509ppskdtsq76nvu0&line=1&ratio=540p&media_type=4&vr_type=0&improve_bitrate=0&is_play_url=1&is_support_h265=0&source=PackSourceEnum_PUBLISH"
+                    ]
+                },
+                "vid": "v0200f030000bqh509ppskdtsq76nvu0"
+            },
+            "statistics": {
+                "comment_count": 383,
+                "digg_count": 6294,
+                "play_count": 0,
+                "share_count": 79,
+                "forward_count": 3,
+                "aweme_id": "6819100933612408078"
+            },
+            "position": null,
+            "video_text": null,
+            "cha_list": null
+        },
+        {
+            "desc": "也曾有过迷茫，直到找到答案，坚定的走下去。（供稿：武侯大队）",
+            "video_labels": null,
+            "position": null,
+            "uniqid_position": null,
+            "video_text": null,
+            "label_top_text": null,
+            "long_video": null,
+            "cha_list": null,
+            "aweme_type": 4,
+            "promotions": null,
+            "aweme_id": "6818824881665248526",
+            "statistics": {
+                "play_count": 0,
+                "share_count": 141,
+                "forward_count": 10,
+                "aweme_id": "6818824881665248526",
+                "comment_count": 517,
+                "digg_count": 28000
+            },
+            "text_extra": [],
+            "author": {
+                "uid": "110812020268",
+                "following_count": 0,
+                "region": "CN",
+                "with_shop_entry": false,
+                "avatar_thumb": {
+                    "uri": "2fa5800085e1f220ce74e",
+                    "url_list": [
+                        "https://p9-dy-ipv6.byteimg.com/aweme/100x100/2fa5800085e1f220ce74e.jpeg",
+                        "https://p29-dy.byteimg.com/aweme/100x100/2fa5800085e1f220ce74e.jpeg",
+                        "https://p3-dy.byteimg.com/aweme/100x100/2fa5800085e1f220ce74e.jpeg"
+                    ]
+                },
+                "avatar_medium": {
+                    "uri": "2fa5800085e1f220ce74e",
+                    "url_list": [
+                        "https://p9-dy-ipv6.byteimg.com/aweme/720x720/2fa5800085e1f220ce74e.jpeg",
+                        "https://p29-dy.byteimg.com/aweme/720x720/2fa5800085e1f220ce74e.jpeg",
+                        "https://p3-dy.byteimg.com/aweme/720x720/2fa5800085e1f220ce74e.jpeg"
+                    ]
+                },
+                "rate": 1,
+                "sec_uid": "MS4wLjABAAAAaJO9L9M0scJ_njvXncvoFQj3ilCKW1qQkNGyDc2_5CQ",
+                "is_enterprise_vip": false,
+                "nickname": "成都消防",
+                "aweme_count": 0,
+                "total_favorited": "0",
+                "custom_verify": "",
+                "user_canceled": false,
+                "is_gov_media_vip": true,
+                "follower_count": 0,
+                "with_commerce_entry": false,
+                "platform_sync_info": null,
+                "geofencing": null,
+                "video_icon": {
+                    "uri": "",
+                    "url_list": []
+                },
+                "short_id": "2212867571",
+                "unique_id": "CDXFJY119",
+                "enterprise_verify_reason": "成都市消防救援支队官方抖音号",
+                "with_fusion_shop_entry": false,
+                "policy_version": null,
+                "avatar_larger": {
+                    "uri": "2fa5800085e1f220ce74e",
+                    "url_list": [
+                        "https://p9-dy-ipv6.byteimg.com/aweme/1080x1080/2fa5800085e1f220ce74e.jpeg",
+                        "https://p29-dy.byteimg.com/aweme/1080x1080/2fa5800085e1f220ce74e.jpeg",
+                        "https://p3-dy.byteimg.com/aweme/1080x1080/2fa5800085e1f220ce74e.jpeg"
+                    ]
+                },
+                "favoriting_count": 0,
+                "story_open": false,
+                "is_ad_fake": false,
+                "followers_detail": null,
+                "secret": 0,
+                "signature": "我就是充满正义、竭诚为民的“蓝朋友”\n投稿Vx：CDXFJY119（注明来意）",
+                "follow_status": 0,
+                "has_orders": false
+            },
+            "video": {
+                "dynamic_cover": {
+                    "uri": "tos-cn-p-0015/1c63c0e027fa4d15bffd6eeaf7f71f96_1587631391",
+                    "url_list": [
+                        "https://p9-dy-ipv6.byteimg.com/obj/tos-cn-p-0015/1c63c0e027fa4d15bffd6eeaf7f71f96_1587631391?from=2563711402_large",
+                        "https://p26-dy.byteimg.com/obj/tos-cn-p-0015/1c63c0e027fa4d15bffd6eeaf7f71f96_1587631391?from=2563711402_large",
+                        "https://p29-dy.byteimg.com/obj/tos-cn-p-0015/1c63c0e027fa4d15bffd6eeaf7f71f96_1587631391?from=2563711402_large"
+                    ]
+                },
+                "download_addr": {
+                    "uri": "v0200fd30000bqgl9vc9hq5o8bh0jlf0",
+                    "url_list": [
+                        "https://aweme.snssdk.com/aweme/v1/play/?video_id=v0200fd30000bqgl9vc9hq5o8bh0jlf0&line=0&ratio=540p&watermark=1&media_type=4&vr_type=0&improve_bitrate=0&logo_name=aweme_search_suffix&is_support_h265=0&source=PackSourceEnum_PUBLISH",
+                        "https://api.amemv.com/aweme/v1/play/?video_id=v0200fd30000bqgl9vc9hq5o8bh0jlf0&line=1&ratio=540p&watermark=1&media_type=4&vr_type=0&improve_bitrate=0&logo_name=aweme_search_suffix&is_support_h265=0&source=PackSourceEnum_PUBLISH"
+                    ]
+                },
+                "has_watermark": true,
+                "play_addr_lowbr": {
+                    "uri": "v0200fd30000bqgl9vc9hq5o8bh0jlf0",
+                    "url_list": [
+                        "https://aweme.snssdk.com/aweme/v1/play/?video_id=v0200fd30000bqgl9vc9hq5o8bh0jlf0&line=0&ratio=540p&media_type=4&vr_type=0&improve_bitrate=0&is_play_url=1&is_support_h265=0&source=PackSourceEnum_PUBLISH",
+                        "https://api.amemv.com/aweme/v1/play/?video_id=v0200fd30000bqgl9vc9hq5o8bh0jlf0&line=1&ratio=540p&media_type=4&vr_type=0&improve_bitrate=0&is_play_url=1&is_support_h265=0&source=PackSourceEnum_PUBLISH"
+                    ]
+                },
+                "bit_rate": null,
+                "duration": 42236,
+                "play_addr": {
+                    "url_list": [
+                        "https://aweme.snssdk.com/aweme/v1/play/?video_id=v0200fd30000bqgl9vc9hq5o8bh0jlf0&line=0&ratio=540p&media_type=4&vr_type=0&improve_bitrate=0&is_play_url=1&is_support_h265=0&source=PackSourceEnum_PUBLISH",
+                        "https://api.amemv.com/aweme/v1/play/?video_id=v0200fd30000bqgl9vc9hq5o8bh0jlf0&line=1&ratio=540p&media_type=4&vr_type=0&improve_bitrate=0&is_play_url=1&is_support_h265=0&source=PackSourceEnum_PUBLISH"
+                    ],
+                    "uri": "v0200fd30000bqgl9vc9hq5o8bh0jlf0"
+                },
+                "height": 1280,
+                "width": 720,
+                "origin_cover": {
+                    "uri": "large/tos-cn-p-0015/40184e186ec54cb99f1be97bdf9b16a8_1587631390",
+                    "url_list": [
+                        "http://p3-dy.byteimg.com/large/tos-cn-p-0015/40184e186ec54cb99f1be97bdf9b16a8_1587631390.jpeg?from=2563711402_large",
+                        "http://p29-dy.byteimg.com/large/tos-cn-p-0015/40184e186ec54cb99f1be97bdf9b16a8_1587631390.jpeg?from=2563711402_large",
+                        "http://p9-dy.byteimg.com/large/tos-cn-p-0015/40184e186ec54cb99f1be97bdf9b16a8_1587631390.jpeg?from=2563711402_large"
+                    ]
+                },
+                "ratio": "540p",
+                "vid": "v0200fd30000bqgl9vc9hq5o8bh0jlf0",
+                "cover": {
+                    "uri": "tos-cn-p-0015/2c793ecd7e2142bd9c6f7c182f925d07",
+                    "url_list": [
+                        "https://p9-dy-ipv6.byteimg.com/img/tos-cn-p-0015/2c793ecd7e2142bd9c6f7c182f925d07~c5_300x400.jpeg?from=2563711402_large",
+                        "https://p29-dy.byteimg.com/img/tos-cn-p-0015/2c793ecd7e2142bd9c6f7c182f925d07~c5_300x400.jpeg?from=2563711402_large",
+                        "https://p3-dy.byteimg.com/img/tos-cn-p-0015/2c793ecd7e2142bd9c6f7c182f925d07~c5_300x400.jpeg?from=2563711402_large"
+                    ]
+                }
+            },
+            "image_infos": null,
+            "comment_list": null,
+            "geofencing": null
+        },
+        {
+            "desc": "只争朝夕 不负韶华 #往事如烟",
+            "cha_list": null,
+            "image_infos": null,
+            "position": null,
+            "video_text": null,
+            "aweme_type": 4,
+            "aweme_id": "6818330432887721229",
+            "text_extra": [
+                {
+                    "type": 1,
+                    "hashtag_name": "往事如烟",
+                    "hashtag_id": 1579770122179598,
+                    "start": 10,
+                    "end": 15
+                }
+            ],
+            "video_labels": null,
+            "long_video": null,
+            "geofencing": null,
+            "label_top_text": null,
+            "promotions": null,
+            "author": {
+                "policy_version": null,
+                "short_id": "2212867571",
+                "following_count": 0,
+                "total_favorited": "0",
+                "custom_verify": "",
+                "geofencing": null,
+                "rate": 1,
+                "has_orders": false,
+                "avatar_larger": {
+                    "uri": "2fa5800085e1f220ce74e",
+                    "url_list": [
+                        "https://p9-dy-ipv6.byteimg.com/aweme/1080x1080/2fa5800085e1f220ce74e.jpeg",
+                        "https://p29-dy.byteimg.com/aweme/1080x1080/2fa5800085e1f220ce74e.jpeg",
+                        "https://p3-dy.byteimg.com/aweme/1080x1080/2fa5800085e1f220ce74e.jpeg"
+                    ]
+                },
+                "region": "CN",
+                "secret": 0,
+                "with_commerce_entry": false,
+                "follow_status": 0,
+                "aweme_count": 0,
+                "favoriting_count": 0,
+                "uid": "110812020268",
+                "signature": "我就是充满正义、竭诚为民的“蓝朋友”\n投稿Vx：CDXFJY119（注明来意）",
+                "is_ad_fake": false,
+                "story_open": false,
+                "enterprise_verify_reason": "成都市消防救援支队官方抖音号",
+                "followers_detail": null,
+                "video_icon": {
+                    "uri": "",
+                    "url_list": []
+                },
+                "user_canceled": false,
+                "nickname": "成都消防",
+                "avatar_thumb": {
+                    "uri": "2fa5800085e1f220ce74e",
+                    "url_list": [
+                        "https://p9-dy-ipv6.byteimg.com/aweme/100x100/2fa5800085e1f220ce74e.jpeg",
+                        "https://p29-dy.byteimg.com/aweme/100x100/2fa5800085e1f220ce74e.jpeg",
+                        "https://p3-dy.byteimg.com/aweme/100x100/2fa5800085e1f220ce74e.jpeg"
+                    ]
+                },
+                "avatar_medium": {
+                    "uri": "2fa5800085e1f220ce74e",
+                    "url_list": [
+                        "https://p9-dy-ipv6.byteimg.com/aweme/720x720/2fa5800085e1f220ce74e.jpeg",
+                        "https://p29-dy.byteimg.com/aweme/720x720/2fa5800085e1f220ce74e.jpeg",
+                        "https://p3-dy.byteimg.com/aweme/720x720/2fa5800085e1f220ce74e.jpeg"
+                    ]
+                },
+                "follower_count": 0,
+                "unique_id": "CDXFJY119",
+                "sec_uid": "MS4wLjABAAAAaJO9L9M0scJ_njvXncvoFQj3ilCKW1qQkNGyDc2_5CQ",
+                "is_gov_media_vip": true,
+                "is_enterprise_vip": false,
+                "platform_sync_info": null,
+                "with_shop_entry": false,
+                "with_fusion_shop_entry": false
+            },
+            "video": {
+                "bit_rate": null,
+                "duration": 14651,
+                "vid": "v0200f1b0000bqfol67u9qbe1oe2kfl0",
+                "dynamic_cover": {
+                    "uri": "tos-cn-p-0015/fe0b568b3cc3410eba6785f39b3fa68c_1587516270",
+                    "url_list": [
+                        "https://p9-dy-ipv6.byteimg.com/obj/tos-cn-p-0015/fe0b568b3cc3410eba6785f39b3fa68c_1587516270?from=2563711402_large",
+                        "https://p29-dy.byteimg.com/obj/tos-cn-p-0015/fe0b568b3cc3410eba6785f39b3fa68c_1587516270?from=2563711402_large",
+                        "https://p3-dy.byteimg.com/obj/tos-cn-p-0015/fe0b568b3cc3410eba6785f39b3fa68c_1587516270?from=2563711402_large"
+                    ]
+                },
+                "download_addr": {
+                    "uri": "v0200f1b0000bqfol67u9qbe1oe2kfl0",
+                    "url_list": [
+                        "https://aweme.snssdk.com/aweme/v1/play/?video_id=v0200f1b0000bqfol67u9qbe1oe2kfl0&line=0&ratio=540p&watermark=1&media_type=4&vr_type=0&improve_bitrate=0&logo_name=aweme_search_suffix&is_support_h265=0&source=PackSourceEnum_PUBLISH",
+                        "https://api.amemv.com/aweme/v1/play/?video_id=v0200f1b0000bqfol67u9qbe1oe2kfl0&line=1&ratio=540p&watermark=1&media_type=4&vr_type=0&improve_bitrate=0&logo_name=aweme_search_suffix&is_support_h265=0&source=PackSourceEnum_PUBLISH"
+                    ]
+                },
+                "play_addr_lowbr": {
+                    "uri": "v0200f1b0000bqfol67u9qbe1oe2kfl0",
+                    "url_list": [
+                        "https://aweme.snssdk.com/aweme/v1/play/?video_id=v0200f1b0000bqfol67u9qbe1oe2kfl0&line=0&ratio=540p&media_type=4&vr_type=0&improve_bitrate=0&is_play_url=1&is_support_h265=0&source=PackSourceEnum_PUBLISH",
+                        "https://api.amemv.com/aweme/v1/play/?video_id=v0200f1b0000bqfol67u9qbe1oe2kfl0&line=1&ratio=540p&media_type=4&vr_type=0&improve_bitrate=0&is_play_url=1&is_support_h265=0&source=PackSourceEnum_PUBLISH"
+                    ]
+                },
+                "width": 720,
+                "origin_cover": {
+                    "uri": "large/tos-cn-p-0015/cd058c35d2834b43b0e1a390d4209102_1587516270",
+                    "url_list": [
+                        "http://p9-dy.byteimg.com/large/tos-cn-p-0015/cd058c35d2834b43b0e1a390d4209102_1587516270.jpeg?from=2563711402_large",
+                        "http://p29-dy.byteimg.com/large/tos-cn-p-0015/cd058c35d2834b43b0e1a390d4209102_1587516270.jpeg?from=2563711402_large",
+                        "http://p3-dy.byteimg.com/large/tos-cn-p-0015/cd058c35d2834b43b0e1a390d4209102_1587516270.jpeg?from=2563711402_large"
+                    ]
+                },
+                "ratio": "540p",
+                "has_watermark": true,
+                "play_addr": {
+                    "uri": "v0200f1b0000bqfol67u9qbe1oe2kfl0",
+                    "url_list": [
+                        "https://aweme.snssdk.com/aweme/v1/play/?video_id=v0200f1b0000bqfol67u9qbe1oe2kfl0&line=0&ratio=540p&media_type=4&vr_type=0&improve_bitrate=0&is_play_url=1&is_support_h265=0&source=PackSourceEnum_PUBLISH",
+                        "https://api.amemv.com/aweme/v1/play/?video_id=v0200f1b0000bqfol67u9qbe1oe2kfl0&line=1&ratio=540p&media_type=4&vr_type=0&improve_bitrate=0&is_play_url=1&is_support_h265=0&source=PackSourceEnum_PUBLISH"
+                    ]
+                },
+                "cover": {
+                    "uri": "tos-cn-p-0015/f687483396ec4da0b7a11d8021065ff7",
+                    "url_list": [
+                        "https://p9-dy.byteimg.com/img/tos-cn-p-0015/f687483396ec4da0b7a11d8021065ff7~c5_300x400.jpeg?from=2563711402_large",
+                        "https://p1-dy.byteimg.com/img/tos-cn-p-0015/f687483396ec4da0b7a11d8021065ff7~c5_300x400.jpeg?from=2563711402_large",
+                        "https://p3-dy.byteimg.com/img/tos-cn-p-0015/f687483396ec4da0b7a11d8021065ff7~c5_300x400.jpeg?from=2563711402_large"
+                    ]
+                },
+                "height": 1280
+            },
+            "statistics": {
+                "digg_count": 43000,
+                "play_count": 0,
+                "share_count": 145,
+                "forward_count": 10,
+                "aweme_id": "6818330432887721229",
+                "comment_count": 215
+            },
+            "uniqid_position": null,
+            "comment_list": null
+        },
+        {
+            "position": null,
+            "comment_list": null,
+            "video_text": null,
+            "label_top_text": null,
+            "cha_list": null,
+            "video": {
+                "dynamic_cover": {
+                    "uri": "tos-cn-p-0015/3b54aa91d98045518d7a4ea640b62b44_1587470425",
+                    "url_list": [
+                        "https://p3-dy.byteimg.com/obj/tos-cn-p-0015/3b54aa91d98045518d7a4ea640b62b44_1587470425?from=2563711402_large",
+                        "https://p29-dy.byteimg.com/obj/tos-cn-p-0015/3b54aa91d98045518d7a4ea640b62b44_1587470425?from=2563711402_large",
+                        "https://p26-dy.byteimg.com/obj/tos-cn-p-0015/3b54aa91d98045518d7a4ea640b62b44_1587470425?from=2563711402_large"
+                    ]
+                },
+                "origin_cover": {
+                    "url_list": [
+                        "http://p3-dy.byteimg.com/large/tos-cn-p-0015/2e05f117e7024bb1bda9bc66e2eebd78_1587470425.jpeg?from=2563711402_large",
+                        "http://p29-dy.byteimg.com/large/tos-cn-p-0015/2e05f117e7024bb1bda9bc66e2eebd78_1587470425.jpeg?from=2563711402_large",
+                        "http://p9-dy.byteimg.com/large/tos-cn-p-0015/2e05f117e7024bb1bda9bc66e2eebd78_1587470425.jpeg?from=2563711402_large"
+                    ],
+                    "uri": "large/tos-cn-p-0015/2e05f117e7024bb1bda9bc66e2eebd78_1587470425"
+                },
+                "download_addr": {
+                    "url_list": [
+                        "https://aweme.snssdk.com/aweme/v1/play/?video_id=v0200f6b0000bqfe0f82saj84lge3vc0&line=0&ratio=540p&watermark=1&media_type=4&vr_type=0&improve_bitrate=0&logo_name=aweme_search_suffix&is_support_h265=0&source=PackSourceEnum_PUBLISH",
+                        "https://api.amemv.com/aweme/v1/play/?video_id=v0200f6b0000bqfe0f82saj84lge3vc0&line=1&ratio=540p&watermark=1&media_type=4&vr_type=0&improve_bitrate=0&logo_name=aweme_search_suffix&is_support_h265=0&source=PackSourceEnum_PUBLISH"
+                    ],
+                    "uri": "v0200f6b0000bqfe0f82saj84lge3vc0"
+                },
+                "has_watermark": true,
+                "play_addr_lowbr": {
+                    "uri": "v0200f6b0000bqfe0f82saj84lge3vc0",
+                    "url_list": [
+                        "https://aweme.snssdk.com/aweme/v1/play/?video_id=v0200f6b0000bqfe0f82saj84lge3vc0&line=0&ratio=540p&media_type=4&vr_type=0&improve_bitrate=0&is_play_url=1&is_support_h265=0&source=PackSourceEnum_PUBLISH",
+                        "https://api.amemv.com/aweme/v1/play/?video_id=v0200f6b0000bqfe0f82saj84lge3vc0&line=1&ratio=540p&media_type=4&vr_type=0&improve_bitrate=0&is_play_url=1&is_support_h265=0&source=PackSourceEnum_PUBLISH"
+                    ]
+                },
+                "bit_rate": null,
+                "vid": "v0200f6b0000bqfe0f82saj84lge3vc0",
+                "height": 1274,
+                "cover": {
+                    "uri": "tos-cn-p-0015/3e39c362647f46c7aa8b9181558d6b6b",
+                    "url_list": [
+                        "https://p9-dy.byteimg.com/img/tos-cn-p-0015/3e39c362647f46c7aa8b9181558d6b6b~c5_300x400.jpeg?from=2563711402_large",
+                        "https://p29-dy.byteimg.com/img/tos-cn-p-0015/3e39c362647f46c7aa8b9181558d6b6b~c5_300x400.jpeg?from=2563711402_large",
+                        "https://p3-dy.byteimg.com/img/tos-cn-p-0015/3e39c362647f46c7aa8b9181558d6b6b~c5_300x400.jpeg?from=2563711402_large"
+                    ]
+                },
+                "width": 720,
+                "ratio": "540p",
+                "duration": 45023,
+                "play_addr": {
+                    "uri": "v0200f6b0000bqfe0f82saj84lge3vc0",
+                    "url_list": [
+                        "https://aweme.snssdk.com/aweme/v1/play/?video_id=v0200f6b0000bqfe0f82saj84lge3vc0&line=0&ratio=540p&media_type=4&vr_type=0&improve_bitrate=0&is_play_url=1&is_support_h265=0&source=PackSourceEnum_PUBLISH",
+                        "https://api.amemv.com/aweme/v1/play/?video_id=v0200f6b0000bqfe0f82saj84lge3vc0&line=1&ratio=540p&media_type=4&vr_type=0&improve_bitrate=0&is_play_url=1&is_support_h265=0&source=PackSourceEnum_PUBLISH"
+                    ]
+                }
+            },
+            "aweme_type": 4,
+            "aweme_id": "6818133543311478030",
+            "image_infos": null,
+            "video_labels": null,
+            "uniqid_position": null,
+            "desc": "路轨两用消防车，了解一下😎（供稿：轨道交通消防救援大队）",
+            "statistics": {
+                "digg_count": 25000,
+                "play_count": 0,
+                "share_count": 393,
+                "forward_count": 17,
+                "aweme_id": "6818133543311478030",
+                "comment_count": 160
+            },
+            "text_extra": [],
+            "long_video": null,
+            "author": {
+                "avatar_thumb": {
+                    "uri": "2fa5800085e1f220ce74e",
+                    "url_list": [
+                        "https://p9-dy-ipv6.byteimg.com/aweme/100x100/2fa5800085e1f220ce74e.jpeg",
+                        "https://p29-dy.byteimg.com/aweme/100x100/2fa5800085e1f220ce74e.jpeg",
+                        "https://p3-dy.byteimg.com/aweme/100x100/2fa5800085e1f220ce74e.jpeg"
+                    ]
+                },
+                "enterprise_verify_reason": "成都市消防救援支队官方抖音号",
+                "story_open": false,
+                "video_icon": {
+                    "url_list": [],
+                    "uri": ""
+                },
+                "policy_version": null,
+                "nickname": "成都消防",
+                "favoriting_count": 0,
+                "total_favorited": "0",
+                "with_commerce_entry": false,
+                "with_shop_entry": false,
+                "is_enterprise_vip": false,
+                "uid": "110812020268",
+                "follow_status": 0,
+                "unique_id": "CDXFJY119",
+                "platform_sync_info": null,
+                "user_canceled": false,
+                "short_id": "2212867571",
+                "custom_verify": "",
+                "is_ad_fake": false,
+                "has_orders": false,
+                "geofencing": null,
+                "follower_count": 0,
+                "region": "CN",
+                "secret": 0,
+                "is_gov_media_vip": true,
+                "avatar_larger": {
+                    "url_list": [
+                        "https://p9-dy-ipv6.byteimg.com/aweme/1080x1080/2fa5800085e1f220ce74e.jpeg",
+                        "https://p29-dy.byteimg.com/aweme/1080x1080/2fa5800085e1f220ce74e.jpeg",
+                        "https://p3-dy.byteimg.com/aweme/1080x1080/2fa5800085e1f220ce74e.jpeg"
+                    ],
+                    "uri": "2fa5800085e1f220ce74e"
+                },
+                "avatar_medium": {
+                    "uri": "2fa5800085e1f220ce74e",
+                    "url_list": [
+                        "https://p9-dy-ipv6.byteimg.com/aweme/720x720/2fa5800085e1f220ce74e.jpeg",
+                        "https://p29-dy.byteimg.com/aweme/720x720/2fa5800085e1f220ce74e.jpeg",
+                        "https://p3-dy.byteimg.com/aweme/720x720/2fa5800085e1f220ce74e.jpeg"
+                    ]
+                },
+                "following_count": 0,
+                "followers_detail": null,
+                "with_fusion_shop_entry": false,
+                "rate": 1,
+                "signature": "我就是充满正义、竭诚为民的“蓝朋友”\n投稿Vx：CDXFJY119（注明来意）",
+                "aweme_count": 0,
+                "sec_uid": "MS4wLjABAAAAaJO9L9M0scJ_njvXncvoFQj3ilCKW1qQkNGyDc2_5CQ"
+            },
+            "geofencing": null,
+            "promotions": null
+        },
+        {
+            "image_infos": null,
+            "comment_list": null,
+            "cha_list": null,
+            "video": {
+                "height": 1280,
+                "width": 720,
+                "origin_cover": {
+                    "uri": "large/tos-cn-p-0015/a0fe68ddd54947f3aa733474cda51526_1587385103",
+                    "url_list": [
+                        "http://p29-dy.byteimg.com/large/tos-cn-p-0015/a0fe68ddd54947f3aa733474cda51526_1587385103.jpeg?from=2563711402_large",
+                        "http://p26-dy.byteimg.com/large/tos-cn-p-0015/a0fe68ddd54947f3aa733474cda51526_1587385103.jpeg?from=2563711402_large",
+                        "http://p9-dy.byteimg.com/large/tos-cn-p-0015/a0fe68ddd54947f3aa733474cda51526_1587385103.jpeg?from=2563711402_large"
+                    ]
+                },
+                "ratio": "540p",
+                "play_addr_lowbr": {
+                    "uri": "v0200f6b0000bqep5sppjc2kj69n5do0",
+                    "url_list": [
+                        "https://aweme.snssdk.com/aweme/v1/play/?video_id=v0200f6b0000bqep5sppjc2kj69n5do0&line=0&ratio=540p&media_type=4&vr_type=0&improve_bitrate=0&is_play_url=1&is_support_h265=0&source=PackSourceEnum_PUBLISH",
+                        "https://api.amemv.com/aweme/v1/play/?video_id=v0200f6b0000bqep5sppjc2kj69n5do0&line=1&ratio=540p&media_type=4&vr_type=0&improve_bitrate=0&is_play_url=1&is_support_h265=0&source=PackSourceEnum_PUBLISH"
+                    ]
+                },
+                "bit_rate": null,
+                "duration": 30348,
+                "vid": "v0200f6b0000bqep5sppjc2kj69n5do0",
+                "play_addr": {
+                    "url_list": [
+                        "https://aweme.snssdk.com/aweme/v1/play/?video_id=v0200f6b0000bqep5sppjc2kj69n5do0&line=0&ratio=540p&media_type=4&vr_type=0&improve_bitrate=0&is_play_url=1&is_support_h265=0&source=PackSourceEnum_PUBLISH",
+                        "https://api.amemv.com/aweme/v1/play/?video_id=v0200f6b0000bqep5sppjc2kj69n5do0&line=1&ratio=540p&media_type=4&vr_type=0&improve_bitrate=0&is_play_url=1&is_support_h265=0&source=PackSourceEnum_PUBLISH"
+                    ],
+                    "uri": "v0200f6b0000bqep5sppjc2kj69n5do0"
+                },
+                "cover": {
+                    "uri": "tos-cn-p-0015/bb51cfa94f0b4df69c9e87ead20122ef",
+                    "url_list": [
+                        "https://p9-dy-ipv6.byteimg.com/img/tos-cn-p-0015/bb51cfa94f0b4df69c9e87ead20122ef~c5_300x400.jpeg?from=2563711402_large",
+                        "https://p26-dy.byteimg.com/img/tos-cn-p-0015/bb51cfa94f0b4df69c9e87ead20122ef~c5_300x400.jpeg?from=2563711402_large",
+                        "https://p29-dy.byteimg.com/img/tos-cn-p-0015/bb51cfa94f0b4df69c9e87ead20122ef~c5_300x400.jpeg?from=2563711402_large"
+                    ]
+                },
+                "dynamic_cover": {
+                    "uri": "tos-cn-p-0015/48cd766ee4964267bfb29eed35356957_1587385104",
+                    "url_list": [
+                        "https://p9-dy.byteimg.com/obj/tos-cn-p-0015/48cd766ee4964267bfb29eed35356957_1587385104?from=2563711402_large",
+                        "https://p29-dy.byteimg.com/obj/tos-cn-p-0015/48cd766ee4964267bfb29eed35356957_1587385104?from=2563711402_large",
+                        "https://p3-dy.byteimg.com/obj/tos-cn-p-0015/48cd766ee4964267bfb29eed35356957_1587385104?from=2563711402_large"
+                    ]
+                },
+                "download_addr": {
+                    "uri": "v0200f6b0000bqep5sppjc2kj69n5do0",
+                    "url_list": [
+                        "https://aweme.snssdk.com/aweme/v1/play/?video_id=v0200f6b0000bqep5sppjc2kj69n5do0&line=0&ratio=540p&watermark=1&media_type=4&vr_type=0&improve_bitrate=0&logo_name=aweme_search_suffix&is_support_h265=0&source=PackSourceEnum_PUBLISH",
+                        "https://api.amemv.com/aweme/v1/play/?video_id=v0200f6b0000bqep5sppjc2kj69n5do0&line=1&ratio=540p&watermark=1&media_type=4&vr_type=0&improve_bitrate=0&logo_name=aweme_search_suffix&is_support_h265=0&source=PackSourceEnum_PUBLISH"
+                    ]
+                },
+                "has_watermark": true
+            },
+            "statistics": {
+                "aweme_id": "6817767091031133447",
+                "comment_count": 132,
+                "digg_count": 45000,
+                "play_count": 0,
+                "share_count": 276,
+                "forward_count": 12
+            },
+            "text_extra": [],
+            "video_labels": null,
+            "aweme_type": 4,
+            "geofencing": null,
+            "video_text": null,
+            "aweme_id": "6817767091031133447",
+            "author": {
+                "geofencing": null,
+                "policy_version": null,
+                "avatar_thumb": {
+                    "uri": "2fa5800085e1f220ce74e",
+                    "url_list": [
+                        "https://p9-dy-ipv6.byteimg.com/aweme/100x100/2fa5800085e1f220ce74e.jpeg",
+                        "https://p29-dy.byteimg.com/aweme/100x100/2fa5800085e1f220ce74e.jpeg",
+                        "https://p3-dy.byteimg.com/aweme/100x100/2fa5800085e1f220ce74e.jpeg"
+                    ]
+                },
+                "total_favorited": "0",
+                "custom_verify": "",
+                "sec_uid": "MS4wLjABAAAAaJO9L9M0scJ_njvXncvoFQj3ilCKW1qQkNGyDc2_5CQ",
+                "follower_count": 0,
+                "secret": 0,
+                "user_canceled": false,
+                "rate": 1,
+                "signature": "我就是充满正义、竭诚为民的“蓝朋友”\n投稿Vx：CDXFJY119（注明来意）",
+                "following_count": 0,
+                "story_open": false,
+                "unique_id": "CDXFJY119",
+                "enterprise_verify_reason": "成都市消防救援支队官方抖音号",
+                "platform_sync_info": null,
+                "with_shop_entry": false,
+                "uid": "110812020268",
+                "nickname": "成都消防",
+                "favoriting_count": 0,
+                "with_commerce_entry": false,
+                "followers_detail": null,
+                "region": "CN",
+                "video_icon": {
+                    "uri": "",
+                    "url_list": []
+                },
+                "is_gov_media_vip": true,
+                "is_enterprise_vip": false,
+                "short_id": "2212867571",
+                "avatar_larger": {
+                    "uri": "2fa5800085e1f220ce74e",
+                    "url_list": [
+                        "https://p9-dy-ipv6.byteimg.com/aweme/1080x1080/2fa5800085e1f220ce74e.jpeg",
+                        "https://p29-dy.byteimg.com/aweme/1080x1080/2fa5800085e1f220ce74e.jpeg",
+                        "https://p3-dy.byteimg.com/aweme/1080x1080/2fa5800085e1f220ce74e.jpeg"
+                    ]
+                },
+                "follow_status": 0,
+                "with_fusion_shop_entry": false,
+                "avatar_medium": {
+                    "uri": "2fa5800085e1f220ce74e",
+                    "url_list": [
+                        "https://p9-dy-ipv6.byteimg.com/aweme/720x720/2fa5800085e1f220ce74e.jpeg",
+                        "https://p29-dy.byteimg.com/aweme/720x720/2fa5800085e1f220ce74e.jpeg",
+                        "https://p3-dy.byteimg.com/aweme/720x720/2fa5800085e1f220ce74e.jpeg"
+                    ]
+                },
+                "aweme_count": 0,
+                "is_ad_fake": false,
+                "has_orders": false
+            },
+            "position": null,
+            "promotions": null,
+            "long_video": null,
+            "desc": "你是什么段位？🤔（供稿：新都大队）",
+            "uniqid_position": null,
+            "label_top_text": null
+        },
+        {
+            "desc": "警铃一响，瞬间忘记疲惫！",
+            "statistics": {
+                "share_count": 1538,
+                "forward_count": 77,
+                "aweme_id": "6815785118876110087",
+                "comment_count": 143,
+                "digg_count": 132000,
+                "play_count": 0
+            },
+            "video_labels": null,
+            "image_infos": null,
+            "geofencing": null,
+            "video_text": null,
+            "aweme_id": "6815785118876110087",
+            "author": {
+                "followers_detail": null,
+                "region": "CN",
+                "following_count": 0,
+                "custom_verify": "",
+                "is_ad_fake": false,
+                "favoriting_count": 0,
+                "has_orders": false,
+                "video_icon": {
+                    "uri": "",
+                    "url_list": []
+                },
+                "avatar_medium": {
+                    "uri": "2fa5800085e1f220ce74e",
+                    "url_list": [
+                        "https://p9-dy-ipv6.byteimg.com/aweme/720x720/2fa5800085e1f220ce74e.jpeg",
+                        "https://p29-dy.byteimg.com/aweme/720x720/2fa5800085e1f220ce74e.jpeg",
+                        "https://p3-dy.byteimg.com/aweme/720x720/2fa5800085e1f220ce74e.jpeg"
+                    ]
+                },
+                "nickname": "成都消防",
+                "rate": 1,
+                "follow_status": 0,
+                "follower_count": 0,
+                "story_open": false,
+                "secret": 0,
+                "with_fusion_shop_entry": false,
+                "uid": "110812020268",
+                "short_id": "2212867571",
+                "avatar_larger": {
+                    "uri": "2fa5800085e1f220ce74e",
+                    "url_list": [
+                        "https://p9-dy-ipv6.byteimg.com/aweme/1080x1080/2fa5800085e1f220ce74e.jpeg",
+                        "https://p29-dy.byteimg.com/aweme/1080x1080/2fa5800085e1f220ce74e.jpeg",
+                        "https://p3-dy.byteimg.com/aweme/1080x1080/2fa5800085e1f220ce74e.jpeg"
+                    ]
+                },
+                "sec_uid": "MS4wLjABAAAAaJO9L9M0scJ_njvXncvoFQj3ilCKW1qQkNGyDc2_5CQ",
+                "with_shop_entry": false,
+                "is_gov_media_vip": true,
+                "policy_version": null,
+                "aweme_count": 0,
+                "unique_id": "CDXFJY119",
+                "platform_sync_info": null,
+                "geofencing": null,
+                "user_canceled": false,
+                "signature": "我就是充满正义、竭诚为民的“蓝朋友”\n投稿Vx：CDXFJY119（注明来意）",
+                "with_commerce_entry": false,
+                "enterprise_verify_reason": "成都市消防救援支队官方抖音号",
+                "avatar_thumb": {
+                    "uri": "2fa5800085e1f220ce74e",
+                    "url_list": [
+                        "https://p9-dy-ipv6.byteimg.com/aweme/100x100/2fa5800085e1f220ce74e.jpeg",
+                        "https://p29-dy.byteimg.com/aweme/100x100/2fa5800085e1f220ce74e.jpeg",
+                        "https://p3-dy.byteimg.com/aweme/100x100/2fa5800085e1f220ce74e.jpeg"
+                    ]
+                },
+                "total_favorited": "0",
+                "is_enterprise_vip": false
+            },
+            "text_extra": [],
+            "aweme_type": 4,
+            "position": null,
+            "uniqid_position": null,
+            "label_top_text": null,
+            "promotions": null,
+            "cha_list": null,
+            "video": {
+                "play_addr_lowbr": {
+                    "uri": "v0200fc40000bqb8gs2epr19761mpvg0",
+                    "url_list": [
+                        "https://aweme.snssdk.com/aweme/v1/play/?video_id=v0200fc40000bqb8gs2epr19761mpvg0&line=0&ratio=540p&media_type=4&vr_type=0&improve_bitrate=0&is_play_url=1&is_support_h265=0&source=PackSourceEnum_PUBLISH",
+                        "https://api.amemv.com/aweme/v1/play/?video_id=v0200fc40000bqb8gs2epr19761mpvg0&line=1&ratio=540p&media_type=4&vr_type=0&improve_bitrate=0&is_play_url=1&is_support_h265=0&source=PackSourceEnum_PUBLISH"
+                    ]
+                },
+                "play_addr": {
+                    "url_list": [
+                        "https://aweme.snssdk.com/aweme/v1/play/?video_id=v0200fc40000bqb8gs2epr19761mpvg0&line=0&ratio=540p&media_type=4&vr_type=0&improve_bitrate=0&is_play_url=1&is_support_h265=0&source=PackSourceEnum_PUBLISH",
+                        "https://api.amemv.com/aweme/v1/play/?video_id=v0200fc40000bqb8gs2epr19761mpvg0&line=1&ratio=540p&media_type=4&vr_type=0&improve_bitrate=0&is_play_url=1&is_support_h265=0&source=PackSourceEnum_PUBLISH"
+                    ],
+                    "uri": "v0200fc40000bqb8gs2epr19761mpvg0"
+                },
+                "cover": {
+                    "uri": "tos-cn-p-0015/85a676e518934f4598042599d7286642",
+                    "url_list": [
+                        "https://p9-dy.byteimg.com/img/tos-cn-p-0015/85a676e518934f4598042599d7286642~c5_300x400.jpeg?from=2563711402_large",
+                        "https://p29-dy.byteimg.com/img/tos-cn-p-0015/85a676e518934f4598042599d7286642~c5_300x400.jpeg?from=2563711402_large",
+                        "https://p3-dy.byteimg.com/img/tos-cn-p-0015/85a676e518934f4598042599d7286642~c5_300x400.jpeg?from=2563711402_large"
+                    ]
+                },
+                "height": 1280,
+                "dynamic_cover": {
+                    "uri": "tos-cn-p-0015/01cdd333ba8148f0a334a06d2178c1b1_1586923640",
+                    "url_list": [
+                        "https://p3-dy.byteimg.com/obj/tos-cn-p-0015/01cdd333ba8148f0a334a06d2178c1b1_1586923640?from=2563711402_large",
+                        "https://p9-dy.byteimg.com/obj/tos-cn-p-0015/01cdd333ba8148f0a334a06d2178c1b1_1586923640?from=2563711402_large",
+                        "https://p26-dy.byteimg.com/obj/tos-cn-p-0015/01cdd333ba8148f0a334a06d2178c1b1_1586923640?from=2563711402_large"
+                    ]
+                },
+                "origin_cover": {
+                    "uri": "large/tos-cn-p-0015/e3977352cfbc4887a43d59149103226e_1586923640",
+                    "url_list": [
+                        "http://p3-dy.byteimg.com/large/tos-cn-p-0015/e3977352cfbc4887a43d59149103226e_1586923640.jpeg?from=2563711402_large",
+                        "http://p29-dy.byteimg.com/large/tos-cn-p-0015/e3977352cfbc4887a43d59149103226e_1586923640.jpeg?from=2563711402_large",
+                        "http://p9-dy.byteimg.com/large/tos-cn-p-0015/e3977352cfbc4887a43d59149103226e_1586923640.jpeg?from=2563711402_large"
+                    ]
+                },
+                "ratio": "540p",
+                "width": 720,
+                "download_addr": {
+                    "url_list": [
+                        "https://aweme.snssdk.com/aweme/v1/play/?video_id=v0200fc40000bqb8gs2epr19761mpvg0&line=0&ratio=540p&watermark=1&media_type=4&vr_type=0&improve_bitrate=0&logo_name=aweme&is_support_h265=0&source=PackSourceEnum_PUBLISH",
+                        "https://api.amemv.com/aweme/v1/play/?video_id=v0200fc40000bqb8gs2epr19761mpvg0&line=1&ratio=540p&watermark=1&media_type=4&vr_type=0&improve_bitrate=0&logo_name=aweme&is_support_h265=0&source=PackSourceEnum_PUBLISH"
+                    ],
+                    "uri": "v0200fc40000bqb8gs2epr19761mpvg0"
+                },
+                "has_watermark": true,
+                "bit_rate": null,
+                "duration": 11586,
+                "vid": "v0200fc40000bqb8gs2epr19761mpvg0"
+            },
+            "comment_list": null,
+            "long_video": null
+        },
+        {
+            "video_text": null,
+            "promotions": null,
+            "long_video": null,
+            "statistics": {
+                "comment_count": 16000,
+                "digg_count": 255000,
+                "play_count": 0,
+                "share_count": 370,
+                "forward_count": 113,
+                "aweme_id": "6814811163772095752"
+            },
+            "text_extra": [],
+            "video_labels": null,
+            "aweme_type": 4,
+            "comment_list": null,
+            "uniqid_position": null,
+            "desc": "痛心！兄弟，一路走好🕯️🕯️🕯️",
+            "author": {
+                "follower_count": 0,
+                "total_favorited": "0",
+                "avatar_thumb": {
+                    "uri": "2fa5800085e1f220ce74e",
+                    "url_list": [
+                        "https://p9-dy-ipv6.byteimg.com/aweme/100x100/2fa5800085e1f220ce74e.jpeg",
+                        "https://p29-dy.byteimg.com/aweme/100x100/2fa5800085e1f220ce74e.jpeg",
+                        "https://p3-dy.byteimg.com/aweme/100x100/2fa5800085e1f220ce74e.jpeg"
+                    ]
+                },
+                "follow_status": 0,
+                "with_commerce_entry": false,
+                "platform_sync_info": null,
+                "policy_version": null,
+                "sec_uid": "MS4wLjABAAAAaJO9L9M0scJ_njvXncvoFQj3ilCKW1qQkNGyDc2_5CQ",
+                "avatar_larger": {
+                    "uri": "2fa5800085e1f220ce74e",
+                    "url_list": [
+                        "https://p9-dy-ipv6.byteimg.com/aweme/1080x1080/2fa5800085e1f220ce74e.jpeg",
+                        "https://p29-dy.byteimg.com/aweme/1080x1080/2fa5800085e1f220ce74e.jpeg",
+                        "https://p3-dy.byteimg.com/aweme/1080x1080/2fa5800085e1f220ce74e.jpeg"
+                    ]
+                },
+                "following_count": 0,
+                "with_fusion_shop_entry": false,
+                "aweme_count": 0,
+                "favoriting_count": 0,
+                "custom_verify": "",
+                "user_canceled": false,
+                "is_enterprise_vip": false,
+                "nickname": "成都消防",
+                "signature": "我就是充满正义、竭诚为民的“蓝朋友”\n投稿Vx：CDXFJY119（注明来意）",
+                "followers_detail": null,
+                "region": "CN",
+                "with_shop_entry": false,
+                "geofencing": null,
+                "uid": "110812020268",
+                "has_orders": false,
+                "story_open": false,
+                "secret": 0,
+                "video_icon": {
+                    "uri": "",
+                    "url_list": []
+                },
+                "is_gov_media_vip": true,
+                "short_id": "2212867571",
+                "avatar_medium": {
+                    "uri": "2fa5800085e1f220ce74e",
+                    "url_list": [
+                        "https://p9-dy-ipv6.byteimg.com/aweme/720x720/2fa5800085e1f220ce74e.jpeg",
+                        "https://p29-dy.byteimg.com/aweme/720x720/2fa5800085e1f220ce74e.jpeg",
+                        "https://p3-dy.byteimg.com/aweme/720x720/2fa5800085e1f220ce74e.jpeg"
+                    ]
+                },
+                "unique_id": "CDXFJY119",
+                "enterprise_verify_reason": "成都市消防救援支队官方抖音号",
+                "is_ad_fake": false,
+                "rate": 1
+            },
+            "video": {
+                "height": 1280,
+                "width": 720,
+                "dynamic_cover": {
+                    "uri": "tos-cn-p-0015/11348a7e112948d9b2e1cc70ec588374_1586696877",
+                    "url_list": [
+                        "https://p3-dy.byteimg.com/obj/tos-cn-p-0015/11348a7e112948d9b2e1cc70ec588374_1586696877?from=2563711402_large",
+                        "https://p29-dy.byteimg.com/obj/tos-cn-p-0015/11348a7e112948d9b2e1cc70ec588374_1586696877?from=2563711402_large",
+                        "https://p9-dy.byteimg.com/obj/tos-cn-p-0015/11348a7e112948d9b2e1cc70ec588374_1586696877?from=2563711402_large"
+                    ]
+                },
+                "ratio": "540p",
+                "play_addr_lowbr": {
+                    "uri": "v0200f480000bq9h582epr14dt1amj4g",
+                    "url_list": [
+                        "https://aweme.snssdk.com/aweme/v1/play/?video_id=v0200f480000bq9h582epr14dt1amj4g&line=0&ratio=540p&media_type=4&vr_type=0&improve_bitrate=0&is_play_url=1&is_support_h265=0&source=PackSourceEnum_PUBLISH",
+                        "https://api.amemv.com/aweme/v1/play/?video_id=v0200f480000bq9h582epr14dt1amj4g&line=1&ratio=540p&media_type=4&vr_type=0&improve_bitrate=0&is_play_url=1&is_support_h265=0&source=PackSourceEnum_PUBLISH"
+                    ]
+                },
+                "bit_rate": null,
+                "vid": "v0200f480000bq9h582epr14dt1amj4g",
+                "play_addr": {
+                    "uri": "v0200f480000bq9h582epr14dt1amj4g",
+                    "url_list": [
+                        "https://aweme.snssdk.com/aweme/v1/play/?video_id=v0200f480000bq9h582epr14dt1amj4g&line=0&ratio=540p&media_type=4&vr_type=0&improve_bitrate=0&is_play_url=1&is_support_h265=0&source=PackSourceEnum_PUBLISH",
+                        "https://api.amemv.com/aweme/v1/play/?video_id=v0200f480000bq9h582epr14dt1amj4g&line=1&ratio=540p&media_type=4&vr_type=0&improve_bitrate=0&is_play_url=1&is_support_h265=0&source=PackSourceEnum_PUBLISH"
+                    ]
+                },
+                "cover": {
+                    "uri": "tos-cn-p-0015/375c4d3c30fa4afb803ba23a5842557e",
+                    "url_list": [
+                        "https://p9-dy.byteimg.com/img/tos-cn-p-0015/375c4d3c30fa4afb803ba23a5842557e~c5_300x400.jpeg?from=2563711402_large",
+                        "https://p29-dy.byteimg.com/img/tos-cn-p-0015/375c4d3c30fa4afb803ba23a5842557e~c5_300x400.jpeg?from=2563711402_large",
+                        "https://p3-dy.byteimg.com/img/tos-cn-p-0015/375c4d3c30fa4afb803ba23a5842557e~c5_300x400.jpeg?from=2563711402_large"
+                    ]
+                },
+                "origin_cover": {
+                    "url_list": [
+                        "http://p9-dy-ipv6.byteimg.com/large/tos-cn-p-0015/8fc434b753a240db924a89cbcd95ccfe_1586696877.jpeg?from=2563711402_large",
+                        "http://p26-dy.byteimg.com/large/tos-cn-p-0015/8fc434b753a240db924a89cbcd95ccfe_1586696877.jpeg?from=2563711402_large",
+                        "http://p3-dy.byteimg.com/large/tos-cn-p-0015/8fc434b753a240db924a89cbcd95ccfe_1586696877.jpeg?from=2563711402_large"
+                    ],
+                    "uri": "large/tos-cn-p-0015/8fc434b753a240db924a89cbcd95ccfe_1586696877"
+                },
+                "download_addr": {
+                    "url_list": [
+                        "https://aweme.snssdk.com/aweme/v1/play/?video_id=v0200f480000bq9h582epr14dt1amj4g&line=0&ratio=540p&watermark=1&media_type=4&vr_type=0&improve_bitrate=0&logo_name=aweme&is_support_h265=0&source=PackSourceEnum_PUBLISH",
+                        "https://api.amemv.com/aweme/v1/play/?video_id=v0200f480000bq9h582epr14dt1amj4g&line=1&ratio=540p&watermark=1&media_type=4&vr_type=0&improve_bitrate=0&logo_name=aweme&is_support_h265=0&source=PackSourceEnum_PUBLISH"
+                    ],
+                    "uri": "v0200f480000bq9h582epr14dt1amj4g"
+                },
+                "has_watermark": true,
+                "duration": 10300
+            },
+            "label_top_text": null,
+            "aweme_id": "6814811163772095752",
+            "cha_list": null,
+            "image_infos": null,
+            "position": null,
+            "geofencing": null
+        },
+        {
+            "aweme_id": "6813675412804160772",
+            "desc": "“蓝朋友”的即兴说唱你get到了吗？",
+            "video": {
+                "play_addr_lowbr": {
+                    "uri": "v0200f910000bq7gdo1um7llj44vba40",
+                    "url_list": [
+                        "https://aweme.snssdk.com/aweme/v1/play/?video_id=v0200f910000bq7gdo1um7llj44vba40&line=0&ratio=540p&media_type=4&vr_type=0&improve_bitrate=0&is_play_url=1&is_support_h265=0&source=PackSourceEnum_PUBLISH",
+                        "https://api.amemv.com/aweme/v1/play/?video_id=v0200f910000bq7gdo1um7llj44vba40&line=1&ratio=540p&media_type=4&vr_type=0&improve_bitrate=0&is_play_url=1&is_support_h265=0&source=PackSourceEnum_PUBLISH"
+                    ]
+                },
+                "vid": "v0200f910000bq7gdo1um7llj44vba40",
+                "download_addr": {
+                    "uri": "v0200f910000bq7gdo1um7llj44vba40",
+                    "url_list": [
+                        "https://aweme.snssdk.com/aweme/v1/play/?video_id=v0200f910000bq7gdo1um7llj44vba40&line=0&ratio=540p&watermark=1&media_type=4&vr_type=0&improve_bitrate=0&logo_name=aweme&is_support_h265=0&source=PackSourceEnum_PUBLISH",
+                        "https://api.amemv.com/aweme/v1/play/?video_id=v0200f910000bq7gdo1um7llj44vba40&line=1&ratio=540p&watermark=1&media_type=4&vr_type=0&improve_bitrate=0&logo_name=aweme&is_support_h265=0&source=PackSourceEnum_PUBLISH"
+                    ]
+                },
+                "has_watermark": true,
+                "duration": 63970,
+                "is_long_video": 1,
+                "width": 1080,
+                "origin_cover": {
+                    "uri": "large/tos-cn-p-0015/5e94dfd3d06147069e74c6f94c172b4a_1586432452",
+                    "url_list": [
+                        "http://p3-dy.byteimg.com/large/tos-cn-p-0015/5e94dfd3d06147069e74c6f94c172b4a_1586432452.jpeg?from=2563711402_large",
+                        "http://p29-dy.byteimg.com/large/tos-cn-p-0015/5e94dfd3d06147069e74c6f94c172b4a_1586432452.jpeg?from=2563711402_large",
+                        "http://p26-dy.byteimg.com/large/tos-cn-p-0015/5e94dfd3d06147069e74c6f94c172b4a_1586432452.jpeg?from=2563711402_large"
+                    ]
+                },
+                "ratio": "540p",
+                "height": 1920,
+                "dynamic_cover": {
+                    "uri": "tos-cn-p-0015/49781ab209e5425baf84c1a574f4d28e_1586432452",
+                    "url_list": [
+                        "https://p9-dy.byteimg.com/obj/tos-cn-p-0015/49781ab209e5425baf84c1a574f4d28e_1586432452?from=2563711402_large",
+                        "https://p1-dy.byteimg.com/obj/tos-cn-p-0015/49781ab209e5425baf84c1a574f4d28e_1586432452?from=2563711402_large",
+                        "https://p26-dy.byteimg.com/obj/tos-cn-p-0015/49781ab209e5425baf84c1a574f4d28e_1586432452?from=2563711402_large"
+                    ]
+                },
+                "bit_rate": null,
+                "play_addr": {
+                    "uri": "v0200f910000bq7gdo1um7llj44vba40",
+                    "url_list": [
+                        "https://aweme.snssdk.com/aweme/v1/play/?video_id=v0200f910000bq7gdo1um7llj44vba40&line=0&ratio=540p&media_type=4&vr_type=0&improve_bitrate=0&is_play_url=1&is_support_h265=0&source=PackSourceEnum_PUBLISH",
+                        "https://api.amemv.com/aweme/v1/play/?video_id=v0200f910000bq7gdo1um7llj44vba40&line=1&ratio=540p&media_type=4&vr_type=0&improve_bitrate=0&is_play_url=1&is_support_h265=0&source=PackSourceEnum_PUBLISH"
+                    ]
+                },
+                "cover": {
+                    "uri": "tos-cn-p-0015/eef7746191794a11ad2923e540ca0328",
+                    "url_list": [
+                        "https://p9-dy.byteimg.com/img/tos-cn-p-0015/eef7746191794a11ad2923e540ca0328~c5_300x400.jpeg?from=2563711402_large",
+                        "https://p29-dy.byteimg.com/img/tos-cn-p-0015/eef7746191794a11ad2923e540ca0328~c5_300x400.jpeg?from=2563711402_large",
+                        "https://p3-dy.byteimg.com/img/tos-cn-p-0015/eef7746191794a11ad2923e540ca0328~c5_300x400.jpeg?from=2563711402_large"
+                    ]
+                }
+            },
+            "position": null,
+            "author": {
+                "total_favorited": "0",
+                "with_commerce_entry": false,
+                "region": "CN",
+                "has_orders": false,
+                "user_canceled": false,
+                "platform_sync_info": null,
+                "nickname": "成都消防",
+                "signature": "我就是充满正义、竭诚为民的“蓝朋友”\n投稿Vx：CDXFJY119（注明来意）",
+                "avatar_thumb": {
+                    "uri": "2fa5800085e1f220ce74e",
+                    "url_list": [
+                        "https://p9-dy-ipv6.byteimg.com/aweme/100x100/2fa5800085e1f220ce74e.jpeg",
+                        "https://p29-dy.byteimg.com/aweme/100x100/2fa5800085e1f220ce74e.jpeg",
+                        "https://p3-dy.byteimg.com/aweme/100x100/2fa5800085e1f220ce74e.jpeg"
+                    ]
+                },
+                "follower_count": 0,
+                "story_open": false,
+                "avatar_medium": {
+                    "uri": "2fa5800085e1f220ce74e",
+                    "url_list": [
+                        "https://p9-dy-ipv6.byteimg.com/aweme/720x720/2fa5800085e1f220ce74e.jpeg",
+                        "https://p29-dy.byteimg.com/aweme/720x720/2fa5800085e1f220ce74e.jpeg",
+                        "https://p3-dy.byteimg.com/aweme/720x720/2fa5800085e1f220ce74e.jpeg"
+                    ]
+                },
+                "favoriting_count": 0,
+                "unique_id": "CDXFJY119",
+                "is_ad_fake": false,
+                "is_enterprise_vip": false,
+                "followers_detail": null,
+                "secret": 0,
+                "geofencing": null,
+                "custom_verify": "",
+                "enterprise_verify_reason": "成都市消防救援支队官方抖音号",
+                "video_icon": {
+                    "uri": "",
+                    "url_list": []
+                },
+                "uid": "110812020268",
+                "short_id": "2212867571",
+                "is_gov_media_vip": true,
+                "sec_uid": "MS4wLjABAAAAaJO9L9M0scJ_njvXncvoFQj3ilCKW1qQkNGyDc2_5CQ",
+                "rate": 1,
+                "with_fusion_shop_entry": false,
+                "policy_version": null,
+                "avatar_larger": {
+                    "uri": "2fa5800085e1f220ce74e",
+                    "url_list": [
+                        "https://p9-dy-ipv6.byteimg.com/aweme/1080x1080/2fa5800085e1f220ce74e.jpeg",
+                        "https://p29-dy.byteimg.com/aweme/1080x1080/2fa5800085e1f220ce74e.jpeg",
+                        "https://p3-dy.byteimg.com/aweme/1080x1080/2fa5800085e1f220ce74e.jpeg"
+                    ]
+                },
+                "follow_status": 0,
+                "aweme_count": 0,
+                "following_count": 0,
+                "with_shop_entry": false
+            },
+            "cha_list": null,
+            "image_infos": null,
+            "label_top_text": null,
+            "video_text": null,
+            "promotions": null,
+            "long_video": null,
+            "statistics": {
+                "aweme_id": "6813675412804160772",
+                "comment_count": 165,
+                "digg_count": 7890,
+                "play_count": 0,
+                "share_count": 149,
+                "forward_count": 10
+            },
+            "text_extra": [],
+            "aweme_type": 4,
+            "comment_list": null,
+            "video_labels": null,
+            "uniqid_position": null,
+            "geofencing": null
+        },
+        {
+            "desc": "勿将电动车、蓄电池放家里充电，否则真的很危险！",
+            "statistics": {
+                "digg_count": 3874,
+                "play_count": 0,
+                "share_count": 516,
+                "forward_count": 9,
+                "aweme_id": "6813529157201333511",
+                "comment_count": 172
+            },
+            "geofencing": null,
+            "author": {
+                "signature": "我就是充满正义、竭诚为民的“蓝朋友”\n投稿Vx：CDXFJY119（注明来意）",
+                "geofencing": null,
+                "with_fusion_shop_entry": false,
+                "is_enterprise_vip": false,
+                "rate": 1,
+                "aweme_count": 0,
+                "follower_count": 0,
+                "favoriting_count": 0,
+                "has_orders": false,
+                "is_gov_media_vip": true,
+                "short_id": "2212867571",
+                "avatar_larger": {
+                    "uri": "2fa5800085e1f220ce74e",
+                    "url_list": [
+                        "https://p9-dy-ipv6.byteimg.com/aweme/1080x1080/2fa5800085e1f220ce74e.jpeg",
+                        "https://p29-dy.byteimg.com/aweme/1080x1080/2fa5800085e1f220ce74e.jpeg",
+                        "https://p3-dy.byteimg.com/aweme/1080x1080/2fa5800085e1f220ce74e.jpeg"
+                    ]
+                },
+                "total_favorited": "0",
+                "unique_id": "CDXFJY119",
+                "with_shop_entry": false,
+                "secret": 0,
+                "uid": "110812020268",
+                "follow_status": 0,
+                "region": "CN",
+                "user_canceled": false,
+                "sec_uid": "MS4wLjABAAAAaJO9L9M0scJ_njvXncvoFQj3ilCKW1qQkNGyDc2_5CQ",
+                "following_count": 0,
+                "story_open": false,
+                "platform_sync_info": null,
+                "video_icon": {
+                    "uri": "",
+                    "url_list": []
+                },
+                "nickname": "成都消防",
+                "enterprise_verify_reason": "成都市消防救援支队官方抖音号",
+                "avatar_medium": {
+                    "uri": "2fa5800085e1f220ce74e",
+                    "url_list": [
+                        "https://p9-dy-ipv6.byteimg.com/aweme/720x720/2fa5800085e1f220ce74e.jpeg",
+                        "https://p29-dy.byteimg.com/aweme/720x720/2fa5800085e1f220ce74e.jpeg",
+                        "https://p3-dy.byteimg.com/aweme/720x720/2fa5800085e1f220ce74e.jpeg"
+                    ]
+                },
+                "custom_verify": "",
+                "policy_version": null,
+                "avatar_thumb": {
+                    "uri": "2fa5800085e1f220ce74e",
+                    "url_list": [
+                        "https://p9-dy-ipv6.byteimg.com/aweme/100x100/2fa5800085e1f220ce74e.jpeg",
+                        "https://p29-dy.byteimg.com/aweme/100x100/2fa5800085e1f220ce74e.jpeg",
+                        "https://p3-dy.byteimg.com/aweme/100x100/2fa5800085e1f220ce74e.jpeg"
+                    ]
+                },
+                "with_commerce_entry": false,
+                "is_ad_fake": false,
+                "followers_detail": null
+            },
+            "image_infos": null,
+            "position": null,
+            "uniqid_position": null,
+            "label_top_text": null,
+            "aweme_id": "6813529157201333511",
+            "text_extra": [],
+            "aweme_type": 4,
+            "comment_list": null,
+            "video_text": null,
+            "cha_list": null,
+            "video": {
+                "play_addr": {
+                    "uri": "v0200f910000bq789a81ahq2krluhtjg",
+                    "url_list": [
+                        "https://aweme.snssdk.com/aweme/v1/play/?video_id=v0200f910000bq789a81ahq2krluhtjg&line=0&ratio=540p&media_type=4&vr_type=0&improve_bitrate=0&is_play_url=1&is_support_h265=0&source=PackSourceEnum_PUBLISH",
+                        "https://api.amemv.com/aweme/v1/play/?video_id=v0200f910000bq789a81ahq2krluhtjg&line=1&ratio=540p&media_type=4&vr_type=0&improve_bitrate=0&is_play_url=1&is_support_h265=0&source=PackSourceEnum_PUBLISH"
+                    ]
+                },
+                "width": 720,
+                "dynamic_cover": {
+                    "uri": "tos-cn-p-0015/292ec5b0857442c2a0fb6aefce79e8c9_1586398383",
+                    "url_list": [
+                        "https://p3-dy-ipv6.byteimg.com/obj/tos-cn-p-0015/292ec5b0857442c2a0fb6aefce79e8c9_1586398383?from=2563711402_large",
+                        "https://p29-dy.byteimg.com/obj/tos-cn-p-0015/292ec5b0857442c2a0fb6aefce79e8c9_1586398383?from=2563711402_large",
+                        "https://p26-dy.byteimg.com/obj/tos-cn-p-0015/292ec5b0857442c2a0fb6aefce79e8c9_1586398383?from=2563711402_large"
+                    ]
+                },
+                "origin_cover": {
+                    "uri": "large/tos-cn-p-0015/10eb486ea2ca4784858c167a5e2fa5e3_1586398383",
+                    "url_list": [
+                        "http://p9-dy.byteimg.com/large/tos-cn-p-0015/10eb486ea2ca4784858c167a5e2fa5e3_1586398383.jpeg?from=2563711402_large",
+                        "http://p29-dy.byteimg.com/large/tos-cn-p-0015/10eb486ea2ca4784858c167a5e2fa5e3_1586398383.jpeg?from=2563711402_large",
+                        "http://p3-dy.byteimg.com/large/tos-cn-p-0015/10eb486ea2ca4784858c167a5e2fa5e3_1586398383.jpeg?from=2563711402_large"
+                    ]
+                },
+                "duration": 11632,
+                "vid": "v0200f910000bq789a81ahq2krluhtjg",
+                "cover": {
+                    "uri": "tos-cn-p-0015/9c2bc32b596546eaa3d0cb18034debb4",
+                    "url_list": [
+                        "https://p9-dy-ipv6.byteimg.com/img/tos-cn-p-0015/9c2bc32b596546eaa3d0cb18034debb4~c5_300x400.jpeg?from=2563711402_large",
+                        "https://p29-dy.byteimg.com/img/tos-cn-p-0015/9c2bc32b596546eaa3d0cb18034debb4~c5_300x400.jpeg?from=2563711402_large",
+                        "https://p26-dy.byteimg.com/img/tos-cn-p-0015/9c2bc32b596546eaa3d0cb18034debb4~c5_300x400.jpeg?from=2563711402_large"
+                    ]
+                },
+                "height": 1280,
+                "ratio": "540p",
+                "download_addr": {
+                    "uri": "v0200f910000bq789a81ahq2krluhtjg",
+                    "url_list": [
+                        "https://aweme.snssdk.com/aweme/v1/play/?video_id=v0200f910000bq789a81ahq2krluhtjg&line=0&ratio=540p&watermark=1&media_type=4&vr_type=0&improve_bitrate=0&logo_name=aweme&is_support_h265=0&source=PackSourceEnum_PUBLISH",
+                        "https://api.amemv.com/aweme/v1/play/?video_id=v0200f910000bq789a81ahq2krluhtjg&line=1&ratio=540p&watermark=1&media_type=4&vr_type=0&improve_bitrate=0&logo_name=aweme&is_support_h265=0&source=PackSourceEnum_PUBLISH"
+                    ]
+                },
+                "has_watermark": true,
+                "play_addr_lowbr": {
+                    "uri": "v0200f910000bq789a81ahq2krluhtjg",
+                    "url_list": [
+                        "https://aweme.snssdk.com/aweme/v1/play/?video_id=v0200f910000bq789a81ahq2krluhtjg&line=0&ratio=540p&media_type=4&vr_type=0&improve_bitrate=0&is_play_url=1&is_support_h265=0&source=PackSourceEnum_PUBLISH",
+                        "https://api.amemv.com/aweme/v1/play/?video_id=v0200f910000bq789a81ahq2krluhtjg&line=1&ratio=540p&media_type=4&vr_type=0&improve_bitrate=0&is_play_url=1&is_support_h265=0&source=PackSourceEnum_PUBLISH"
+                    ]
+                },
+                "bit_rate": null
+            },
+            "video_labels": null,
+            "promotions": null,
+            "long_video": null
+        },
+        {
+            "promotions": null,
+            "long_video": null,
+            "video": {
+                "dynamic_cover": {
+                    "uri": "tos-cn-p-0015/f402d979d5b846b088cad25593ec2c39_1586233995",
+                    "url_list": [
+                        "https://p9-dy.byteimg.com/obj/tos-cn-p-0015/f402d979d5b846b088cad25593ec2c39_1586233995?from=2563711402_large",
+                        "https://p26-dy.byteimg.com/obj/tos-cn-p-0015/f402d979d5b846b088cad25593ec2c39_1586233995?from=2563711402_large",
+                        "https://p3-dy.byteimg.com/obj/tos-cn-p-0015/f402d979d5b846b088cad25593ec2c39_1586233995?from=2563711402_large"
+                    ]
+                },
+                "origin_cover": {
+                    "uri": "large/tos-cn-p-0015/d4e61ca6019a4c26bba9295e5b242c65_1586233993",
+                    "url_list": [
+                        "http://p29-dy.byteimg.com/large/tos-cn-p-0015/d4e61ca6019a4c26bba9295e5b242c65_1586233993.jpeg?from=2563711402_large",
+                        "http://p26-dy.byteimg.com/large/tos-cn-p-0015/d4e61ca6019a4c26bba9295e5b242c65_1586233993.jpeg?from=2563711402_large",
+                        "http://p3-dy.byteimg.com/large/tos-cn-p-0015/d4e61ca6019a4c26bba9295e5b242c65_1586233993.jpeg?from=2563711402_large"
+                    ]
+                },
+                "ratio": "540p",
+                "bit_rate": null,
+                "vid": "v0200f710000bq604vcttc5h3rn61e40",
+                "cover": {
+                    "uri": "tos-cn-p-0015/a79008aa78f645ed850c56ae1aad4bb4",
+                    "url_list": [
+                        "https://p9-dy.byteimg.com/img/tos-cn-p-0015/a79008aa78f645ed850c56ae1aad4bb4~c5_300x400.jpeg?from=2563711402_large",
+                        "https://p29-dy.byteimg.com/img/tos-cn-p-0015/a79008aa78f645ed850c56ae1aad4bb4~c5_300x400.jpeg?from=2563711402_large",
+                        "https://p3-dy.byteimg.com/img/tos-cn-p-0015/a79008aa78f645ed850c56ae1aad4bb4~c5_300x400.jpeg?from=2563711402_large"
+                    ]
+                },
+                "height": 1280,
+                "width": 720,
+                "download_addr": {
+                    "uri": "v0200f710000bq604vcttc5h3rn61e40",
+                    "url_list": [
+                        "https://aweme.snssdk.com/aweme/v1/play/?video_id=v0200f710000bq604vcttc5h3rn61e40&line=0&ratio=540p&watermark=1&media_type=4&vr_type=0&improve_bitrate=0&logo_name=aweme&is_support_h265=0&source=PackSourceEnum_PUBLISH",
+                        "https://api.amemv.com/aweme/v1/play/?video_id=v0200f710000bq604vcttc5h3rn61e40&line=1&ratio=540p&watermark=1&media_type=4&vr_type=0&improve_bitrate=0&logo_name=aweme&is_support_h265=0&source=PackSourceEnum_PUBLISH"
+                    ]
+                },
+                "has_watermark": true,
+                "play_addr_lowbr": {
+                    "uri": "v0200f710000bq604vcttc5h3rn61e40",
+                    "url_list": [
+                        "https://aweme.snssdk.com/aweme/v1/play/?video_id=v0200f710000bq604vcttc5h3rn61e40&line=0&ratio=540p&media_type=4&vr_type=0&improve_bitrate=0&is_play_url=1&is_support_h265=0&source=PackSourceEnum_PUBLISH",
+                        "https://api.amemv.com/aweme/v1/play/?video_id=v0200f710000bq604vcttc5h3rn61e40&line=1&ratio=540p&media_type=4&vr_type=0&improve_bitrate=0&is_play_url=1&is_support_h265=0&source=PackSourceEnum_PUBLISH"
+                    ]
+                },
+                "duration": 16567,
+                "play_addr": {
+                    "uri": "v0200f710000bq604vcttc5h3rn61e40",
+                    "url_list": [
+                        "https://aweme.snssdk.com/aweme/v1/play/?video_id=v0200f710000bq604vcttc5h3rn61e40&line=0&ratio=540p&media_type=4&vr_type=0&improve_bitrate=0&is_play_url=1&is_support_h265=0&source=PackSourceEnum_PUBLISH",
+                        "https://api.amemv.com/aweme/v1/play/?video_id=v0200f710000bq604vcttc5h3rn61e40&line=1&ratio=540p&media_type=4&vr_type=0&improve_bitrate=0&is_play_url=1&is_support_h265=0&source=PackSourceEnum_PUBLISH"
+                    ]
+                }
+            },
+            "text_extra": [],
+            "uniqid_position": null,
+            "label_top_text": null,
+            "position": null,
+            "aweme_id": "6812823111658900749",
+            "desc": "关于小朋友被卡 只有你想不到 没有他们卡不到…",
+            "statistics": {
+                "play_count": 0,
+                "share_count": 27,
+                "forward_count": 1,
+                "aweme_id": "6812823111658900749",
+                "comment_count": 42,
+                "digg_count": 4594
+            },
+            "aweme_type": 4,
+            "author": {
+                "nickname": "成都消防",
+                "follow_status": 0,
+                "with_commerce_entry": false,
+                "secret": 0,
+                "geofencing": null,
+                "signature": "我就是充满正义、竭诚为民的“蓝朋友”\n投稿Vx：CDXFJY119（注明来意）",
+                "following_count": 0,
+                "policy_version": null,
+                "sec_uid": "MS4wLjABAAAAaJO9L9M0scJ_njvXncvoFQj3ilCKW1qQkNGyDc2_5CQ",
+                "short_id": "2212867571",
+                "is_ad_fake": false,
+                "video_icon": {
+                    "uri": "",
+                    "url_list": []
+                },
+                "has_orders": false,
+                "user_canceled": false,
+                "avatar_larger": {
+                    "url_list": [
+                        "https://p9-dy-ipv6.byteimg.com/aweme/1080x1080/2fa5800085e1f220ce74e.jpeg",
+                        "https://p29-dy.byteimg.com/aweme/1080x1080/2fa5800085e1f220ce74e.jpeg",
+                        "https://p3-dy.byteimg.com/aweme/1080x1080/2fa5800085e1f220ce74e.jpeg"
+                    ],
+                    "uri": "2fa5800085e1f220ce74e"
+                },
+                "region": "CN",
+                "with_shop_entry": false,
+                "is_enterprise_vip": false,
+                "is_gov_media_vip": true,
+                "rate": 1,
+                "uid": "110812020268",
+                "avatar_thumb": {
+                    "uri": "2fa5800085e1f220ce74e",
+                    "url_list": [
+                        "https://p9-dy-ipv6.byteimg.com/aweme/100x100/2fa5800085e1f220ce74e.jpeg",
+                        "https://p29-dy.byteimg.com/aweme/100x100/2fa5800085e1f220ce74e.jpeg",
+                        "https://p3-dy.byteimg.com/aweme/100x100/2fa5800085e1f220ce74e.jpeg"
+                    ]
+                },
+                "aweme_count": 0,
+                "unique_id": "CDXFJY119",
+                "followers_detail": null,
+                "with_fusion_shop_entry": false,
+                "follower_count": 0,
+                "favoriting_count": 0,
+                "custom_verify": "",
+                "story_open": false,
+                "platform_sync_info": null,
+                "avatar_medium": {
+                    "uri": "2fa5800085e1f220ce74e",
+                    "url_list": [
+                        "https://p9-dy-ipv6.byteimg.com/aweme/720x720/2fa5800085e1f220ce74e.jpeg",
+                        "https://p29-dy.byteimg.com/aweme/720x720/2fa5800085e1f220ce74e.jpeg",
+                        "https://p3-dy.byteimg.com/aweme/720x720/2fa5800085e1f220ce74e.jpeg"
+                    ]
+                },
+                "total_favorited": "0",
+                "enterprise_verify_reason": "成都市消防救援支队官方抖音号"
+            },
+            "cha_list": null,
+            "comment_list": null,
+            "video_text": null,
+            "video_labels": null,
+            "image_infos": null,
+            "geofencing": null
+        },
+        {
+            "label_top_text": null,
+            "promotions": null,
+            "cha_list": null,
+            "text_extra": [],
+            "video_labels": null,
+            "position": null,
+            "uniqid_position": null,
+            "aweme_id": "6812179387899841805",
+            "author": {
+                "avatar_larger": {
+                    "uri": "2fa5800085e1f220ce74e",
+                    "url_list": [
+                        "https://p9-dy-ipv6.byteimg.com/aweme/1080x1080/2fa5800085e1f220ce74e.jpeg",
+                        "https://p29-dy.byteimg.com/aweme/1080x1080/2fa5800085e1f220ce74e.jpeg",
+                        "https://p3-dy.byteimg.com/aweme/1080x1080/2fa5800085e1f220ce74e.jpeg"
+                    ]
+                },
+                "unique_id": "CDXFJY119",
+                "region": "CN",
+                "follower_count": 0,
+                "with_fusion_shop_entry": false,
+                "user_canceled": false,
+                "nickname": "成都消防",
+                "signature": "我就是充满正义、竭诚为民的“蓝朋友”\n投稿Vx：CDXFJY119（注明来意）",
+                "avatar_thumb": {
+                    "uri": "2fa5800085e1f220ce74e",
+                    "url_list": [
+                        "https://p9-dy-ipv6.byteimg.com/aweme/100x100/2fa5800085e1f220ce74e.jpeg",
+                        "https://p29-dy.byteimg.com/aweme/100x100/2fa5800085e1f220ce74e.jpeg",
+                        "https://p3-dy.byteimg.com/aweme/100x100/2fa5800085e1f220ce74e.jpeg"
+                    ]
+                },
+                "avatar_medium": {
+                    "uri": "2fa5800085e1f220ce74e",
+                    "url_list": [
+                        "https://p9-dy-ipv6.byteimg.com/aweme/720x720/2fa5800085e1f220ce74e.jpeg",
+                        "https://p29-dy.byteimg.com/aweme/720x720/2fa5800085e1f220ce74e.jpeg",
+                        "https://p3-dy.byteimg.com/aweme/720x720/2fa5800085e1f220ce74e.jpeg"
+                    ]
+                },
+                "aweme_count": 0,
+                "custom_verify": "",
+                "story_open": false,
+                "is_gov_media_vip": true,
+                "following_count": 0,
+                "enterprise_verify_reason": "成都市消防救援支队官方抖音号",
+                "uid": "110812020268",
+                "short_id": "2212867571",
+                "is_ad_fake": false,
+                "geofencing": null,
+                "policy_version": null,
+                "follow_status": 0,
+                "sec_uid": "MS4wLjABAAAAaJO9L9M0scJ_njvXncvoFQj3ilCKW1qQkNGyDc2_5CQ",
+                "has_orders": false,
+                "is_enterprise_vip": false,
+                "total_favorited": "0",
+                "with_commerce_entry": false,
+                "followers_detail": null,
+                "platform_sync_info": null,
+                "with_shop_entry": false,
+                "favoriting_count": 0,
+                "secret": 0,
+                "video_icon": {
+                    "uri": "",
+                    "url_list": []
+                },
+                "rate": 1
+            },
+            "statistics": {
+                "share_count": 110,
+                "forward_count": 14,
+                "aweme_id": "6812179387899841805",
+                "comment_count": 222,
+                "digg_count": 66000,
+                "play_count": 0
+            },
+            "aweme_type": 4,
+            "comment_list": null,
+            "desc": "比春风更暖！谢谢你小姑娘，叔叔为你点赞！（青羊大队供稿）",
+            "video": {
+                "vid": "v0200f9c0000bq4ri3f2gddnr7mh0it0",
+                "play_addr": {
+                    "uri": "v0200f9c0000bq4ri3f2gddnr7mh0it0",
+                    "url_list": [
+                        "https://aweme.snssdk.com/aweme/v1/play/?video_id=v0200f9c0000bq4ri3f2gddnr7mh0it0&line=0&ratio=540p&media_type=4&vr_type=0&improve_bitrate=0&is_play_url=1&is_support_h265=0&source=PackSourceEnum_PUBLISH",
+                        "https://api.amemv.com/aweme/v1/play/?video_id=v0200f9c0000bq4ri3f2gddnr7mh0it0&line=1&ratio=540p&media_type=4&vr_type=0&improve_bitrate=0&is_play_url=1&is_support_h265=0&source=PackSourceEnum_PUBLISH"
+                    ]
+                },
+                "cover": {
+                    "uri": "tos-cn-p-0015/baeda8def7c544d7a14ad64c8ff9383b",
+                    "url_list": [
+                        "https://p9-dy.byteimg.com/img/tos-cn-p-0015/baeda8def7c544d7a14ad64c8ff9383b~c5_300x400.jpeg?from=2563711402_large",
+                        "https://p29-dy.byteimg.com/img/tos-cn-p-0015/baeda8def7c544d7a14ad64c8ff9383b~c5_300x400.jpeg?from=2563711402_large",
+                        "https://p3-dy.byteimg.com/img/tos-cn-p-0015/baeda8def7c544d7a14ad64c8ff9383b~c5_300x400.jpeg?from=2563711402_large"
+                    ]
+                },
+                "ratio": "540p",
+                "download_addr": {
+                    "uri": "v0200f9c0000bq4ri3f2gddnr7mh0it0",
+                    "url_list": [
+                        "https://aweme.snssdk.com/aweme/v1/play/?video_id=v0200f9c0000bq4ri3f2gddnr7mh0it0&line=0&ratio=540p&watermark=1&media_type=4&vr_type=0&improve_bitrate=0&logo_name=aweme&is_support_h265=0&source=PackSourceEnum_PUBLISH",
+                        "https://api.amemv.com/aweme/v1/play/?video_id=v0200f9c0000bq4ri3f2gddnr7mh0it0&line=1&ratio=540p&watermark=1&media_type=4&vr_type=0&improve_bitrate=0&logo_name=aweme&is_support_h265=0&source=PackSourceEnum_PUBLISH"
+                    ]
+                },
+                "has_watermark": true,
+                "bit_rate": null,
+                "height": 1280,
+                "width": 720,
+                "dynamic_cover": {
+                    "uri": "tos-cn-p-0015/89b357d155fb4135b3c283a40346ccd3_1586084117",
+                    "url_list": [
+                        "https://p9-dy.byteimg.com/obj/tos-cn-p-0015/89b357d155fb4135b3c283a40346ccd3_1586084117?from=2563711402_large",
+                        "https://p29-dy.byteimg.com/obj/tos-cn-p-0015/89b357d155fb4135b3c283a40346ccd3_1586084117?from=2563711402_large",
+                        "https://p3-dy.byteimg.com/obj/tos-cn-p-0015/89b357d155fb4135b3c283a40346ccd3_1586084117?from=2563711402_large"
+                    ]
+                },
+                "origin_cover": {
+                    "uri": "large/tos-cn-p-0015/19f25da895f549c098d50aec1399093a_1586084116",
+                    "url_list": [
+                        "http://p9-dy.byteimg.com/large/tos-cn-p-0015/19f25da895f549c098d50aec1399093a_1586084116.jpeg?from=2563711402_large",
+                        "http://p29-dy.byteimg.com/large/tos-cn-p-0015/19f25da895f549c098d50aec1399093a_1586084116.jpeg?from=2563711402_large",
+                        "http://p1-dy.byteimg.com/large/tos-cn-p-0015/19f25da895f549c098d50aec1399093a_1586084116.jpeg?from=2563711402_large"
+                    ]
+                },
+                "play_addr_lowbr": {
+                    "uri": "v0200f9c0000bq4ri3f2gddnr7mh0it0",
+                    "url_list": [
+                        "https://aweme.snssdk.com/aweme/v1/play/?video_id=v0200f9c0000bq4ri3f2gddnr7mh0it0&line=0&ratio=540p&media_type=4&vr_type=0&improve_bitrate=0&is_play_url=1&is_support_h265=0&source=PackSourceEnum_PUBLISH",
+                        "https://api.amemv.com/aweme/v1/play/?video_id=v0200f9c0000bq4ri3f2gddnr7mh0it0&line=1&ratio=540p&media_type=4&vr_type=0&improve_bitrate=0&is_play_url=1&is_support_h265=0&source=PackSourceEnum_PUBLISH"
+                    ]
+                },
+                "duration": 9264
+            },
+            "geofencing": null,
+            "video_text": null,
+            "long_video": null,
+            "image_infos": null
+        },
+        {
+            "video_text": null,
+            "promotions": null,
+            "author": {
+                "uid": "110812020268",
+                "short_id": "2212867571",
+                "nickname": "成都消防",
+                "avatar_medium": {
+                    "uri": "2fa5800085e1f220ce74e",
+                    "url_list": [
+                        "https://p9-dy-ipv6.byteimg.com/aweme/720x720/2fa5800085e1f220ce74e.jpeg",
+                        "https://p29-dy.byteimg.com/aweme/720x720/2fa5800085e1f220ce74e.jpeg",
+                        "https://p3-dy.byteimg.com/aweme/720x720/2fa5800085e1f220ce74e.jpeg"
+                    ]
+                },
+                "following_count": 0,
+                "followers_detail": null,
+                "with_fusion_shop_entry": false,
+                "is_gov_media_vip": true,
+                "is_enterprise_vip": false,
+                "aweme_count": 0,
+                "enterprise_verify_reason": "成都市消防救援支队官方抖音号",
+                "region": "CN",
+                "with_shop_entry": false,
+                "follow_status": 0,
+                "story_open": false,
+                "is_ad_fake": false,
+                "has_orders": false,
+                "sec_uid": "MS4wLjABAAAAaJO9L9M0scJ_njvXncvoFQj3ilCKW1qQkNGyDc2_5CQ",
+                "unique_id": "CDXFJY119",
+                "geofencing": null,
+                "user_canceled": false,
+                "signature": "我就是充满正义、竭诚为民的“蓝朋友”\n投稿Vx：CDXFJY119（注明来意）",
+                "total_favorited": "0",
+                "policy_version": null,
+                "rate": 1,
+                "custom_verify": "",
+                "with_commerce_entry": false,
+                "secret": 0,
+                "video_icon": {
+                    "uri": "",
+                    "url_list": []
+                },
+                "avatar_larger": {
+                    "uri": "2fa5800085e1f220ce74e",
+                    "url_list": [
+                        "https://p9-dy-ipv6.byteimg.com/aweme/1080x1080/2fa5800085e1f220ce74e.jpeg",
+                        "https://p29-dy.byteimg.com/aweme/1080x1080/2fa5800085e1f220ce74e.jpeg",
+                        "https://p3-dy.byteimg.com/aweme/1080x1080/2fa5800085e1f220ce74e.jpeg"
+                    ]
+                },
+                "avatar_thumb": {
+                    "uri": "2fa5800085e1f220ce74e",
+                    "url_list": [
+                        "https://p9-dy-ipv6.byteimg.com/aweme/100x100/2fa5800085e1f220ce74e.jpeg",
+                        "https://p29-dy.byteimg.com/aweme/100x100/2fa5800085e1f220ce74e.jpeg",
+                        "https://p3-dy.byteimg.com/aweme/100x100/2fa5800085e1f220ce74e.jpeg"
+                    ]
+                },
+                "follower_count": 0,
+                "favoriting_count": 0,
+                "platform_sync_info": null
+            },
+            "cha_list": null,
+            "text_extra": [],
+            "aweme_type": 4,
+            "desc": "虽然不知道你经历了什么，但是活着比什么都好！",
+            "statistics": {
+                "aweme_id": "6812076470240840967",
+                "comment_count": 54,
+                "digg_count": 7580,
+                "play_count": 0,
+                "share_count": 49,
+                "forward_count": 5
+            },
+            "video_labels": null,
+            "uniqid_position": null,
+            "video": {
+                "height": 1280,
+                "origin_cover": {
+                    "url_list": [
+                        "http://p9-dy-ipv6.byteimg.com/large/tos-cn-p-0015/0f337b4076374335b57893289799de5d_1586060154.jpeg?from=2563711402_large",
+                        "http://p29-dy.byteimg.com/large/tos-cn-p-0015/0f337b4076374335b57893289799de5d_1586060154.jpeg?from=2563711402_large",
+                        "http://p26-dy.byteimg.com/large/tos-cn-p-0015/0f337b4076374335b57893289799de5d_1586060154.jpeg?from=2563711402_large"
+                    ],
+                    "uri": "large/tos-cn-p-0015/0f337b4076374335b57893289799de5d_1586060154"
+                },
+                "ratio": "540p",
+                "play_addr_lowbr": {
+                    "uri": "v0200fc10000bq4lmsr2ap99d561m0k0",
+                    "url_list": [
+                        "https://aweme.snssdk.com/aweme/v1/play/?video_id=v0200fc10000bq4lmsr2ap99d561m0k0&line=0&ratio=540p&media_type=4&vr_type=0&improve_bitrate=0&is_play_url=1&is_support_h265=0&source=PackSourceEnum_PUBLISH",
+                        "https://api.amemv.com/aweme/v1/play/?video_id=v0200fc10000bq4lmsr2ap99d561m0k0&line=1&ratio=540p&media_type=4&vr_type=0&improve_bitrate=0&is_play_url=1&is_support_h265=0&source=PackSourceEnum_PUBLISH"
+                    ]
+                },
+                "bit_rate": null,
+                "duration": 17553,
+                "cover": {
+                    "uri": "tos-cn-p-0015/0aced5c27a4a4522a0ad980ca20eec23",
+                    "url_list": [
+                        "https://p9-dy-ipv6.byteimg.com/img/tos-cn-p-0015/0aced5c27a4a4522a0ad980ca20eec23~c5_300x400.jpeg?from=2563711402_large",
+                        "https://p29-dy.byteimg.com/img/tos-cn-p-0015/0aced5c27a4a4522a0ad980ca20eec23~c5_300x400.jpeg?from=2563711402_large",
+                        "https://p3-dy.byteimg.com/img/tos-cn-p-0015/0aced5c27a4a4522a0ad980ca20eec23~c5_300x400.jpeg?from=2563711402_large"
+                    ]
+                },
+                "width": 720,
+                "dynamic_cover": {
+                    "uri": "tos-cn-p-0015/9c80d96679ea40d8aa552f5fcde6af53_1586060153",
+                    "url_list": [
+                        "https://p9-dy.byteimg.com/obj/tos-cn-p-0015/9c80d96679ea40d8aa552f5fcde6af53_1586060153?from=2563711402_large",
+                        "https://p1-dy.byteimg.com/obj/tos-cn-p-0015/9c80d96679ea40d8aa552f5fcde6af53_1586060153?from=2563711402_large",
+                        "https://p3-dy.byteimg.com/obj/tos-cn-p-0015/9c80d96679ea40d8aa552f5fcde6af53_1586060153?from=2563711402_large"
+                    ]
+                },
+                "download_addr": {
+                    "uri": "v0200fc10000bq4lmsr2ap99d561m0k0",
+                    "url_list": [
+                        "https://aweme.snssdk.com/aweme/v1/play/?video_id=v0200fc10000bq4lmsr2ap99d561m0k0&line=0&ratio=540p&watermark=1&media_type=4&vr_type=0&improve_bitrate=0&logo_name=aweme&is_support_h265=0&source=PackSourceEnum_PUBLISH",
+                        "https://api.amemv.com/aweme/v1/play/?video_id=v0200fc10000bq4lmsr2ap99d561m0k0&line=1&ratio=540p&watermark=1&media_type=4&vr_type=0&improve_bitrate=0&logo_name=aweme&is_support_h265=0&source=PackSourceEnum_PUBLISH"
+                    ]
+                },
+                "has_watermark": true,
+                "vid": "v0200fc10000bq4lmsr2ap99d561m0k0",
+                "play_addr": {
+                    "url_list": [
+                        "https://aweme.snssdk.com/aweme/v1/play/?video_id=v0200fc10000bq4lmsr2ap99d561m0k0&line=0&ratio=540p&media_type=4&vr_type=0&improve_bitrate=0&is_play_url=1&is_support_h265=0&source=PackSourceEnum_PUBLISH",
+                        "https://api.amemv.com/aweme/v1/play/?video_id=v0200fc10000bq4lmsr2ap99d561m0k0&line=1&ratio=540p&media_type=4&vr_type=0&improve_bitrate=0&is_play_url=1&is_support_h265=0&source=PackSourceEnum_PUBLISH"
+                    ],
+                    "uri": "v0200fc10000bq4lmsr2ap99d561m0k0"
+                }
+            },
+            "image_infos": null,
+            "position": null,
+            "comment_list": null,
+            "aweme_id": "6812076470240840967",
+            "geofencing": null,
+            "label_top_text": null,
+            "long_video": null
+        },
+        {
+            "video": {
+                "download_addr": {
+                    "uri": "v0200f3e0000bq4293g9lr7966b6n79g",
+                    "url_list": [
+                        "https://aweme.snssdk.com/aweme/v1/play/?video_id=v0200f3e0000bq4293g9lr7966b6n79g&line=0&ratio=540p&watermark=1&media_type=4&vr_type=0&improve_bitrate=0&logo_name=aweme&is_support_h265=0&source=PackSourceEnum_PUBLISH",
+                        "https://api.amemv.com/aweme/v1/play/?video_id=v0200f3e0000bq4293g9lr7966b6n79g&line=1&ratio=540p&watermark=1&media_type=4&vr_type=0&improve_bitrate=0&logo_name=aweme&is_support_h265=0&source=PackSourceEnum_PUBLISH"
+                    ]
+                },
+                "has_watermark": true,
+                "duration": 18834,
+                "cover": {
+                    "uri": "tos-cn-p-0015/d68629e2ae35490db97f71ada9ed5df1",
+                    "url_list": [
+                        "https://p9-dy-ipv6.byteimg.com/img/tos-cn-p-0015/d68629e2ae35490db97f71ada9ed5df1~c5_300x400.jpeg?from=2563711402_large",
+                        "https://p29-dy.byteimg.com/img/tos-cn-p-0015/d68629e2ae35490db97f71ada9ed5df1~c5_300x400.jpeg?from=2563711402_large",
+                        "https://p3-dy.byteimg.com/img/tos-cn-p-0015/d68629e2ae35490db97f71ada9ed5df1~c5_300x400.jpeg?from=2563711402_large"
+                    ]
+                },
+                "height": 1280,
+                "width": 720,
+                "dynamic_cover": {
+                    "uri": "tos-cn-p-0015/d947016298964dc1886a2af663de3c1e_1585980576",
+                    "url_list": [
+                        "https://p3-dy.byteimg.com/obj/tos-cn-p-0015/d947016298964dc1886a2af663de3c1e_1585980576?from=2563711402_large",
+                        "https://p29-dy.byteimg.com/obj/tos-cn-p-0015/d947016298964dc1886a2af663de3c1e_1585980576?from=2563711402_large",
+                        "https://p9-dy.byteimg.com/obj/tos-cn-p-0015/d947016298964dc1886a2af663de3c1e_1585980576?from=2563711402_large"
+                    ]
+                },
+                "origin_cover": {
+                    "uri": "large/tos-cn-p-0015/fe07ef83fd17448a9a27688885d3c0aa_1585980575",
+                    "url_list": [
+                        "http://p9-dy.byteimg.com/large/tos-cn-p-0015/fe07ef83fd17448a9a27688885d3c0aa_1585980575.jpeg?from=2563711402_large",
+                        "http://p26-dy.byteimg.com/large/tos-cn-p-0015/fe07ef83fd17448a9a27688885d3c0aa_1585980575.jpeg?from=2563711402_large",
+                        "http://p3-dy.byteimg.com/large/tos-cn-p-0015/fe07ef83fd17448a9a27688885d3c0aa_1585980575.jpeg?from=2563711402_large"
+                    ]
+                },
+                "vid": "v0200f3e0000bq4293g9lr7966b6n79g",
+                "play_addr": {
+                    "uri": "v0200f3e0000bq4293g9lr7966b6n79g",
+                    "url_list": [
+                        "https://aweme.snssdk.com/aweme/v1/play/?video_id=v0200f3e0000bq4293g9lr7966b6n79g&line=0&ratio=540p&media_type=4&vr_type=0&improve_bitrate=0&is_play_url=1&is_support_h265=0&source=PackSourceEnum_PUBLISH",
+                        "https://api.amemv.com/aweme/v1/play/?video_id=v0200f3e0000bq4293g9lr7966b6n79g&line=1&ratio=540p&media_type=4&vr_type=0&improve_bitrate=0&is_play_url=1&is_support_h265=0&source=PackSourceEnum_PUBLISH"
+                    ]
+                },
+                "ratio": "540p",
+                "play_addr_lowbr": {
+                    "uri": "v0200f3e0000bq4293g9lr7966b6n79g",
+                    "url_list": [
+                        "https://aweme.snssdk.com/aweme/v1/play/?video_id=v0200f3e0000bq4293g9lr7966b6n79g&line=0&ratio=540p&media_type=4&vr_type=0&improve_bitrate=0&is_play_url=1&is_support_h265=0&source=PackSourceEnum_PUBLISH",
+                        "https://api.amemv.com/aweme/v1/play/?video_id=v0200f3e0000bq4293g9lr7966b6n79g&line=1&ratio=540p&media_type=4&vr_type=0&improve_bitrate=0&is_play_url=1&is_support_h265=0&source=PackSourceEnum_PUBLISH"
+                    ]
+                },
+                "bit_rate": null
+            },
+            "statistics": {
+                "digg_count": 7811,
+                "play_count": 0,
+                "share_count": 37,
+                "forward_count": 6,
+                "aweme_id": "6811734685605956871",
+                "comment_count": 40
+            },
+            "text_extra": [],
+            "image_infos": null,
+            "position": null,
+            "aweme_id": "6811734685605956871",
+            "cha_list": null,
+            "long_video": null,
+            "desc": "英雄不朽 浩气长存！",
+            "author": {
+                "geofencing": null,
+                "user_canceled": false,
+                "policy_version": null,
+                "signature": "我就是充满正义、竭诚为民的“蓝朋友”\n投稿Vx：CDXFJY119（注明来意）",
+                "avatar_medium": {
+                    "uri": "2fa5800085e1f220ce74e",
+                    "url_list": [
+                        "https://p9-dy-ipv6.byteimg.com/aweme/720x720/2fa5800085e1f220ce74e.jpeg",
+                        "https://p29-dy.byteimg.com/aweme/720x720/2fa5800085e1f220ce74e.jpeg",
+                        "https://p3-dy.byteimg.com/aweme/720x720/2fa5800085e1f220ce74e.jpeg"
+                    ]
+                },
+                "with_commerce_entry": false,
+                "followers_detail": null,
+                "region": "CN",
+                "platform_sync_info": null,
+                "has_orders": false,
+                "following_count": 0,
+                "unique_id": "CDXFJY119",
+                "follow_status": 0,
+                "aweme_count": 0,
+                "uid": "110812020268",
+                "avatar_thumb": {
+                    "uri": "2fa5800085e1f220ce74e",
+                    "url_list": [
+                        "https://p9-dy-ipv6.byteimg.com/aweme/100x100/2fa5800085e1f220ce74e.jpeg",
+                        "https://p29-dy.byteimg.com/aweme/100x100/2fa5800085e1f220ce74e.jpeg",
+                        "https://p3-dy.byteimg.com/aweme/100x100/2fa5800085e1f220ce74e.jpeg"
+                    ]
+                },
+                "enterprise_verify_reason": "成都市消防救援支队官方抖音号",
+                "total_favorited": "0",
+                "video_icon": {
+                    "uri": "",
+                    "url_list": []
+                },
+                "short_id": "2212867571",
+                "nickname": "成都消防",
+                "is_gov_media_vip": true,
+                "is_enterprise_vip": false,
+                "favoriting_count": 0,
+                "story_open": false,
+                "custom_verify": "",
+                "is_ad_fake": false,
+                "rate": 1,
+                "avatar_larger": {
+                    "uri": "2fa5800085e1f220ce74e",
+                    "url_list": [
+                        "https://p9-dy-ipv6.byteimg.com/aweme/1080x1080/2fa5800085e1f220ce74e.jpeg",
+                        "https://p29-dy.byteimg.com/aweme/1080x1080/2fa5800085e1f220ce74e.jpeg",
+                        "https://p3-dy.byteimg.com/aweme/1080x1080/2fa5800085e1f220ce74e.jpeg"
+                    ]
+                },
+                "follower_count": 0,
+                "with_fusion_shop_entry": false,
+                "sec_uid": "MS4wLjABAAAAaJO9L9M0scJ_njvXncvoFQj3ilCKW1qQkNGyDc2_5CQ",
+                "with_shop_entry": false,
+                "secret": 0
+            },
+            "video_labels": null,
+            "aweme_type": 4,
+            "uniqid_position": null,
+            "promotions": null,
+            "comment_list": null,
+            "geofencing": null,
+            "video_text": null,
+            "label_top_text": null
+        },
+        {
+            "aweme_type": 4,
+            "uniqid_position": null,
+            "comment_list": null,
+            "video_text": null,
+            "video_labels": null,
+            "desc": "身后是战斗过的青山 铭记英雄 缅怀同胞！",
+            "cha_list": null,
+            "video": {
+                "origin_cover": {
+                    "url_list": [
+                        "http://p9-dy.byteimg.com/large/tos-cn-p-0015/781bc80812b2494da99972f4298ef47d_1585972308.jpeg?from=2563711402_large",
+                        "http://p29-dy.byteimg.com/large/tos-cn-p-0015/781bc80812b2494da99972f4298ef47d_1585972308.jpeg?from=2563711402_large",
+                        "http://p1-dy.byteimg.com/large/tos-cn-p-0015/781bc80812b2494da99972f4298ef47d_1585972308.jpeg?from=2563711402_large"
+                    ],
+                    "uri": "large/tos-cn-p-0015/781bc80812b2494da99972f4298ef47d_1585972308"
+                },
+                "ratio": "540p",
+                "download_addr": {
+                    "uri": "v0200fc10000bq407qs1n3e8es7dkc5g",
+                    "url_list": [
+                        "https://aweme.snssdk.com/aweme/v1/play/?video_id=v0200fc10000bq407qs1n3e8es7dkc5g&line=0&ratio=540p&watermark=1&media_type=4&vr_type=0&improve_bitrate=0&logo_name=aweme&is_support_h265=0&source=PackSourceEnum_PUBLISH",
+                        "https://api.amemv.com/aweme/v1/play/?video_id=v0200fc10000bq407qs1n3e8es7dkc5g&line=1&ratio=540p&watermark=1&media_type=4&vr_type=0&improve_bitrate=0&logo_name=aweme&is_support_h265=0&source=PackSourceEnum_PUBLISH"
+                    ]
+                },
+                "has_watermark": true,
+                "play_addr_lowbr": {
+                    "uri": "v0200fc10000bq407qs1n3e8es7dkc5g",
+                    "url_list": [
+                        "https://aweme.snssdk.com/aweme/v1/play/?video_id=v0200fc10000bq407qs1n3e8es7dkc5g&line=0&ratio=540p&media_type=4&vr_type=0&improve_bitrate=0&is_play_url=1&is_support_h265=0&source=PackSourceEnum_PUBLISH",
+                        "https://api.amemv.com/aweme/v1/play/?video_id=v0200fc10000bq407qs1n3e8es7dkc5g&line=1&ratio=540p&media_type=4&vr_type=0&improve_bitrate=0&is_play_url=1&is_support_h265=0&source=PackSourceEnum_PUBLISH"
+                    ]
+                },
+                "bit_rate": null,
+                "height": 1280,
+                "dynamic_cover": {
+                    "uri": "tos-cn-p-0015/c61028ca9bed4878993cc7d72cd76c81_1585972309",
+                    "url_list": [
+                        "https://p9-dy.byteimg.com/obj/tos-cn-p-0015/c61028ca9bed4878993cc7d72cd76c81_1585972309?from=2563711402_large",
+                        "https://p29-dy.byteimg.com/obj/tos-cn-p-0015/c61028ca9bed4878993cc7d72cd76c81_1585972309?from=2563711402_large",
+                        "https://p26-dy.byteimg.com/obj/tos-cn-p-0015/c61028ca9bed4878993cc7d72cd76c81_1585972309?from=2563711402_large"
+                    ]
+                },
+                "width": 720,
+                "duration": 8767,
+                "vid": "v0200fc10000bq407qs1n3e8es7dkc5g",
+                "play_addr": {
+                    "uri": "v0200fc10000bq407qs1n3e8es7dkc5g",
+                    "url_list": [
+                        "https://aweme.snssdk.com/aweme/v1/play/?video_id=v0200fc10000bq407qs1n3e8es7dkc5g&line=0&ratio=540p&media_type=4&vr_type=0&improve_bitrate=0&is_play_url=1&is_support_h265=0&source=PackSourceEnum_PUBLISH",
+                        "https://api.amemv.com/aweme/v1/play/?video_id=v0200fc10000bq407qs1n3e8es7dkc5g&line=1&ratio=540p&media_type=4&vr_type=0&improve_bitrate=0&is_play_url=1&is_support_h265=0&source=PackSourceEnum_PUBLISH"
+                    ]
+                },
+                "cover": {
+                    "uri": "tos-cn-p-0015/dac8473098bc4e349618c113fc363ff7",
+                    "url_list": [
+                        "https://p9-dy.byteimg.com/img/tos-cn-p-0015/dac8473098bc4e349618c113fc363ff7~c5_300x400.jpeg?from=2563711402_large",
+                        "https://p26-dy.byteimg.com/img/tos-cn-p-0015/dac8473098bc4e349618c113fc363ff7~c5_300x400.jpeg?from=2563711402_large",
+                        "https://p3-dy.byteimg.com/img/tos-cn-p-0015/dac8473098bc4e349618c113fc363ff7~c5_300x400.jpeg?from=2563711402_large"
+                    ]
+                }
+            },
+            "label_top_text": null,
+            "aweme_id": "6811699148291624199",
+            "geofencing": null,
+            "long_video": null,
+            "statistics": {
+                "aweme_id": "6811699148291624199",
+                "comment_count": 43,
+                "digg_count": 178000,
+                "play_count": 0,
+                "share_count": 783,
+                "forward_count": 96
+            },
+            "text_extra": [],
+            "image_infos": null,
+            "position": null,
+            "promotions": null,
+            "author": {
+                "aweme_count": 0,
+                "secret": 0,
+                "geofencing": null,
+                "avatar_medium": {
+                    "url_list": [
+                        "https://p9-dy-ipv6.byteimg.com/aweme/720x720/2fa5800085e1f220ce74e.jpeg",
+                        "https://p29-dy.byteimg.com/aweme/720x720/2fa5800085e1f220ce74e.jpeg",
+                        "https://p3-dy.byteimg.com/aweme/720x720/2fa5800085e1f220ce74e.jpeg"
+                    ],
+                    "uri": "2fa5800085e1f220ce74e"
+                },
+                "with_commerce_entry": false,
+                "followers_detail": null,
+                "nickname": "成都消防",
+                "following_count": 0,
+                "is_ad_fake": false,
+                "rate": 1,
+                "with_fusion_shop_entry": false,
+                "is_gov_media_vip": true,
+                "policy_version": null,
+                "uid": "110812020268",
+                "favoriting_count": 0,
+                "story_open": false,
+                "region": "CN",
+                "has_orders": false,
+                "avatar_thumb": {
+                    "uri": "2fa5800085e1f220ce74e",
+                    "url_list": [
+                        "https://p9-dy-ipv6.byteimg.com/aweme/100x100/2fa5800085e1f220ce74e.jpeg",
+                        "https://p29-dy.byteimg.com/aweme/100x100/2fa5800085e1f220ce74e.jpeg",
+                        "https://p3-dy.byteimg.com/aweme/100x100/2fa5800085e1f220ce74e.jpeg"
+                    ]
+                },
+                "follow_status": 0,
+                "with_shop_entry": false,
+                "sec_uid": "MS4wLjABAAAAaJO9L9M0scJ_njvXncvoFQj3ilCKW1qQkNGyDc2_5CQ",
+                "signature": "我就是充满正义、竭诚为民的“蓝朋友”\n投稿Vx：CDXFJY119（注明来意）",
+                "total_favorited": "0",
+                "video_icon": {
+                    "uri": "",
+                    "url_list": []
+                },
+                "is_enterprise_vip": false,
+                "short_id": "2212867571",
+                "custom_verify": "",
+                "enterprise_verify_reason": "成都市消防救援支队官方抖音号",
+                "platform_sync_info": null,
+                "user_canceled": false,
+                "avatar_larger": {
+                    "uri": "2fa5800085e1f220ce74e",
+                    "url_list": [
+                        "https://p9-dy-ipv6.byteimg.com/aweme/1080x1080/2fa5800085e1f220ce74e.jpeg",
+                        "https://p29-dy.byteimg.com/aweme/1080x1080/2fa5800085e1f220ce74e.jpeg",
+                        "https://p3-dy.byteimg.com/aweme/1080x1080/2fa5800085e1f220ce74e.jpeg"
+                    ]
+                },
+                "follower_count": 0,
+                "unique_id": "CDXFJY119"
+            }
+        }
+    ],
+    "max_cursor": 1585972307000
+}
