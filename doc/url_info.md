@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2020-05-03 18:50:34
- * @LastEditTime: 2020-05-05 16:08:07
+ * @LastEditTime: 2020-05-05 22:44:38
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /python/douyin_web/doc/url_info.md
@@ -23,6 +23,9 @@ https://s3.pstatp.com/ies/resource/falcon/douyin_falcon/page/reflow_user/index_1
 的init 方法里面定义了，sec_uid 从url的链接里面来。
 params.sec_uid = _utils.default.getUrlParam(window.location.href, "sec_uid"),
 输入用户的分享url之后浏览器会跳转一个url。 参考这个博文
+
+## max_cursor
+一个时间戳，每次获得下商品列表的时候都会带上一个max_cursor 第一次请求是0
 
 ## signature
 signature 是根据 页面中的uid 加密生成的

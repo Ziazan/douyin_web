@@ -1,7 +1,7 @@
 '''
 @Author: your name
 @Date: 2020-05-03 14:01:13
-@LastEditTime: 2020-05-03 18:35:23
+@LastEditTime: 2020-05-06 00:10:32
 @LastEditors: Please set LastEditors
 @Description: In User Settings Edit
 @FilePath: /python/douyin_web/handle_share.py
@@ -53,26 +53,30 @@ def handle_decode(content):
     user_info['liked_num'] = ''.join(share_web_html.xpath("//p[@class='follow-info']//span[@class='liked-num block']//span[@class='num']/text()")).replace(' ','')
     #职业
     user_info['job'] = ''.join(share_web_html.xpath("//div[@class='verify-info']//span[@class='info']/text()")).replace(' ','')
-
+    user_info['video_list'] = []
+    print("用户信息：====",end="\n")
     print(user_info)
+    handle_db.inser_user(user_info)
 
-
+#获取抖音用户分享页面的数据
 def handle_douyin_share(task):
     url = task['share_link']
     header = {
         "user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36"
     }
-
     response = requests.get(url=url,headers=header)
     #解码信息
     handle_decode(response.text)
    
-
+MAX_COUNT = 3
 if __name__ == '__main__': 
-    while True:
+    count = MAX_COUNT
+    while count :
         task = handle_db.handle_get_task()
         if not task:
             handle_db.handle_init_task()
         else:
             handle_douyin_share(task)
+            count -= 1
             time.sleep(1)
+        

@@ -1,7 +1,7 @@
 '''
 @Author: your name
 @Date: 2020-05-01 22:54:45
-@LastEditTime: 2020-05-05 10:57:36
+@LastEditTime: 2020-05-06 00:18:32
 @LastEditors: Please set LastEditors
 @Description: In User Settings Edit
 @FilePath: /python/douguo/handle_mongo.py
@@ -29,6 +29,24 @@ def handle_get_task():
     task_id_collection = Collection(db,'task_id')
     return task_id_collection.find_one_and_delete({})
 
-# handle_init_task()
-print(handle_get_task())
+#插入用户信息
+def inser_user(item):
+    user_info_collection = Collection(db,'user_info')
+    user_info_collection.insert(item)
+
+def update_video_info(item):
+    user_info_collection = Collection(db,'user_info')
+    query = {"user_id":item['author']['unique_id']}
+    # user_dict = item['author'].items() + query.items()
+    user_dict = dict(item['author'], **query)
+    new_info = { "$set": user_dict}
+    user_info_collection.update_one(query,new_info)
+
+    del item["author"]
+    video_value = { "$addToSet": {"video_list":{"$each":[item]}}}
+    user_info_collection.update_one(query,video_value)
+
+if __name__ == "__main__":
+    # handle_init_task()
+    print(handle_get_task())
 
