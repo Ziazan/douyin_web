@@ -1,7 +1,7 @@
 '''
 @Author: your name
 @Date: 2020-05-03 14:01:13
-@LastEditTime: 2020-05-03 18:05:27
+@LastEditTime: 2020-05-03 18:35:23
 @LastEditors: Please set LastEditors
 @Description: In User Settings Edit
 @FilePath: /python/douyin_web/handle_share.py
@@ -9,6 +9,8 @@
 
 import re
 import requests
+import handle_db
+import time
 from lxml import etree
 
 #解析页面数据
@@ -55,8 +57,8 @@ def handle_decode(content):
     print(user_info)
 
 
-def handle_douyin_share():
-    url = "https://v.douyin.com/KrhhGe/"
+def handle_douyin_share(task):
+    url = task['share_link']
     header = {
         "user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36"
     }
@@ -66,4 +68,11 @@ def handle_douyin_share():
     handle_decode(response.text)
    
 
-handle_douyin_share()
+if __name__ == '__main__': 
+    while True:
+        task = handle_db.handle_get_task()
+        if not task:
+            handle_db.handle_init_task()
+        else:
+            handle_douyin_share(task)
+            time.sleep(1)
