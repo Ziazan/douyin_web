@@ -1,7 +1,7 @@
 '''
 @Author: your name
 @Date: 2020-05-03 14:01:13
-@LastEditTime: 2020-05-06 00:10:32
+@LastEditTime: 2020-05-06 23:48:31
 @LastEditors: Please set LastEditors
 @Description: In User Settings Edit
 @FilePath: /python/douyin_web/handle_share.py
@@ -41,8 +41,15 @@ def handle_decode(content):
 
     #昵称
     user_info["nick_name"] = share_web_html.xpath("//p[@class='nickname']/text()")[0]
+
+    uid_search = re.compile(r'uid: "(.*?)",')
+    user_info["uid"] = re.search(uid_search,content).group(1)
+
     #抖音id
-    user_info["user_id"] = ''.join(share_web_html.xpath("//p[@class='shortid']/text()")).replace(' ','').replace('抖音ID：','')
+    user_id = ''.join(share_web_html.xpath("//p[@class='shortid']/text()")).replace(' ','').replace('抖音ID：','')
+    if(not user_id.isdigit()):
+        user_info['unique_id'] = user_id
+
     #个性签名
     user_info['signature'] = share_web_html.xpath("//p[@class='signature']/text()")
     #粉丝数

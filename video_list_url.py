@@ -1,7 +1,7 @@
 '''
 @Author: your name
 @Date: 2020-05-05 10:01:21
-@LastEditTime: 2020-05-06 00:40:33
+@LastEditTime: 2020-05-06 23:53:02
 @LastEditors: Please set LastEditors
 @Description: 获取用户抖音列表的接口url
 @FilePath: /python/douyin_web/file/video_list_url.py
@@ -17,7 +17,8 @@ from selenium.webdriver import ChromeOptions
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from webdriver_manager.chrome import ChromeDriverManager
+from webdriver_manager.chrome  import ChromeDriverManager
+import ip_list 
 import handle_db
 
 
@@ -28,6 +29,10 @@ s.keep_alive = False # 关闭多余连接
 
 # 处理数据请求
 def handle_request(url):
+    proxies = { 
+        "http":'http://' + ip_list.get_http_ip(),
+        "https": 'https://' +ip_list.get_https_ip()}
+    print("proxies",proxies)
     print('访问url:',url)
     header = {
         "User-Agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36",
@@ -139,7 +144,7 @@ if __name__ == '__main__':
     #移除Selenium中window.navigator.webdriver的值
     option.add_experimental_option('excludeSwitches', ["enable-automation"])
     browser = webdriver.Chrome(executable_path = ChromeDriverManager().install(),options=option)
-    url = "https://v.douyin.com/K4MJ7L/"
+    url = "https://v.douyin.com/KhkbCq/"#成都消防
     video_list_url = get_signature(url)
     
     try_num = 1
