@@ -1,7 +1,7 @@
 '''
 @Author: your name
 @Date: 2020-05-05 10:01:21
-@LastEditTime: 2020-05-06 00:37:37
+@LastEditTime: 2020-05-06 00:40:33
 @LastEditors: Please set LastEditors
 @Description: 获取用户抖音列表的接口url
 @FilePath: /python/douyin_web/file/video_list_url.py
@@ -86,7 +86,7 @@ def handle_video_data(json_data):
         video_info = {} 
         video_info["author"] = {}
         video_info["author"]["uid"] = aweme["author"]["uid"]
-        video_info["author"]["unique_id"] = aweme["author"]["unique_id"]
+        video_info["author"]["unique_id"] = aweme["author"]["unique_id"] #有时候没有
         video_info["author"]["short_id"] = aweme["author"]["short_id"]
         video_info["author"]["sec_uid"] = aweme["author"]["sec_uid"]
 
