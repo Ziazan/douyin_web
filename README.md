@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2020-05-03 18:04:10
- * @LastEditTime: 2020-05-10 00:15:36
+ * @LastEditTime: 2020-05-10 00:18:14
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /python/douyin_web/README.md
@@ -26,7 +26,7 @@
 
 
 ## 视频链接获取的 signature 分析
-见 `./doc/signature分析.md`文件
+见 [signature分析.md](https://github.com/Ziazan/douyin_web/blob/master/doc/signature%E5%88%86%E6%9E%90.md)文件
 
 ## 遇到的报错
 Q:Message: 'chromedriver' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home
