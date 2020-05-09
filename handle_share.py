@@ -1,9 +1,9 @@
 '''
 @Author: your name
 @Date: 2020-05-03 14:01:13
-@LastEditTime: 2020-05-06 23:48:31
+@LastEditTime: 2020-05-10 00:00:55
 @LastEditors: Please set LastEditors
-@Description: In User Settings Edit
+@Description: 获取用户基本信息
 @FilePath: /python/douyin_web/handle_share.py
 '''
 
