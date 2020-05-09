@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2020-05-03 18:04:10
- * @LastEditTime: 2020-05-10 00:25:02
+ * @LastEditTime: 2020-05-10 00:30:36
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /python/douyin_web/README.md
@@ -54,8 +54,8 @@ driver = webdriver.Chrome(ChromeDriverManager().install())
 
 参考：[https://stackoverflow.com/questions/29858752/error-message-chromedriver-executable-needs-to-be-available-in-the-path](https://stackoverflow.com/questions/29858752/error-message-chromedriver-executable-needs-to-be-available-in-the-path)
 
-Q: signature.html 总是不能正确拿到视频列表的接口url 
-![83fa5ba02ff9605f7c7f6a0456c110d5.png](evernotecid://B320FA25-DFE8-4652-9EC4-604A2A34E511/appyinxiangcom/1540789/ENResource/p3102)
+Q: `signature.html` 总是不能正确拿到视频列表的接口url 
+![https://github.com/Ziazan/douyin_web/blob/master/doc/img/error1.png](https://github.com/Ziazan/douyin_web/blob/master/doc/img/error1.png)
 
 A：使用selenium 和正常打开的浏览器生成的sigenature不一样。 有可能是 在js代码中判别了浏览器的原因。
 [如何突破网站对selenium的屏蔽](https://blog.csdn.net/clf63082/article/details/100223126?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-2&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-2)
