@@ -1,7 +1,7 @@
 '''
 @Author: your name
 @Date: 2020-05-05 10:01:21
-@LastEditTime: 2020-05-06 23:53:02
+@LastEditTime: 2020-05-09 23:57:53
 @LastEditors: Please set LastEditors
 @Description: 获取用户抖音列表的接口url
 @FilePath: /python/douyin_web/file/video_list_url.py
@@ -28,15 +28,16 @@ s = requests.session()
 s.keep_alive = False # 关闭多余连接
 
 # 处理数据请求
-def handle_request(url):
+def handle_request(url,header = None):
     proxies = { 
         "http":'http://' + ip_list.get_http_ip(),
-        "https": 'https://' +ip_list.get_https_ip()}
-    print("proxies",proxies)
-    print('访问url:',url)
-    header = {
-        "User-Agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36",
+        "https": 'https://' +ip_list.get_https_ip()
     }
+    print('访问url:',url)
+    if(not header):
+        header = {
+            "User-Agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36",
+        }
     response = requests.get(url=url,headers=header)
     return response
 
@@ -138,6 +139,8 @@ def get_video_list_url():
 def save_aweme_list(data):
     for item in data:
         handle_db.update_video_info(item)
+
+
 
 if __name__ == '__main__':
     option = ChromeOptions()

@@ -1,7 +1,7 @@
 '''
 @Author: your name
 @Date: 2020-05-01 22:54:45
-@LastEditTime: 2020-05-07 00:28:42
+@LastEditTime: 2020-05-09 16:56:58
 @LastEditors: Please set LastEditors
 @Description: In User Settings Edit
 @FilePath: /python/douguo/handle_mongo.py
@@ -47,6 +47,7 @@ def update_video_info(item):
     video_value = { "$addToSet": {"video_list":{"$each":[item]}}}
     user_info_collection.update_one(query,video_value)
 
+#获取视频列表
 def get_video_url(uid):
     user_info_collection = Collection(db,'user_info')
     data = user_info_collection.find({'uid':uid})
@@ -77,10 +78,13 @@ def show_data_list():
     for item in data['video_list']:
          print("视频描述:%s"%item['desc'],end='\n')
          print("点赞数：%s  评论数：%s  转发数：%s"%(item['statistics']['digg_count'],item['statistics']['comment_count'],item['statistics']['share_count']),end='\n')
-         print("**需要打开浏览器的手机调试模式**\n:")
-         print("视频播放地址:%s"%item['download_addr']['url_list'][0],end='\n')
-         print("无水印下载地址:%s"%item['download_addr']['url_list'][1],end='\n\n')
-
+         print("**需要打开浏览器的手机调试模式**\n")
+         print("视频播放地址:\n")
+         print("--地址1:%s\n"%item['download_addr']['url_list'][0])
+         print("--地址2:%s\n"%item['download_addr']['url_list'][1])
+         print("无水印视频播放地址:\n")
+         print("--地址1:%s\n"%item['play_addr']['url_list'][0])
+         print("--地址2:%s\n"%item['play_addr']['url_list'][1])
 
 if __name__ == "__main__":
     show_data_list()
