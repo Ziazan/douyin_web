@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2020-05-03 18:04:10
- * @LastEditTime: 2020-05-10 00:18:14
+ * @LastEditTime: 2020-05-10 00:25:02
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /python/douyin_web/README.md
@@ -23,6 +23,14 @@
 2. 运行 `handle_share.py` 获取`share_task.txt`配置的抖音用户的基本信息 点赞数/关注数/粉丝数
 3. 运行 `video_list_url.py`获取用户的视频列表信息： 点赞数/关注数/转发数/评论数
 4. 运行`video_download.py`下载指定用户的所有无水印视频保存到`video`文件夹
+
+
+## 运行截图
+![https://github.com/Ziazan/douyin_web/blob/master/doc/img/user_info.png](https://github.com/Ziazan/douyin_web/blob/master/doc/img/user_info.png)
+
+![https://github.com/Ziazan/douyin_web/blob/master/doc/img/download_video.png](https://github.com/Ziazan/douyin_web/blob/master/doc/img/download_video.png)
+
+![https://github.com/Ziazan/douyin_web/blob/master/doc/img/video_lsit.png](https://github.com/Ziazan/douyin_web/blob/master/doc/img/video_lsit.png)
 
 
 ## 视频链接获取的 signature 分析
