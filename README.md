@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2020-05-03 18:04:10
- * @LastEditTime: 2020-05-10 00:30:36
+ * @LastEditTime: 2020-05-10 00:49:34
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /python/douyin_web/README.md
@@ -10,16 +10,19 @@
 # 通过抖音的分享页抓取视频信息
 
 ## 目标
-获取指定用户的抖音基本信息，如：粉丝数/视频数/视频评论量/视频发布时间/视频点赞数
+通过抖音用户主页的分享链接例如：[https://v.douyin.com/KhkbCq/](https://v.douyin.com/KhkbCq/)
+获取用户的基本信息，如：粉丝数/视频数/视频评论量/视频发布时间/视频点赞数
 
 ## 思路记录
- 生成了html之后，用`selenium`打开网页，
- 获取到用户的视频播放列表。
- 在返回的json中 可以拿到 视频信息和视频播放地址
- 再用`requests`访问视频下载地址,下载视频
+ 访问分享链接之后，获取用户的基本信息。抖音id/昵称/点赞数/关注数/粉丝数
+ 分析视频列表接口的规则，生成视频列表访问的url,此url中的signature 需要生成一个html文件，`selenium`打开html文件能获取。（见 [signature分析.md](https://github.com/Ziazan/douyin_web/blob/master/doc/signature%E5%88%86%E6%9E%90.md)文件）
+
+ 在视频列表接口返回的json中 可以拿到 视频的基本信息和视频播放地址
+ 再用`requests`访问视频下载地址,下载视频到本地。
+ 此项目使用mongodb 存储数据
 
 ## 项目文件说明：
-1. 读取待爬取的抖音分享页面链接 在`share_task.txt`配置
+1. 读需要爬取的抖音用户的分享页链接写在`share_task.txt`中
 2. 运行 `handle_share.py` 获取`share_task.txt`配置的抖音用户的基本信息 点赞数/关注数/粉丝数
 3. 运行 `video_list_url.py`获取用户的视频列表信息： 点赞数/关注数/转发数/评论数
 4. 运行`video_download.py`下载指定用户的所有无水印视频保存到`video`文件夹
