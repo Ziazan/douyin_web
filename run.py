@@ -1,7 +1,7 @@
 '''
 @Author: your name
 @Date: 2020-05-14 21:06:11
-@LastEditTime: 2020-05-14 22:23:07
+@LastEditTime: 2020-05-14 22:31:25
 @LastEditors: Please set LastEditors
 @Description: In User Settings Edit
 @FilePath: /python/douyin_web/run.py
@@ -13,7 +13,8 @@ import handle_db
 
 #开始
 def start():
-    _ = input('请确保你已经在./share_task.text 中保存用户主页的分享链接:（Y/N）\n')
+    # _ = input('请确保你已经在./share_task.text 中保存用户主页的分享链接:（Y/N）\n')
+    _ = 'Y'
     if _ == 'y' or _ == 'Y' :
         handle_share.init_task_info() #处理任务基本信息
         user_list = handle_db.get_user_list() #展示数据

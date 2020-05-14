@@ -1,7 +1,7 @@
 '''
 @Author: your name
 @Date: 2020-05-01 22:54:45
-@LastEditTime: 2020-05-14 22:17:26
+@LastEditTime: 2020-05-14 23:07:08
 @LastEditors: Please set LastEditors
 @Description: In User Settings Edit
 @FilePath: /python/douguo/handle_mongo.py
@@ -18,7 +18,7 @@ db = client['douyin']
 #初始化任务
 def handle_init_task():
     task_id_collection = Collection(db,'task_id')
-    with open('file/share_task.txt','r') as f_task:
+    with open('./file/share_task.txt','r') as f_task:
         for task_info in f_task.readlines():
             task = {}
             task['share_link'] = task_info.replace('\n','')

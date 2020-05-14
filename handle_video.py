@@ -1,7 +1,7 @@
 '''
 @Author: your name
 @Date: 2020-05-14 21:49:13
-@LastEditTime: 2020-05-14 22:26:22
+@LastEditTime: 2020-05-15 00:35:20
 @LastEditors: Please set LastEditors
 @Description: In User Settings Edit
 @FilePath: /python/douyin_web/handle_video.py
@@ -22,50 +22,59 @@ import handle_db
 
 class HandleVideoList():
     def __init__(self):
-        option = ChromeOptions()
-        #移除Selenium中window.navigator.webdriver的值
-        option.add_experimental_option('excludeSwitches', ["enable-automation"])
-        self.browser = webdriver.Chrome(executable_path = ChromeDriverManager().install(),options=option)
-
+        self.browser = None
         self.max_cursor = 0 #记录下一次请求的集合数
        
     
     def start(self,url):
         video_list_url = self.get_signature(url)
-        try_num = 1 #重试数
-        if True:
-            #请求视频列表
-            json_dict = json.loads(self.handle_request(video_list_url).text)
-            if len(json_dict["aweme_list"]) > 0:
-                aweme_list = self.handle_video_data(json_dict)
-                #存储到db
-                self.save_aweme_list(aweme_list)
-                #请求下一个
-                self.max_cursor = json_dict["max_cursor"] #记录下一次请求需要用到的max_cursor
-            elif try_num:
-                video_list_url = self.get_signature(url)
-                try_num -= 0
-            max_cursor_s = re.compile(r'max_cursor=(.*?)&')
-            next_list_url = max_cursor_s.sub('_signature=' + str(self.max_cursor)  + '&',video_list_url)
-            video_list_url = next_list_url
-            print('当前url请求的url',video_list_url)
-            time.sleep(3)
+        print('获取到的url',video_list_url)
+        #请求视频列表
+        json_dict = json.loads(self.handle_request(video_list_url).text)
+        print('json_dict',json_dict)
+        if len(json_dict["aweme_list"]) > 0:
+            aweme_list = self.handle_video_data(json_dict)
+            #存储到db
+            self.save_aweme_list(aweme_list)
+            #请求下一个
+            self.max_cursor = json_dict["max_cursor"] #记录下一次请求需要用到的max_cursor
+            
+        max_cursor_s = re.compile(r'max_cursor=(.*?)&')
+        next_list_url = max_cursor_s.sub('_signature=' + str(self.max_cursor)  + '&',video_list_url)
+        video_list_url = next_list_url
+        
     # 处理数据请求
     def handle_request(self,url,header = None):
-        requests.adapters.DEFAULT_RETRIES = 5 # 增加重连次数
-        s = requests.session()
-        s.keep_alive = False # 关闭多余连接
-        #proxies 无用
-        proxies = { 
-            "http":'http://' + ip_list.get_http_ip(),
-            "https": 'https://' +ip_list.get_https_ip()
+        # requests.adapters.DEFAULT_RETRIES = 5 # 增加重连次数
+        # s = requests.session()
+        # s.keep_alive = False # 关闭多余连接
+        
+        # 代理服务器
+        proxyHost = "http-dyn.abuyun.com"
+        proxyPort = "9020"
+
+        # 代理隧道验证信息
+        proxyUser = "HY8J827KP036E2MD"
+        proxyPass = "9709C1E88E2586C4"
+
+        proxyMeta = "http://%(user)s:%(pass)s@%(host)s:%(port)s" % {
+            "host" : proxyHost,
+            "port" : proxyPort,
+            "user" : proxyUser,
+            "pass" : proxyPass,
+        }
+
+        proxies = {
+            "http"  : proxyMeta,
+            "https" : proxyMeta,
         }
         print('访问url:',url)
         if(not header):
             header = {
-                "User-Agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36",
+                "User-Agent":"Mozilla/5.0 (Linux; Android 7.1.2; SM-G955N Build/N2G48H; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/75.0.3770.143 Mobile Safari/537.36",
             }
-        response = requests.get(url=url,headers=header)
+        print('proxies',proxies)
+        response = requests.get(url=url,headers=header,proxies=proxies)
         return response
 
     # js拼接出接口url
@@ -73,7 +82,8 @@ class HandleVideoList():
         header = {
             "user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36"
         }
-        response = requests.get(url= url,headers=header)
+        response = self.handle_request(url= url,header=header)
+
         # sec_uid
         sec_uid = re.search(r"sec_uid=(.*?)&{1}",response.url).group(1)
         print("sec_uid:",sec_uid)
@@ -109,6 +119,7 @@ class HandleVideoList():
             f_footer.close()
             f_signature.close()
 
+        time.sleep(3)
         #请求接口数据
         return self.get_video_list_url()
 
@@ -136,6 +147,24 @@ class HandleVideoList():
 
     #获取视频列表接口的url
     def get_video_list_url(self):
+        if not self.browser:
+            option = ChromeOptions()
+            # 移除Selenium中window.navigator.webdriver的值
+            option.add_experimental_option('excludeSwitches', ["enable-automation"])
+            options = webdriver.ChromeOptions()
+            options.add_experimental_option("excludeSwitches", ["enable-automation"])
+            options.add_experimental_option('useAutomationExtension', False)
+            driver = webdriver.Chrome(options=options, executable_path=ChromeDriverManager().install())
+            driver.execute_cdp_cmd("Page.addScriptToEvaluateOnNewDocument", {
+            "source": """
+                Object.defineProperty(navigator, 'webdriver', {
+                get: () => undefined
+                })
+            """
+            })
+            self.browser = driver
+            
+        #这里要替换为自己的文件路径
         self.browser.get("file:///Users/ziazan/Documents/project/python/douyin_web/file/signature.html")
         try:
             link = WebDriverWait(self.browser, 10).until(
@@ -145,21 +174,22 @@ class HandleVideoList():
             _signature_s = re.compile(r'_signature=(.*?)&')
             _signature = re.search(_signature_s,video_list_url).group(1)
             #selemium 生成的signature 和真实的signature 倒数第二位相差1
-            code = _signature[-2:-1]
-            if not code.isdigit():
-                code = chr(ord(code) + 1)
-            else:
-                code = int(code) + 1
+            # code = _signature[-2:-1]
+            # if not code.isdigit():
+            #     code = chr(ord(code) + 1)
+            # else:
+            #     code = int(code) + 1
 
-            print('selenium',_signature)
-            _signature = _signature[:len(_signature) - 2] + str(code) + _signature[-1]
+            print('bdefore',_signature)
+            # _signature = _signature[:len(_signature) - 2] + str(code) + _signature[-1]
             print('after',_signature)
             video_list_url = _signature_s.sub('_signature=' + _signature  + '&',video_list_url)
             print('url',video_list_url)
         
         finally:
-            self.browser.quit()
-        
+            pass
+            # self.browser.quit()
+        print("_signature",_signature)
         return video_list_url
         
     #视频数据保存到数据库
@@ -169,6 +199,9 @@ class HandleVideoList():
 
 if __name__ == '__main__':
     url = "https://v.douyin.com/KhkbCq/"#成都消防
+    # url = "https://www.iesdouyin.com/web/api/v2/aweme/post/?sec_uid=MS4wLjABAAAAaJO9L9M0scJ_njvXncvoFQj3ilCKW1qQkNGyDc2_5CQ&count=35&max_cursor=0&aid=1128&_signature=mnEVIRARxNjphx9OFJJc75pxFT&dytk=5b2632429035ae972ca049e9414387e6"
     handle_video_list = HandleVideoList()
     handle_video_list.start(url) #获取视频列表
+    # response = handle_video_list.handle_request(url)
+    # print('response',response.text)
     

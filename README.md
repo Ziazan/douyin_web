@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2020-05-03 18:04:10
- * @LastEditTime: 2020-05-14 22:28:54
+ * @LastEditTime: 2020-05-15 01:11:50
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /python/douyin_web/README.md
@@ -70,7 +70,7 @@ A：使用selenium 和正常打开的浏览器生成的sigenature不一样。 �
 
 方法一：想到js中删除相关关键词，但是js代码都混淆加密过了。**不可行**
 
-方法二：把selenium浏览器伪装成真实浏览器
+方法二：把selenium浏览器伪装成真实浏览器,还是和真是signature有出入**不可行**
 
 [如何正确移除Selenium中window.navigator.webdriver的值](https://cloud.tencent.com/developer/article/1397806)
 
@@ -104,9 +104,15 @@ A：
 ```
 格式需要是 http:// + ip + :端口
 
+Q：Message: 'chromedriver' executable needs to be in PATH
+A:
+[windows.解决方法](https://blog.csdn.net/su_2018/article/details/100127223)
+[mac 解决方法](https://blog.csdn.net/tymatlab/article/details/78649727)
+
 ## 参考
 1. [xpath helper 插件](https://blog.csdn.net/love666666shen/article/details/72613143)
 2. [在线字体编辑器](https://kekee000.github.io/fonteditor/)
 3. [Python爬虫如何获取重定向后的url](https://blog.csdn.net/lclfeng/article/details/88647616)
 4. [2020抖音无水印视频解析真实地址](https://blog.csdn.net/qq_36737934/article/details/104127835)
 5. [Python selenium 模拟Chrome浏览器打开手机模式](https://www.cnblogs.com/yiwenrong/p/12664414.html)
+6. [（最新版）如何正确移除Selenium中的 window.navigator.webdriver](https://cloud.tencent.com/developer/article/1598082)

@@ -141,6 +141,7 @@ var sec_uid = "{{sec_uid}}"
 var dytk = "{{dytk}}"
 var _bytedAcrawler = __M.require("douyin_falcon:node_modules/byted-acrawler/dist/runtime");
 var signature = _bytedAcrawler.sign(uid);
+console.log(signature)
 var video_list_url = 'https://www.iesdouyin.com/web/api/v2/aweme/post/?sec_uid={{sec_uid}}&count=35&max_cursor={{max_cursor}}&aid=1128&_signature='+signature+'&dytk={{dytk}}'
 document.title = video_list_url
 document.write('<a href="'+ video_list_url+'">'+ video_list_url +'</a>')
