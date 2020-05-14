@@ -1,7 +1,7 @@
 '''
 @Author: your name
 @Date: 2020-05-01 22:54:45
-@LastEditTime: 2020-05-09 16:56:58
+@LastEditTime: 2020-05-14 22:17:26
 @LastEditors: Please set LastEditors
 @Description: In User Settings Edit
 @FilePath: /python/douguo/handle_mongo.py
@@ -18,7 +18,7 @@ db = client['douyin']
 #初始化任务
 def handle_init_task():
     task_id_collection = Collection(db,'task_id')
-    with open('./file/share_task.txt','r') as f_task:
+    with open('file/share_task.txt','r') as f_task:
         for task_info in f_task.readlines():
             task = {}
             task['share_link'] = task_info.replace('\n','')
@@ -29,11 +29,16 @@ def handle_init_task():
 def handle_get_task():
     task_id_collection = Collection(db,'task_id')
     return task_id_collection.find_one_and_delete({})
+    
+#获取用户信息
+def get_user_list():
+    task_id_collection = Collection(db,'user_info')
+    return task_id_collection.find({})
 
 #插入用户信息
 def inser_user(item):
     user_info_collection = Collection(db,'user_info')
-    user_info_collection.insert(item)
+    user_info_collection.update({'share_link':item['share_link']},{"$set":item},True) #没有就插入
 
 def update_video_info(item):
     user_info_collection = Collection(db,'user_info')
@@ -63,9 +68,9 @@ def download_file(url, path):
                 f.write(chunk)
 
 #展示数据
-def show_data_list():
+def show_data_list(uid):
     print("视频下载url:",end="\n\n")
-    uid = '110812020268'
+   
     data = get_video_url(uid)
     print("名称:%s"%data['nick_name'],end='\n')
     print("ID:%s"%data['uid'],end='\n')
@@ -87,7 +92,8 @@ def show_data_list():
          print("--地址2:%s\n"%item['play_addr']['url_list'][1])
 
 if __name__ == "__main__":
-    show_data_list()
+    uid = '110812020268'
+    show_data_list(uid)
     #TODO  还需要使用selenium 打开视频页面，去获取到下载地址
     # handle_init_task()
     # download_file('https://aweme.snssdk.com/aweme/v1/play/?video_id=v0200fa00000bplloe3rh3penp00qcag&line=0&ratio=540p&watermark=1&media_type=4&vr_type=0&improve_bitrate=0&logo_name=aweme&is_support_h265=0&source=PackSourceEnum_PUBLISH','./video/test.mp4')

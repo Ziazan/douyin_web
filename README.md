@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2020-05-03 18:04:10
- * @LastEditTime: 2020-05-10 00:49:34
+ * @LastEditTime: 2020-05-14 22:28:54
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /python/douyin_web/README.md
@@ -22,6 +22,11 @@
  此项目使用mongodb 存储数据
 
 ## 项目文件说明：
+### 方式一（未完成）
+1. 读需要爬取的抖音用户的分享页链接写在`share_task.txt`中
+2. 直接运行 `run.py` 文件
+
+### 方式二
 1. 读需要爬取的抖音用户的分享页链接写在`share_task.txt`中
 2. 运行 `handle_share.py` 获取`share_task.txt`配置的抖音用户的基本信息 点赞数/关注数/粉丝数
 3. 运行 `video_list_url.py`获取用户的视频列表信息： 点赞数/关注数/转发数/评论数

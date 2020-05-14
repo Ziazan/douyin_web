@@ -1,11 +1,17 @@
 <!--
  * @Author: your name
  * @Date: 2020-05-03 18:50:34
- * @LastEditTime: 2020-05-10 00:06:46
+ * @LastEditTime: 2020-05-14 21:34:16
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /python/douyin_web/doc/url_info.md
  -->
+
+测试用户主页分享链接：
+https://v.douyin.com/K4MJ7L/
+https://v.douyin.com/KrhhGe/
+https://v.douyin.com/Kh1enW/
+
 # 抖音视频列表接口分析
 https://www.iesdouyin.com/web/api/v2/aweme/post/
 sec_uid: MS4wLjABAAAANMz0vsbHsID55ivkeXD0r4UddEmgUlBW1WPJuTjcsrspY4eRidlWqYlvi_xOWhs4

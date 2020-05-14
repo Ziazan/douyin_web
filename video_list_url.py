@@ -1,7 +1,7 @@
 '''
 @Author: your name
 @Date: 2020-05-05 10:01:21
-@LastEditTime: 2020-05-09 23:57:53
+@LastEditTime: 2020-05-14 21:41:18
 @LastEditors: Please set LastEditors
 @Description: 获取用户抖音列表的接口url
 @FilePath: /python/douyin_web/file/video_list_url.py
@@ -26,6 +26,7 @@ max_cursor = 0
 requests.adapters.DEFAULT_RETRIES = 5 # 增加重连次数
 s = requests.session()
 s.keep_alive = False # 关闭多余连接
+
 
 # 处理数据请求
 def handle_request(url,header = None):
@@ -142,15 +143,10 @@ def save_aweme_list(data):
 
 
 
-if __name__ == '__main__':
-    option = ChromeOptions()
-    #移除Selenium中window.navigator.webdriver的值
-    option.add_experimental_option('excludeSwitches', ["enable-automation"])
-    browser = webdriver.Chrome(executable_path = ChromeDriverManager().install(),options=option)
-    url = "https://v.douyin.com/KhkbCq/"#成都消防
+def init(url):
     video_list_url = get_signature(url)
     
-    try_num = 1
+    try_num = 1 #重试数
     if True:
         #请求视频列表
         json_dict = json.loads(handle_request(video_list_url).text)
@@ -168,6 +164,15 @@ if __name__ == '__main__':
         video_list_url = next_list_url
         time.sleep(3)
         print('当前url请求的url',video_list_url)
+
+if __name__ == '__main__':
+    option = ChromeOptions()
+    #移除Selenium中window.navigator.webdriver的值
+    option.add_experimental_option('excludeSwitches', ["enable-automation"])
+    browser = webdriver.Chrome(executable_path = ChromeDriverManager().install(),options=option)
+
+    url = "https://v.douyin.com/KhkbCq/"#成都消防
+    init(url)
 
 
 

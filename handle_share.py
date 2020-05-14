@@ -1,7 +1,7 @@
 '''
 @Author: your name
 @Date: 2020-05-03 14:01:13
-@LastEditTime: 2020-05-10 00:00:55
+@LastEditTime: 2020-05-14 21:39:51
 @LastEditors: Please set LastEditors
 @Description: 获取用户基本信息
 @FilePath: /python/douyin_web/handle_share.py
@@ -14,7 +14,7 @@ import time
 from lxml import etree
 
 #解析页面数据
-def handle_decode(content):
+def handle_decode(content,share_link):
     
     #抖音数据集合
     regex_list = [
@@ -38,6 +38,9 @@ def handle_decode(content):
 
     share_web_html = etree.HTML(content)
     user_info = {}
+
+    #主页url
+    user_info["share_link"] = share_link
 
     #昵称
     user_info["nick_name"] = share_web_html.xpath("//p[@class='nickname']/text()")[0]
@@ -73,17 +76,19 @@ def handle_douyin_share(task):
     }
     response = requests.get(url=url,headers=header)
     #解码信息
-    handle_decode(response.text)
+    handle_decode(response.text,url)
    
 MAX_COUNT = 3
-if __name__ == '__main__': 
-    count = MAX_COUNT
-    while count :
+
+#处理任务基本信息
+def init_task_info():
+    handle_db.handle_init_task()
+    task = handle_db.handle_get_task()
+    while task :
+        handle_douyin_share(task)
+        time.sleep(2)
         task = handle_db.handle_get_task()
-        if not task:
-            handle_db.handle_init_task()
-        else:
-            handle_douyin_share(task)
-            count -= 1
-            time.sleep(1)
+            
+if __name__ == '__main__': 
+    init_task_info()
         
