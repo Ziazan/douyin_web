@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2020-05-03 18:50:34
- * @LastEditTime: 2020-05-14 21:34:16
+ * @LastEditTime: 2020-05-21 17:41:42
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /python/douyin_web/doc/url_info.md
@@ -83,3 +83,10 @@ ps:无水印版本的视频，需要在移动端环境打开，所以这里学�
 参考：[2020抖音无水印视频解析真实地址](https://blog.csdn.net/qq_36737934/article/details/104127835)
 
 所以，接下来我们只需要根据之前获得的用户的视频列表数据，拼接出每个视频的下载地址即可。
+
+
+记录：
+1. 使用selenium 生成的sign 和真实的sign有区别
+2. 怀疑是加密的js里面判断了webdriver,所以改用 firfox的webdriver  ----失败
+3. 既然是需要js生成signature 就在python中引入PyExecJS  ----失败 js中一些变量获取不到
+4. 测试pyppeteer

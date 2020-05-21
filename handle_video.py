@@ -1,7 +1,7 @@
 '''
 @Author: your name
 @Date: 2020-05-14 21:49:13
-@LastEditTime: 2020-05-15 00:35:20
+@LastEditTime: 2020-05-21 17:21:38
 @LastEditors: Please set LastEditors
 @Description: In User Settings Edit
 @FilePath: /python/douyin_web/handle_video.py
@@ -74,7 +74,8 @@ class HandleVideoList():
                 "User-Agent":"Mozilla/5.0 (Linux; Android 7.1.2; SM-G955N Build/N2G48H; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/75.0.3770.143 Mobile Safari/537.36",
             }
         print('proxies',proxies)
-        response = requests.get(url=url,headers=header,proxies=proxies)
+        # response = requests.get(url=url,headers=header,proxies=proxies)
+        response = requests.get(url=url,headers=header)
         return response
 
     # js拼接出接口url
@@ -148,19 +149,17 @@ class HandleVideoList():
     #获取视频列表接口的url
     def get_video_list_url(self):
         if not self.browser:
-            option = ChromeOptions()
+            chrome_options = ChromeOptions()
             # 移除Selenium中window.navigator.webdriver的值
-            option.add_experimental_option('excludeSwitches', ["enable-automation"])
-            options = webdriver.ChromeOptions()
-            options.add_experimental_option("excludeSwitches", ["enable-automation"])
-            options.add_experimental_option('useAutomationExtension', False)
-            driver = webdriver.Chrome(options=options, executable_path=ChromeDriverManager().install())
+            chrome_options.add_experimental_option("excludeSwitches", ["enable-automation"])
+            chrome_options.add_experimental_option('useAutomationExtension', False)
+            driver = webdriver.Chrome(options=chrome_options, executable_path=ChromeDriverManager().install())
             driver.execute_cdp_cmd("Page.addScriptToEvaluateOnNewDocument", {
-            "source": """
-                Object.defineProperty(navigator, 'webdriver', {
-                get: () => undefined
-                })
-            """
+                "source": """
+                    Object.defineProperty(navigator, 'webdriver', {
+                    get: () => undefined
+                    })
+                """
             })
             self.browser = driver
             
@@ -187,8 +186,8 @@ class HandleVideoList():
             print('url',video_list_url)
         
         finally:
-            pass
-            # self.browser.quit()
+            self.browser.quit()
+
         print("_signature",_signature)
         return video_list_url
         
