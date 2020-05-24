@@ -1,7 +1,7 @@
 '''
 @Author: your name
 @Date: 2020-05-14 21:49:13
-@LastEditTime: 2020-05-21 17:21:38
+@LastEditTime: 2020-05-24 23:54:10
 @LastEditors: Please set LastEditors
 @Description: In User Settings Edit
 @FilePath: /python/douyin_web/handle_video.py
@@ -11,12 +11,9 @@ import re
 import requests
 import json
 import time
-from selenium import webdriver
-from selenium.webdriver import ChromeOptions
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-from webdriver_manager.chrome  import ChromeDriverManager
+import asyncio
+from pyppeteer import launch
+
 import ip_list 
 import handle_db
 
@@ -26,8 +23,8 @@ class HandleVideoList():
         self.max_cursor = 0 #记录下一次请求的集合数
        
     
-    def start(self,url):
-        video_list_url = self.get_signature(url)
+    async def start(self,url):
+        video_list_url = await self.get_signature(url)
         print('获取到的url',video_list_url)
         #请求视频列表
         json_dict = json.loads(self.handle_request(video_list_url).text)
@@ -68,7 +65,6 @@ class HandleVideoList():
             "http"  : proxyMeta,
             "https" : proxyMeta,
         }
-        print('访问url:',url)
         if(not header):
             header = {
                 "User-Agent":"Mozilla/5.0 (Linux; Android 7.1.2; SM-G955N Build/N2G48H; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/75.0.3770.143 Mobile Safari/537.36",
@@ -79,7 +75,7 @@ class HandleVideoList():
         return response
 
     # js拼接出接口url
-    def get_signature(self,url):
+    async def get_signature(self,url):
         header = {
             "user-agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36"
         }
@@ -99,30 +95,23 @@ class HandleVideoList():
 
         uid = re.search(uid_search,response.text).group(1)
         tac_script ="var tac =" + re.search(tac_search,response.text).group(1) + ";"
-        
-        # 拼接html
-        with open("./file/header_html.txt",'r') as f_header:
-            c_header = f_header.read()
 
-        with open("./file/foot_html.txt",'r') as f_footer:
-            c_footer = f_footer.read()
-
-        with open("./file/signature.html",'w') as f_signature:
-            content = c_header
-            content += tac_script + '\n'
-            c_footer = c_footer.replace("{{uid}}",uid)
-            c_footer = c_footer.replace("{{sec_uid}}",sec_uid)
-            c_footer = c_footer.replace("{{max_cursor}}",str(self.max_cursor))
-            c_footer = c_footer.replace("{{dytk}}",dytk)
-            content += c_footer
-            f_signature.write(content)
-            f_header.close()
-            f_footer.close()
-            f_signature.close()
-
+        #生成js
+        with open("./file/page_tmp.js",'r') as f_temp_js:
+            c_temp_js = f_temp_js.read()
+            c_temp_js = tac_script + '\n' + c_temp_js
+            c_temp_js = c_temp_js.replace("{{uid}}",uid)
+            c_temp_js = c_temp_js.replace("{{sec_uid}}",sec_uid)
+            c_temp_js = c_temp_js.replace("{{max_cursor}}",str(self.max_cursor))
+            c_temp_js = c_temp_js.replace("{{dytk}}",dytk)
+            with open("./file/page.js",'w') as f_js:
+                f_js.write(c_temp_js)
+                f_temp_js.close()
+                f_js.close()
+                
         time.sleep(3)
         #请求接口数据
-        return self.get_video_list_url()
+        return await self.get_video_list_url()
 
     #处理视频数据
     def handle_video_data(self,json_data):
@@ -147,47 +136,78 @@ class HandleVideoList():
         return aweme_list
 
     #获取视频列表接口的url
-    def get_video_list_url(self):
+    async def get_video_list_url(self):
         if not self.browser:
-            chrome_options = ChromeOptions()
-            # 移除Selenium中window.navigator.webdriver的值
-            chrome_options.add_experimental_option("excludeSwitches", ["enable-automation"])
-            chrome_options.add_experimental_option('useAutomationExtension', False)
-            driver = webdriver.Chrome(options=chrome_options, executable_path=ChromeDriverManager().install())
-            driver.execute_cdp_cmd("Page.addScriptToEvaluateOnNewDocument", {
-                "source": """
-                    Object.defineProperty(navigator, 'webdriver', {
-                    get: () => undefined
-                    })
-                """
-            })
-            self.browser = driver
-            
-        #这里要替换为自己的文件路径
-        self.browser.get("file:///Users/ziazan/Documents/project/python/douyin_web/file/signature.html")
-        try:
-            link = WebDriverWait(self.browser, 10).until(
-                EC.presence_of_element_located((By.XPATH, '//a'))
+            self.browser = await launch({
+                # 'headless': False, # 关闭无头模式
+                # 'devtools': True, # 打开 chromium 的 devtools
+                'executablePath':'/Users/ziazan/Documents/soft/chrome-mac/Chromium.app/Contents/MacOS/Chromium',
+                'args':[ 
+                    '--disable-extensions',
+                    '--hide-scrollbars',
+                    '--disable-bundled-ppapi-flash',
+                    '--mute-audio',
+                    '--no-sandbox',
+                    '--disable-setuid-sandbox',
+                    '--disable-gpu',
+                ],
+                # 'dumpio': True,
+                },
             )
-            video_list_url = link.text
-            _signature_s = re.compile(r'_signature=(.*?)&')
-            _signature = re.search(_signature_s,video_list_url).group(1)
-            #selemium 生成的signature 和真实的signature 倒数第二位相差1
-            # code = _signature[-2:-1]
-            # if not code.isdigit():
-            #     code = chr(ord(code) + 1)
-            # else:
-            #     code = int(code) + 1
 
-            print('bdefore',_signature)
-            # _signature = _signature[:len(_signature) - 2] + str(code) + _signature[-1]
-            print('after',_signature)
-            video_list_url = _signature_s.sub('_signature=' + _signature  + '&',video_list_url)
-            print('url',video_list_url)
+        page = await self.browser.newPage()
+    
+        # 设置页面视图大小
+        await page.setViewport(viewport={'width':1280, 'height':800})
         
-        finally:
-            self.browser.quit()
+        # 是否启用JS，enabled设为False，则无渲染效果
+        await page.setJavaScriptEnabled(enabled=True)
+        await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 '
+                            '(KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299')
+        
+        #TODO 这里要替换为自己的文件路径
+        await page.goto('file:///Users/ziazan/Documents/project/python/douyin_web/file/signature.html')
+               
+        # 加入设置webdriver为false的代码
+        await page.evaluate("""
+            () =>{
+                Object.defineProperties(navigator,{
+                    webdriver:{
+                    get: () => false
+                    }
+                })
+            }
+        """)
+        
+        await page.addScriptTag(path='./file/page.js')
+        print('page',page.content)
 
+        # 抓取链接
+        link_elements = await page.xpath('/html/body/a')
+        for item in link_elements:
+            # 获取链接
+            video_list_url = await (await item.getProperty('textContent')).jsonValue()
+        
+        print('video_list_url',video_list_url)
+        # video_list_url = link.text
+        _signature_s = re.compile(r'_signature=(.*?)&')
+        _signature = re.search(_signature_s,video_list_url).group(1)
+
+        # 打印页面文本
+        # print(await page.content())
+        #selemium 生成的signature 和真实的signature 倒数第二位相差1
+        # code = _signature[-2:-1]
+        # if not code.isdigit():
+        #     code = chr(ord(code) + 1)
+        # else:
+        #     code = int(code) + 1
+
+        print('bdefore',_signature)
+        # _signature = _signature[:len(_signature) - 2] + str(code) + _signature[-1]
+        print('after',_signature)
+        video_list_url = _signature_s.sub('_signature=' + _signature  + '&',video_list_url)
+        print('url',video_list_url)
+        
         print("_signature",_signature)
         return video_list_url
         
@@ -196,11 +216,15 @@ class HandleVideoList():
         for item in data:
             handle_db.update_video_info(item)
 
-if __name__ == '__main__':
+async def main():
     url = "https://v.douyin.com/KhkbCq/"#成都消防
     # url = "https://www.iesdouyin.com/web/api/v2/aweme/post/?sec_uid=MS4wLjABAAAAaJO9L9M0scJ_njvXncvoFQj3ilCKW1qQkNGyDc2_5CQ&count=35&max_cursor=0&aid=1128&_signature=mnEVIRARxNjphx9OFJJc75pxFT&dytk=5b2632429035ae972ca049e9414387e6"
     handle_video_list = HandleVideoList()
-    handle_video_list.start(url) #获取视频列表
+    await handle_video_list.start(url) #获取视频列表
     # response = handle_video_list.handle_request(url)
     # print('response',response.text)
+
+if __name__ == '__main__':
+   loop = asyncio.get_event_loop()
+   loop.run_until_complete(main())
     

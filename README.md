@@ -1,11 +1,16 @@
 <!--
  * @Author: your name
  * @Date: 2020-05-03 18:04:10
- * @LastEditTime: 2020-05-15 01:11:50
+ * @LastEditTime: 2020-05-25 00:07:38
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /python/douyin_web/README.md
  -->
+记录：（signature的规则更新了，无法获得视频列表数据）
+1. 使用selenium 生成的sign 和真实的sign有区别
+2. 怀疑是加密的js里面判断了webdriver,所以改用 firfox的webdriver  ----失败
+3. 既然是需要js生成signature 就在python中引入PyExecJS  ----失败 js中一些变量获取不到
+4. 使用pyppeteer  ------ 失败 依然被识别
 
 # 通过抖音的分享页抓取视频信息
 
